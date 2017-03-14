@@ -11,6 +11,11 @@
 		180B69E71DE42A1700316A43 /* ObviousViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180B69E51DE42A1700316A43 /* ObviousViewController.xib */; };
 		1816676E1DE6D8D800AECB6E /* JSInterOCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1816676C1DE6D8D800AECB6E /* JSInterOCViewController.m */; };
 		1816676F1DE6D8D800AECB6E /* JSInterOCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1816676D1DE6D8D800AECB6E /* JSInterOCViewController.xib */; };
+		181B498C1E77E218008D8DA2 /* CFWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B498A1E77E218008D8DA2 /* CFWebViewController.m */; };
+		181B498D1E77E218008D8DA2 /* CFWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181B498B1E77E218008D8DA2 /* CFWebViewController.xib */; };
+		181B49971E77FA02008D8DA2 /* NSTimer+addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B49901E77FA02008D8DA2 /* NSTimer+addition.m */; };
+		181B49981E77FA02008D8DA2 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B49921E77FA02008D8DA2 /* UIView+Frame.m */; };
+		181B499A1E77FA02008D8DA2 /* WYWebProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B49961E77FA02008D8DA2 /* WYWebProgressLayer.m */; };
 		18204B271E246D9400B9BD13 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 18204B261E246D9300B9BD13 /* main.js */; };
 		1824CEF81DE595E00018D296 /* PaintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1824CEF61DE595E00018D296 /* PaintViewController.m */; };
 		1824CEF91DE595E00018D296 /* PaintViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1824CEF71DE595E00018D296 /* PaintViewController.xib */; };
@@ -82,6 +87,8 @@
 		1880A7B11DDEFEB6002C41CB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1880A7B01DDEFEB6002C41CB /* QuartzCore.framework */; };
 		189477841E1B63DE0083F6F1 /* JSPatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189477821E1B63DE0083F6F1 /* JSPatchViewController.m */; };
 		189477851E1B63DE0083F6F1 /* JSPatchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189477831E1B63DE0083F6F1 /* JSPatchViewController.xib */; };
+		18CA14931E7682AC00A879BC /* InputCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA14911E7682AC00A879BC /* InputCheckViewController.m */; };
+		18CA14941E7682AC00A879BC /* InputCheckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CA14921E7682AC00A879BC /* InputCheckViewController.xib */; };
 		18CA44981E5A7D73007E8630 /* NERAlert+NERChainable.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA44501E5A7D73007E8630 /* NERAlert+NERChainable.m */; };
 		18CA44991E5A7D73007E8630 /* NERConstraint+NERChainable.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA44521E5A7D73007E8630 /* NERConstraint+NERChainable.m */; };
 		18CA449A1E5A7D73007E8630 /* NERStack+NERChainable.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA44541E5A7D73007E8630 /* NERStack+NERChainable.m */; };
@@ -145,6 +152,15 @@
 		1816676B1DE6D8D800AECB6E /* JSInterOCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSInterOCViewController.h; sourceTree = "<group>"; };
 		1816676C1DE6D8D800AECB6E /* JSInterOCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSInterOCViewController.m; sourceTree = "<group>"; };
 		1816676D1DE6D8D800AECB6E /* JSInterOCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSInterOCViewController.xib; sourceTree = "<group>"; };
+		181B49891E77E218008D8DA2 /* CFWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFWebViewController.h; sourceTree = "<group>"; };
+		181B498A1E77E218008D8DA2 /* CFWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFWebViewController.m; sourceTree = "<group>"; };
+		181B498B1E77E218008D8DA2 /* CFWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFWebViewController.xib; sourceTree = "<group>"; };
+		181B498F1E77FA02008D8DA2 /* NSTimer+addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+addition.h"; sourceTree = "<group>"; };
+		181B49901E77FA02008D8DA2 /* NSTimer+addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+addition.m"; sourceTree = "<group>"; };
+		181B49911E77FA02008D8DA2 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		181B49921E77FA02008D8DA2 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		181B49951E77FA02008D8DA2 /* WYWebProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYWebProgressLayer.h; sourceTree = "<group>"; };
+		181B49961E77FA02008D8DA2 /* WYWebProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYWebProgressLayer.m; sourceTree = "<group>"; };
 		18204B261E246D9300B9BD13 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 		1824CEF51DE595E00018D296 /* PaintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintViewController.h; sourceTree = "<group>"; };
 		1824CEF61DE595E00018D296 /* PaintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintViewController.m; sourceTree = "<group>"; };
@@ -260,6 +276,9 @@
 		189477811E1B63DE0083F6F1 /* JSPatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPatchViewController.h; sourceTree = "<group>"; };
 		189477821E1B63DE0083F6F1 /* JSPatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPatchViewController.m; sourceTree = "<group>"; };
 		189477831E1B63DE0083F6F1 /* JSPatchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSPatchViewController.xib; sourceTree = "<group>"; };
+		18CA14901E7682AC00A879BC /* InputCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCheckViewController.h; sourceTree = "<group>"; };
+		18CA14911E7682AC00A879BC /* InputCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCheckViewController.m; sourceTree = "<group>"; };
+		18CA14921E7682AC00A879BC /* InputCheckViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputCheckViewController.xib; sourceTree = "<group>"; };
 		18CA444F1E5A7D73007E8630 /* NERAlert+NERChainable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NERAlert+NERChainable.h"; sourceTree = "<group>"; };
 		18CA44501E5A7D73007E8630 /* NERAlert+NERChainable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NERAlert+NERChainable.m"; sourceTree = "<group>"; };
 		18CA44511E5A7D73007E8630 /* NERConstraint+NERChainable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NERConstraint+NERChainable.h"; sourceTree = "<group>"; };
@@ -378,6 +397,19 @@
 			path = "OC和JS相互调用";
 			sourceTree = "<group>";
 		};
+		181B498E1E77FA02008D8DA2 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				181B498F1E77FA02008D8DA2 /* NSTimer+addition.h */,
+				181B49901E77FA02008D8DA2 /* NSTimer+addition.m */,
+				181B49911E77FA02008D8DA2 /* UIView+Frame.h */,
+				181B49921E77FA02008D8DA2 /* UIView+Frame.m */,
+				181B49951E77FA02008D8DA2 /* WYWebProgressLayer.h */,
+				181B49961E77FA02008D8DA2 /* WYWebProgressLayer.m */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
 		1827EDB11DDD803900C3E09F = {
 			isa = PBXGroup;
 			children = (
@@ -419,6 +451,7 @@
 				189477801E1B59CB0083F6F1 /* JSPatch */,
 				182E87951E4817CF000CCAD2 /* SDWebImage */,
 				18CA44BA1E5A7E36007E8630 /* NerdyUIVC */,
+				18CA148F1E76828B00A879BC /* InputCheck */,
 				1827EDC61DDD803A00C3E09F /* Main.storyboard */,
 				1827EDC91DDD803A00C3E09F /* Assets.xcassets */,
 				1827EDCB1DDD803A00C3E09F /* LaunchScreen.storyboard */,
@@ -667,6 +700,20 @@
 				189477831E1B63DE0083F6F1 /* JSPatchViewController.xib */,
 			);
 			path = JSPatch;
+			sourceTree = "<group>";
+		};
+		18CA148F1E76828B00A879BC /* InputCheck */ = {
+			isa = PBXGroup;
+			children = (
+				181B498E1E77FA02008D8DA2 /* Web */,
+				18CA14901E7682AC00A879BC /* InputCheckViewController.h */,
+				18CA14911E7682AC00A879BC /* InputCheckViewController.m */,
+				18CA14921E7682AC00A879BC /* InputCheckViewController.xib */,
+				181B49891E77E218008D8DA2 /* CFWebViewController.h */,
+				181B498A1E77E218008D8DA2 /* CFWebViewController.m */,
+				181B498B1E77E218008D8DA2 /* CFWebViewController.xib */,
+			);
+			path = InputCheck;
 			sourceTree = "<group>";
 		};
 		18CA444D1E5A7D73007E8630 /* NerdyUI */ = {
@@ -924,6 +971,7 @@
 				1880A78A1DDE8B40002C41CB /* 4.jpg in Resources */,
 				1880A7901DDE9AB9002C41CB /* ThreadViewController.xib in Resources */,
 				1880A7891DDE8B40002C41CB /* 3.jpg in Resources */,
+				181B498D1E77E218008D8DA2 /* CFWebViewController.xib in Resources */,
 				1816676F1DE6D8D800AECB6E /* JSInterOCViewController.xib in Resources */,
 				1880A7A01DDEE891002C41CB /* CustomViewController.xib in Resources */,
 				1827EDCD1DDD803A00C3E09F /* LaunchScreen.storyboard in Resources */,
@@ -932,6 +980,7 @@
 				18329D231DE2DD4F005D4520 /* Transform_ViewController.xib in Resources */,
 				1827EDFF1DDD842B00C3E09F /* CustomWindowRootViewController.xib in Resources */,
 				1880A7881DDE8B40002C41CB /* 2.jpg in Resources */,
+				18CA14941E7682AC00A879BC /* InputCheckViewController.xib in Resources */,
 				1827EE091DDD9CFD00C3E09F /* Table_RacViewController.xib in Resources */,
 				1827EE041DDD8CB200C3E09F /* RacViewController.xib in Resources */,
 				182E879A1E4817FD000CCAD2 /* SDViewController.xib in Resources */,
@@ -1032,6 +1081,7 @@
 				18CA44AB1E5A7D73007E8630 /* UITextField+NERChainable.m in Sources */,
 				1827EE7D1DDDBE2900C3E09F /* PictureViewController.m in Sources */,
 				18CA44AE1E5A7D73007E8630 /* UIVisualEffectView+NERChainable.m in Sources */,
+				181B499A1E77FA02008D8DA2 /* WYWebProgressLayer.m in Sources */,
 				1827EDFE1DDD842B00C3E09F /* CustomWindowRootViewController.m in Sources */,
 				18CA44991E5A7D73007E8630 /* NERConstraint+NERChainable.m in Sources */,
 				1880A78F1DDE9AB9002C41CB /* ThreadViewController.m in Sources */,
@@ -1039,6 +1089,7 @@
 				18CA44BE1E5A7ECF007E8630 /* NerdyUIViewController.m in Sources */,
 				185157171DFE730100FBD096 /* UITextField+InputAccessoryView.m in Sources */,
 				1880A7AE1DDEEE2D002C41CB /* CoreAnimationViewController.m in Sources */,
+				181B49971E77FA02008D8DA2 /* NSTimer+addition.m in Sources */,
 				18CA449F1E5A7D73007E8630 /* NSString+NERChainable.m in Sources */,
 				18CA449C1E5A7D73007E8630 /* NERStyle+NERChainable.m in Sources */,
 				18CA44B21E5A7D73007E8630 /* NERPrivates.m in Sources */,
@@ -1049,6 +1100,7 @@
 				1850775C1E72A5AD0058232E /* AlertWindow.m in Sources */,
 				1880A7941DDEDCA4002C41CB /* SwizzlingViewController.m in Sources */,
 				18CA44A41E5A7D73007E8630 /* UIImageView+NERChainable.m in Sources */,
+				18CA14931E7682AC00A879BC /* InputCheckViewController.m in Sources */,
 				1827EDC21DDD803900C3E09F /* AppDelegate.m in Sources */,
 				18CA44B31E5A7D73007E8630 /* NERStaticTableView.m in Sources */,
 				18CA44A31E5A7D73007E8630 /* UIImage+NERChainable.m in Sources */,
@@ -1081,12 +1133,14 @@
 				18CA44AC1E5A7D73007E8630 /* UITextView+NERChainable.m in Sources */,
 				18CA44A91E5A7D73007E8630 /* UIStepper+NERChainable.m in Sources */,
 				18CA44A21E5A7D73007E8630 /* UIFont+NERChainable.m in Sources */,
+				181B498C1E77E218008D8DA2 /* CFWebViewController.m in Sources */,
 				1880A79F1DDEE891002C41CB /* CustomViewController.m in Sources */,
 				180B69E61DE42A1700316A43 /* ObviousViewController.m in Sources */,
 				18CA44A61E5A7D73007E8630 /* UIPageControl+NERChainable.m in Sources */,
 				1880A7981DDEDE26002C41CB /* UIViewController+Swizzling.m in Sources */,
 				18CA44AD1E5A7D73007E8630 /* UIView+NERChainable.m in Sources */,
 				1827EE721DDDBC5C00C3E09F /* UIImage+Utility.m in Sources */,
+				181B49981E77FA02008D8DA2 /* UIView+Frame.m in Sources */,
 				18CA44A51E5A7D73007E8630 /* UILabel+NERChainable.m in Sources */,
 				18329D271DE2F469005D4520 /* SpecializedLayerVC.m in Sources */,
 				18329D2C1DE2FD19005D4520 /* VagueCoreAnimationViewController.m in Sources */,

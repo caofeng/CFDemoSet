@@ -18,6 +18,7 @@
 #import "JSPatchViewController.h"
 #import "SDViewController.h"
 #import "NerdyUIViewController.h"
+#import "InputCheckViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -41,7 +42,7 @@
     tableView.delegate = self;
     tableView.dataSource = self;
     [self.view addSubview:tableView];
-    self.array = @[@"RAC的简单使用",@"TableView的布局",@"微信照片浏览器",@"多线程",@"Swizzling使用",@"高级绘制",@"高级动画",@"JS和OC相互调用",@"iOS热修复",@"SDWebImage使用",@"NerdyUI库使用"];
+    self.array = @[@"RAC的简单使用",@"TableView的布局",@"微信照片浏览器",@"多线程",@"Swizzling使用",@"高级绘制",@"高级动画",@"JS和OC相互调用",@"iOS热修复",@"SDWebImage使用",@"NerdyUI库使用",@"输入检查"];
 
 }
 
@@ -130,6 +131,11 @@
         case 10:
         {
             vc= [[NerdyUIViewController alloc]initWithNibName:@"NerdyUIViewController" bundle:nil];
+        }
+            break;
+        case 11:
+        {
+            vc = [[InputCheckViewController alloc]initWithNibName:@"InputCheckViewController" bundle:nil];
         }
             
         default:
