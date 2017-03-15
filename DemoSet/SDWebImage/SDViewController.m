@@ -10,10 +10,13 @@
 #import "UIImageView+WebCache.h"
 #import "Masonry.h"
 #import "ReactiveCocoa.h"
+#import "SDWebImageManager.h"
+#import "SDImageCache.h"
 @interface SDViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView   *tableView;
 @property (nonatomic, assign) BOOL          open;
+@property (nonatomic, strong) UIImageView   *headerImageView;
 
 @end
 
@@ -33,6 +36,41 @@
     self.tableView.dataSource = self;
     [self.view addSubview:self.tableView];
     
+    self.tableView.tableHeaderView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 300)];
+    
+    NSString *url =@"https://static.zyxr.com/g1/M00/07/42/oYYBAFjHaBOAHD6XAAS-2IzvnUQ853.jpg";
+    
+    
+    //查看是否有缓存
+    UIImage *cachedImage = [[SDImageCache sharedImageCache]imageFromDiskCacheForKey:url];
+    
+    //移除缓存
+    //[[SDImageCache sharedImageCache]removeImageForKey:url];
+    
+    
+    if (!cachedImage) {
+        
+        NSLog(@"没有缓存");
+        
+        [[SDWebImageManager sharedManager]downloadImageWithURL:[NSURL URLWithString:url] options:0 progress:^(NSInteger receivedSize, NSInteger expectedSize) {
+            
+        } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, BOOL finished, NSURL *imageURL) {
+            
+            NSLog(@"下载成功");
+            
+            if (image) {
+                [[SDImageCache sharedImageCache] storeImage:image forKey:url];
+            }
+        }];
+        
+    } else {
+        
+        NSLog(@"有缓存");
+        self.headerImageView = [[UIImageView alloc]initWithImage:cachedImage];
+        self.headerImageView.frame = CGRectMake(0, 0, self.view.frame.size.width, 300);
+        [self.tableView.tableHeaderView addSubview:self.headerImageView];
+        
+    }
     
     
     
@@ -92,10 +130,5 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
 }
-
-
-
-
-
 
 @end

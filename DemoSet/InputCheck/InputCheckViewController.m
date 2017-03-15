@@ -22,7 +22,7 @@
     self.automaticallyAdjustsScrollViewInsets = NO;
     self.view.frame = [[UIScreen mainScreen]bounds];
     
-    
+        
     UITextField *moneyTextField = [[UITextField alloc]init];
     moneyTextField.placeholder = @"输入数字和逗点";
     moneyTextField.borderStyle = UITextBorderStyleRoundedRect;
@@ -71,6 +71,7 @@
     button.backgroundColor = [UIColor redColor];
     [self.view addSubview:button];
     [button addTarget:self action:@selector(buttonClick) forControlEvents:UIControlEventTouchUpInside];
+    
     [button mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(phoneTextField.mas_bottom).offset(30);
         make.left.equalTo(@20);

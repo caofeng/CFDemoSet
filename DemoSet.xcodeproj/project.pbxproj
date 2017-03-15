@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		180B69E61DE42A1700316A43 /* ObviousViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B69E41DE42A1700316A43 /* ObviousViewController.m */; };
 		180B69E71DE42A1700316A43 /* ObviousViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180B69E51DE42A1700316A43 /* ObviousViewController.xib */; };
+		1816427F1E78CEBA009E3B36 /* CoordConvertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1816427D1E78CEBA009E3B36 /* CoordConvertViewController.m */; };
+		181642801E78CEBA009E3B36 /* CoordConvertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1816427E1E78CEBA009E3B36 /* CoordConvertViewController.xib */; };
+		181642831E78D97E009E3B36 /* CoordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 181642821E78D97E009E3B36 /* CoordTableViewCell.m */; };
 		1816676E1DE6D8D800AECB6E /* JSInterOCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1816676C1DE6D8D800AECB6E /* JSInterOCViewController.m */; };
 		1816676F1DE6D8D800AECB6E /* JSInterOCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1816676D1DE6D8D800AECB6E /* JSInterOCViewController.xib */; };
 		181B498C1E77E218008D8DA2 /* CFWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B498A1E77E218008D8DA2 /* CFWebViewController.m */; };
@@ -149,6 +152,11 @@
 		180B69E31DE42A1700316A43 /* ObviousViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObviousViewController.h; sourceTree = "<group>"; };
 		180B69E41DE42A1700316A43 /* ObviousViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObviousViewController.m; sourceTree = "<group>"; };
 		180B69E51DE42A1700316A43 /* ObviousViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ObviousViewController.xib; sourceTree = "<group>"; };
+		1816427C1E78CEBA009E3B36 /* CoordConvertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordConvertViewController.h; sourceTree = "<group>"; };
+		1816427D1E78CEBA009E3B36 /* CoordConvertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordConvertViewController.m; sourceTree = "<group>"; };
+		1816427E1E78CEBA009E3B36 /* CoordConvertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoordConvertViewController.xib; sourceTree = "<group>"; };
+		181642811E78D97E009E3B36 /* CoordTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordTableViewCell.h; sourceTree = "<group>"; };
+		181642821E78D97E009E3B36 /* CoordTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordTableViewCell.m; sourceTree = "<group>"; };
 		1816676B1DE6D8D800AECB6E /* JSInterOCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSInterOCViewController.h; sourceTree = "<group>"; };
 		1816676C1DE6D8D800AECB6E /* JSInterOCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSInterOCViewController.m; sourceTree = "<group>"; };
 		1816676D1DE6D8D800AECB6E /* JSInterOCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSInterOCViewController.xib; sourceTree = "<group>"; };
@@ -385,6 +393,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1816427B1E78CE87009E3B36 /* CoordinateConvert */ = {
+			isa = PBXGroup;
+			children = (
+				1816427C1E78CEBA009E3B36 /* CoordConvertViewController.h */,
+				1816427D1E78CEBA009E3B36 /* CoordConvertViewController.m */,
+				1816427E1E78CEBA009E3B36 /* CoordConvertViewController.xib */,
+				181642811E78D97E009E3B36 /* CoordTableViewCell.h */,
+				181642821E78D97E009E3B36 /* CoordTableViewCell.m */,
+			);
+			name = CoordinateConvert;
+			path = coordinateConvert;
+			sourceTree = "<group>";
+		};
 		1816676A1DE6D89E00AECB6E /* OC和JS相互调用 */ = {
 			isa = PBXGroup;
 			children = (
@@ -452,6 +473,7 @@
 				182E87951E4817CF000CCAD2 /* SDWebImage */,
 				18CA44BA1E5A7E36007E8630 /* NerdyUIVC */,
 				18CA148F1E76828B00A879BC /* InputCheck */,
+				1816427B1E78CE87009E3B36 /* CoordinateConvert */,
 				1827EDC61DDD803A00C3E09F /* Main.storyboard */,
 				1827EDC91DDD803A00C3E09F /* Assets.xcassets */,
 				1827EDCB1DDD803A00C3E09F /* LaunchScreen.storyboard */,
@@ -983,6 +1005,7 @@
 				18CA14941E7682AC00A879BC /* InputCheckViewController.xib in Resources */,
 				1827EE091DDD9CFD00C3E09F /* Table_RacViewController.xib in Resources */,
 				1827EE041DDD8CB200C3E09F /* RacViewController.xib in Resources */,
+				181642801E78CEBA009E3B36 /* CoordConvertViewController.xib in Resources */,
 				182E879A1E4817FD000CCAD2 /* SDViewController.xib in Resources */,
 				1880A78B1DDE8B40002C41CB /* 5.jpg in Resources */,
 				1827EDCA1DDD803A00C3E09F /* Assets.xcassets in Resources */,
@@ -1068,6 +1091,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1816427F1E78CEBA009E3B36 /* CoordConvertViewController.m in Sources */,
 				18CA449D1E5A7D73007E8630 /* NSArray+NERChainable.m in Sources */,
 				18CA44B41E5A7D73007E8630 /* NERStyle.m in Sources */,
 				1827EE791DDDBC5C00C3E09F /* XHZoomingImageView.m in Sources */,
@@ -1104,6 +1128,7 @@
 				1827EDC21DDD803900C3E09F /* AppDelegate.m in Sources */,
 				18CA44B31E5A7D73007E8630 /* NERStaticTableView.m in Sources */,
 				18CA44A31E5A7D73007E8630 /* UIImage+NERChainable.m in Sources */,
+				181642831E78D97E009E3B36 /* CoordTableViewCell.m in Sources */,
 				1880A79B1DDEE21E002C41CB /* NSArray+Swizzling.m in Sources */,
 				18CA44A71E5A7D73007E8630 /* UISegmentedControl+NERChainable.m in Sources */,
 				1827EE781DDDBC5C00C3E09F /* XHViewState.m in Sources */,
