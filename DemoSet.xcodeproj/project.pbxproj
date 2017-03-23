@@ -88,6 +88,8 @@
 		1880A7AE1DDEEE2D002C41CB /* CoreAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880A7AC1DDEEE2D002C41CB /* CoreAnimationViewController.m */; };
 		1880A7AF1DDEEE2D002C41CB /* CoreAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1880A7AD1DDEEE2D002C41CB /* CoreAnimationViewController.xib */; };
 		1880A7B11DDEFEB6002C41CB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1880A7B01DDEFEB6002C41CB /* QuartzCore.framework */; };
+		188F20761E83644900389068 /* FetchAllImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F20741E83644900389068 /* FetchAllImageViewController.m */; };
+		188F20771E83644900389068 /* FetchAllImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188F20751E83644900389068 /* FetchAllImageViewController.xib */; };
 		189477841E1B63DE0083F6F1 /* JSPatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189477821E1B63DE0083F6F1 /* JSPatchViewController.m */; };
 		189477851E1B63DE0083F6F1 /* JSPatchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189477831E1B63DE0083F6F1 /* JSPatchViewController.xib */; };
 		18CA14931E7682AC00A879BC /* InputCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA14911E7682AC00A879BC /* InputCheckViewController.m */; };
@@ -281,6 +283,9 @@
 		1880A7AC1DDEEE2D002C41CB /* CoreAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationViewController.m; sourceTree = "<group>"; };
 		1880A7AD1DDEEE2D002C41CB /* CoreAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoreAnimationViewController.xib; sourceTree = "<group>"; };
 		1880A7B01DDEFEB6002C41CB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		188F20731E83644900389068 /* FetchAllImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchAllImageViewController.h; sourceTree = "<group>"; };
+		188F20741E83644900389068 /* FetchAllImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchAllImageViewController.m; sourceTree = "<group>"; };
+		188F20751E83644900389068 /* FetchAllImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FetchAllImageViewController.xib; sourceTree = "<group>"; };
 		189477811E1B63DE0083F6F1 /* JSPatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPatchViewController.h; sourceTree = "<group>"; };
 		189477821E1B63DE0083F6F1 /* JSPatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPatchViewController.m; sourceTree = "<group>"; };
 		189477831E1B63DE0083F6F1 /* JSPatchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSPatchViewController.xib; sourceTree = "<group>"; };
@@ -474,6 +479,7 @@
 				18CA44BA1E5A7E36007E8630 /* NerdyUIVC */,
 				18CA148F1E76828B00A879BC /* InputCheck */,
 				1816427B1E78CE87009E3B36 /* CoordinateConvert */,
+				188F20721E83642400389068 /* FetchAllImage */,
 				1827EDC61DDD803A00C3E09F /* Main.storyboard */,
 				1827EDC91DDD803A00C3E09F /* Assets.xcassets */,
 				1827EDCB1DDD803A00C3E09F /* LaunchScreen.storyboard */,
@@ -711,6 +717,16 @@
 				1880A7861DDE8B40002C41CB /* 5.jpg */,
 			);
 			path = image;
+			sourceTree = "<group>";
+		};
+		188F20721E83642400389068 /* FetchAllImage */ = {
+			isa = PBXGroup;
+			children = (
+				188F20731E83644900389068 /* FetchAllImageViewController.h */,
+				188F20741E83644900389068 /* FetchAllImageViewController.m */,
+				188F20751E83644900389068 /* FetchAllImageViewController.xib */,
+			);
+			path = FetchAllImage;
 			sourceTree = "<group>";
 		};
 		189477801E1B59CB0083F6F1 /* JSPatch */ = {
@@ -984,6 +1000,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				180B69E71DE42A1700316A43 /* ObviousViewController.xib in Resources */,
+				188F20771E83644900389068 /* FetchAllImageViewController.xib in Resources */,
 				18329D281DE2F469005D4520 /* SpecializedLayerVC.xib in Resources */,
 				185651611E6550BB00BA6129 /* NewsViewController.xib in Resources */,
 				18329D1E1DE299A6005D4520 /* Frame_CoreAnimationViewController.xib in Resources */,
@@ -1109,6 +1126,7 @@
 				1827EDFE1DDD842B00C3E09F /* CustomWindowRootViewController.m in Sources */,
 				18CA44991E5A7D73007E8630 /* NERConstraint+NERChainable.m in Sources */,
 				1880A78F1DDE9AB9002C41CB /* ThreadViewController.m in Sources */,
+				188F20761E83644900389068 /* FetchAllImageViewController.m in Sources */,
 				1827EDC51DDD803900C3E09F /* ViewController.m in Sources */,
 				18CA44BE1E5A7ECF007E8630 /* NerdyUIViewController.m in Sources */,
 				185157171DFE730100FBD096 /* UITextField+InputAccessoryView.m in Sources */,
