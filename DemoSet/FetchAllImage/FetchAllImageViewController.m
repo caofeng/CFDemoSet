@@ -22,9 +22,6 @@
     
     
     
-    
-    
-    
 }
 
 - (IBAction)fetchAllImageClick:(id)sender {

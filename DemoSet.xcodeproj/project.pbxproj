@@ -90,6 +90,9 @@
 		1880A7B11DDEFEB6002C41CB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1880A7B01DDEFEB6002C41CB /* QuartzCore.framework */; };
 		188F20761E83644900389068 /* FetchAllImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F20741E83644900389068 /* FetchAllImageViewController.m */; };
 		188F20771E83644900389068 /* FetchAllImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188F20751E83644900389068 /* FetchAllImageViewController.xib */; };
+		188F207C1E83902300389068 /* CFProgressInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F207A1E83902300389068 /* CFProgressInfoViewController.m */; };
+		188F207D1E83902300389068 /* CFProgressInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188F207B1E83902300389068 /* CFProgressInfoViewController.xib */; };
+		188F20801E83D1D900389068 /* CountdownTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F207F1E83D1D900389068 /* CountdownTableViewCell.m */; };
 		189477841E1B63DE0083F6F1 /* JSPatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189477821E1B63DE0083F6F1 /* JSPatchViewController.m */; };
 		189477851E1B63DE0083F6F1 /* JSPatchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189477831E1B63DE0083F6F1 /* JSPatchViewController.xib */; };
 		18CA14931E7682AC00A879BC /* InputCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA14911E7682AC00A879BC /* InputCheckViewController.m */; };
@@ -130,6 +133,7 @@
 		18CA44B91E5A7D73007E8630 /* UIView+NERFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA44971E5A7D73007E8630 /* UIView+NERFrame.m */; };
 		18CA44BE1E5A7ECF007E8630 /* NerdyUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA44BC1E5A7ECF007E8630 /* NerdyUIViewController.m */; };
 		18CA44BF1E5A7ECF007E8630 /* NerdyUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CA44BD1E5A7ECF007E8630 /* NerdyUIViewController.xib */; };
+		18DFEF0C1E84A81A005AB381 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFEF0B1E84A81A005AB381 /* People.m */; };
 		F2ECEEB7E3F592AE478A1F17 /* libPods-DemoSet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA055C86A57A7229E81BF6A1 /* libPods-DemoSet.a */; };
 /* End PBXBuildFile section */
 
@@ -286,6 +290,11 @@
 		188F20731E83644900389068 /* FetchAllImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchAllImageViewController.h; sourceTree = "<group>"; };
 		188F20741E83644900389068 /* FetchAllImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchAllImageViewController.m; sourceTree = "<group>"; };
 		188F20751E83644900389068 /* FetchAllImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FetchAllImageViewController.xib; sourceTree = "<group>"; };
+		188F20791E83902300389068 /* CFProgressInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFProgressInfoViewController.h; sourceTree = "<group>"; };
+		188F207A1E83902300389068 /* CFProgressInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFProgressInfoViewController.m; sourceTree = "<group>"; };
+		188F207B1E83902300389068 /* CFProgressInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFProgressInfoViewController.xib; sourceTree = "<group>"; };
+		188F207E1E83D1D900389068 /* CountdownTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownTableViewCell.h; sourceTree = "<group>"; };
+		188F207F1E83D1D900389068 /* CountdownTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownTableViewCell.m; sourceTree = "<group>"; };
 		189477811E1B63DE0083F6F1 /* JSPatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPatchViewController.h; sourceTree = "<group>"; };
 		189477821E1B63DE0083F6F1 /* JSPatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPatchViewController.m; sourceTree = "<group>"; };
 		189477831E1B63DE0083F6F1 /* JSPatchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSPatchViewController.xib; sourceTree = "<group>"; };
@@ -366,6 +375,8 @@
 		18CA44BB1E5A7ECF007E8630 /* NerdyUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NerdyUIViewController.h; sourceTree = "<group>"; };
 		18CA44BC1E5A7ECF007E8630 /* NerdyUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NerdyUIViewController.m; sourceTree = "<group>"; };
 		18CA44BD1E5A7ECF007E8630 /* NerdyUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NerdyUIViewController.xib; sourceTree = "<group>"; };
+		18DFEF0A1E84A81A005AB381 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		18DFEF0B1E84A81A005AB381 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
 		55FEBEC6C393D31F96DFAC3E /* Pods-DemoSet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoSet.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoSet/Pods-DemoSet.release.xcconfig"; sourceTree = "<group>"; };
 		BA055C86A57A7229E81BF6A1 /* libPods-DemoSet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoSet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F46A71987F306289ED5D49 /* Pods-DemoSet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoSet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoSet/Pods-DemoSet.debug.xcconfig"; sourceTree = "<group>"; };
@@ -480,6 +491,7 @@
 				18CA148F1E76828B00A879BC /* InputCheck */,
 				1816427B1E78CE87009E3B36 /* CoordinateConvert */,
 				188F20721E83642400389068 /* FetchAllImage */,
+				188F20781E838E8B00389068 /* NSProssgressInfo */,
 				1827EDC61DDD803A00C3E09F /* Main.storyboard */,
 				1827EDC91DDD803A00C3E09F /* Assets.xcassets */,
 				1827EDCB1DDD803A00C3E09F /* LaunchScreen.storyboard */,
@@ -727,6 +739,20 @@
 				188F20751E83644900389068 /* FetchAllImageViewController.xib */,
 			);
 			path = FetchAllImage;
+			sourceTree = "<group>";
+		};
+		188F20781E838E8B00389068 /* NSProssgressInfo */ = {
+			isa = PBXGroup;
+			children = (
+				188F20791E83902300389068 /* CFProgressInfoViewController.h */,
+				188F207A1E83902300389068 /* CFProgressInfoViewController.m */,
+				188F207B1E83902300389068 /* CFProgressInfoViewController.xib */,
+				188F207E1E83D1D900389068 /* CountdownTableViewCell.h */,
+				188F207F1E83D1D900389068 /* CountdownTableViewCell.m */,
+				18DFEF0A1E84A81A005AB381 /* People.h */,
+				18DFEF0B1E84A81A005AB381 /* People.m */,
+			);
+			path = NSProssgressInfo;
 			sourceTree = "<group>";
 		};
 		189477801E1B59CB0083F6F1 /* JSPatch */ = {
@@ -1001,6 +1027,7 @@
 			files = (
 				180B69E71DE42A1700316A43 /* ObviousViewController.xib in Resources */,
 				188F20771E83644900389068 /* FetchAllImageViewController.xib in Resources */,
+				188F207D1E83902300389068 /* CFProgressInfoViewController.xib in Resources */,
 				18329D281DE2F469005D4520 /* SpecializedLayerVC.xib in Resources */,
 				185651611E6550BB00BA6129 /* NewsViewController.xib in Resources */,
 				18329D1E1DE299A6005D4520 /* Frame_CoreAnimationViewController.xib in Resources */,
@@ -1132,6 +1159,7 @@
 				185157171DFE730100FBD096 /* UITextField+InputAccessoryView.m in Sources */,
 				1880A7AE1DDEEE2D002C41CB /* CoreAnimationViewController.m in Sources */,
 				181B49971E77FA02008D8DA2 /* NSTimer+addition.m in Sources */,
+				18DFEF0C1E84A81A005AB381 /* People.m in Sources */,
 				18CA449F1E5A7D73007E8630 /* NSString+NERChainable.m in Sources */,
 				18CA449C1E5A7D73007E8630 /* NERStyle+NERChainable.m in Sources */,
 				18CA44B21E5A7D73007E8630 /* NERPrivates.m in Sources */,
@@ -1173,7 +1201,9 @@
 				18CA44A01E5A7D73007E8630 /* UIButton+NERChainable.m in Sources */,
 				18CA44B01E5A7D73007E8630 /* NERBlockInfo.m in Sources */,
 				1827EE081DDD9CFD00C3E09F /* Table_RacViewController.m in Sources */,
+				188F20801E83D1D900389068 /* CountdownTableViewCell.m in Sources */,
 				18CA44AC1E5A7D73007E8630 /* UITextView+NERChainable.m in Sources */,
+				188F207C1E83902300389068 /* CFProgressInfoViewController.m in Sources */,
 				18CA44A91E5A7D73007E8630 /* UIStepper+NERChainable.m in Sources */,
 				18CA44A21E5A7D73007E8630 /* UIFont+NERChainable.m in Sources */,
 				181B498C1E77E218008D8DA2 /* CFWebViewController.m in Sources */,
