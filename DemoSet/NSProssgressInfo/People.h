@@ -15,6 +15,7 @@
 @property (nonatomic, assign) CGFloat    height;
 
 @property (nonatomic, assign) long long remainSeconds;
+@property (nonatomic, assign) long long systemTime;
 
 @property (nonatomic, copy) void(^countdownBlock)(long long leftSeconds);
 

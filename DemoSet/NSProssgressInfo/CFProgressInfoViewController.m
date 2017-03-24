@@ -28,7 +28,6 @@
     
     self.dataArray = [NSMutableArray array];
     
-    
     self.tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height-64) style:UITableViewStylePlain];
     self.tableView.rowHeight = 50;
     self.tableView.delegate = self;
@@ -38,19 +37,22 @@
     [self.tableView registerClass:[CountdownTableViewCell class] forCellReuseIdentifier:@"cell"];
     
     
-    for (int i=0; i<50; i++) {
+    for (int i=0; i<5; i++) {
         
         People *p = [[People alloc]init];
         p.name = @"xx";
         p.height = 180;
-        p.remainSeconds = 100;
+        p.systemTime = [self uptime];
+        p.remainSeconds = 10;
         [self.dataArray addObject:p];
     }
+    
+    [self.tableView reloadData];
     
     NSTimeInterval timeInterval = [[NSDate date] timeIntervalSince1970];
     NSTimeInterval time= timeInterval - [self uptime];
     NSString *timeStr = [NSString stringWithFormat:@"%.0f",time*1000];
-    NSLog(@"===绝对开机时间%@",[self timeWithTimeIntervalString:timeStr]);
+    //NSLog(@"===绝对开机时间%@",[self timeWithTimeIntervalString:timeStr]);
     
 }
 
@@ -67,6 +69,10 @@
     p.countdownBlock = ^(long long remainS) {
         
         [cell setupInvestButtonWithRemainSeconds:remainS];
+        
+        if (indexPath.row==5) {
+            //NSLog(@"=剩余秒数:=%lld",remainS);
+        }
         
     };
     
