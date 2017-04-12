@@ -25,6 +25,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    
+    //http://www.jianshu.com/u/815d10a4bdce  这个简书不错
+    
+    
 
     NSLog(@"---UUID:%@",[UIDevice currentDevice].identifierForVendor.UUIDString);
     
