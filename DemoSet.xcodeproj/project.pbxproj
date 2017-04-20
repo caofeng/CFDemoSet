@@ -62,6 +62,10 @@
 		18329D281DE2F469005D4520 /* SpecializedLayerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18329D261DE2F469005D4520 /* SpecializedLayerVC.xib */; };
 		18329D2C1DE2FD19005D4520 /* VagueCoreAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18329D2A1DE2FD19005D4520 /* VagueCoreAnimationViewController.m */; };
 		18329D2D1DE2FD19005D4520 /* VagueCoreAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18329D2B1DE2FD19005D4520 /* VagueCoreAnimationViewController.xib */; };
+		184C601E1EA8B32400141647 /* CFButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C601C1EA8B32400141647 /* CFButtonViewController.m */; };
+		184C601F1EA8B32400141647 /* CFButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184C601D1EA8B32400141647 /* CFButtonViewController.xib */; };
+		184C60221EA8B3F100141647 /* CFButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C60211EA8B3F100141647 /* CFButton.m */; };
+		184C60251EA8B41900141647 /* CFProgressCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C60241EA8B41900141647 /* CFProgressCircleView.m */; };
 		1850775C1E72A5AD0058232E /* AlertWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850775B1E72A5AD0058232E /* AlertWindow.m */; };
 		185157171DFE730100FBD096 /* UITextField+InputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185157161DFE730100FBD096 /* UITextField+InputAccessoryView.m */; };
 		185651601E6550BB00BA6129 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1856515E1E6550BB00BA6129 /* NewsViewController.m */; };
@@ -250,6 +254,13 @@
 		18329D291DE2FD19005D4520 /* VagueCoreAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VagueCoreAnimationViewController.h; sourceTree = "<group>"; };
 		18329D2A1DE2FD19005D4520 /* VagueCoreAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VagueCoreAnimationViewController.m; sourceTree = "<group>"; };
 		18329D2B1DE2FD19005D4520 /* VagueCoreAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VagueCoreAnimationViewController.xib; sourceTree = "<group>"; };
+		184C601B1EA8B32400141647 /* CFButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFButtonViewController.h; sourceTree = "<group>"; };
+		184C601C1EA8B32400141647 /* CFButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFButtonViewController.m; sourceTree = "<group>"; };
+		184C601D1EA8B32400141647 /* CFButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFButtonViewController.xib; sourceTree = "<group>"; };
+		184C60201EA8B3F100141647 /* CFButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFButton.h; sourceTree = "<group>"; };
+		184C60211EA8B3F100141647 /* CFButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFButton.m; sourceTree = "<group>"; };
+		184C60231EA8B41900141647 /* CFProgressCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFProgressCircleView.h; sourceTree = "<group>"; };
+		184C60241EA8B41900141647 /* CFProgressCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFProgressCircleView.m; sourceTree = "<group>"; };
 		1850775A1E72A5AD0058232E /* AlertWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertWindow.h; sourceTree = "<group>"; };
 		1850775B1E72A5AD0058232E /* AlertWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertWindow.m; sourceTree = "<group>"; };
 		185157151DFE730100FBD096 /* UITextField+InputAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+InputAccessoryView.h"; sourceTree = "<group>"; };
@@ -492,6 +503,7 @@
 				1816427B1E78CE87009E3B36 /* CoordinateConvert */,
 				188F20721E83642400389068 /* FetchAllImage */,
 				188F20781E838E8B00389068 /* NSProssgressInfo */,
+				184C601A1EA8B30200141647 /* CFButton */,
 				1827EDC61DDD803A00C3E09F /* Main.storyboard */,
 				1827EDC91DDD803A00C3E09F /* Assets.xcassets */,
 				1827EDCB1DDD803A00C3E09F /* LaunchScreen.storyboard */,
@@ -717,6 +729,20 @@
 				1850775B1E72A5AD0058232E /* AlertWindow.m */,
 			);
 			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		184C601A1EA8B30200141647 /* CFButton */ = {
+			isa = PBXGroup;
+			children = (
+				184C601B1EA8B32400141647 /* CFButtonViewController.h */,
+				184C601C1EA8B32400141647 /* CFButtonViewController.m */,
+				184C601D1EA8B32400141647 /* CFButtonViewController.xib */,
+				184C60201EA8B3F100141647 /* CFButton.h */,
+				184C60211EA8B3F100141647 /* CFButton.m */,
+				184C60231EA8B41900141647 /* CFProgressCircleView.h */,
+				184C60241EA8B41900141647 /* CFProgressCircleView.m */,
+			);
+			path = CFButton;
 			sourceTree = "<group>";
 		};
 		1880A7811DDE8B17002C41CB /* image */ = {
@@ -1052,6 +1078,7 @@
 				181642801E78CEBA009E3B36 /* CoordConvertViewController.xib in Resources */,
 				182E879A1E4817FD000CCAD2 /* SDViewController.xib in Resources */,
 				1880A78B1DDE8B40002C41CB /* 5.jpg in Resources */,
+				184C601F1EA8B32400141647 /* CFButtonViewController.xib in Resources */,
 				1827EDCA1DDD803A00C3E09F /* Assets.xcassets in Resources */,
 				1880A7AA1DDEEC14002C41CB /* DrawViewController.xib in Resources */,
 				1827EE7E1DDDBE2900C3E09F /* PictureViewController.xib in Resources */,
@@ -1140,6 +1167,7 @@
 				18CA44B41E5A7D73007E8630 /* NERStyle.m in Sources */,
 				1827EE791DDDBC5C00C3E09F /* XHZoomingImageView.m in Sources */,
 				1824CEFC1DE5984D0018D296 /* PaintView.m in Sources */,
+				184C601E1EA8B32400141647 /* CFButtonViewController.m in Sources */,
 				1827EE111DDDA6F200C3E09F /* TableCell.m in Sources */,
 				1827EDFA1DDD83F700C3E09F /* CustomWindow.m in Sources */,
 				18CA44A11E5A7D73007E8630 /* UIColor+NERChainable.m in Sources */,
@@ -1158,6 +1186,7 @@
 				18CA44BE1E5A7ECF007E8630 /* NerdyUIViewController.m in Sources */,
 				185157171DFE730100FBD096 /* UITextField+InputAccessoryView.m in Sources */,
 				1880A7AE1DDEEE2D002C41CB /* CoreAnimationViewController.m in Sources */,
+				184C60251EA8B41900141647 /* CFProgressCircleView.m in Sources */,
 				181B49971E77FA02008D8DA2 /* NSTimer+addition.m in Sources */,
 				18DFEF0C1E84A81A005AB381 /* People.m in Sources */,
 				18CA449F1E5A7D73007E8630 /* NSString+NERChainable.m in Sources */,
@@ -1208,6 +1237,7 @@
 				18CA44A21E5A7D73007E8630 /* UIFont+NERChainable.m in Sources */,
 				181B498C1E77E218008D8DA2 /* CFWebViewController.m in Sources */,
 				1880A79F1DDEE891002C41CB /* CustomViewController.m in Sources */,
+				184C60221EA8B3F100141647 /* CFButton.m in Sources */,
 				180B69E61DE42A1700316A43 /* ObviousViewController.m in Sources */,
 				18CA44A61E5A7D73007E8630 /* UIPageControl+NERChainable.m in Sources */,
 				1880A7981DDEDE26002C41CB /* UIViewController+Swizzling.m in Sources */,
