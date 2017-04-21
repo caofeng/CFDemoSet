@@ -9,6 +9,7 @@
 #import "CFButtonViewController.h"
 #import "CFButton.h"
 #import "Masonry.h"
+#import "CFTool.h"
 
 @interface CFButtonViewController ()
 
@@ -21,6 +22,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    [[UIScreen mainScreen] respondsToSelector:@selector(nativeBounds)];
+    
+    NSLog(@"===nativeBounds.size.width:%f", [UIScreen mainScreen].nativeBounds.size.width);
+    NSLog(@"===bounds.size.width:%f", [UIScreen mainScreen].bounds.size.width);
+    NSLog(@"===applicationFrame.size.width:%f", [UIScreen mainScreen].applicationFrame.size.width);
+
+    
+    
+    
+    
+    
+    
+    
+    
     
     self.open = YES;
     

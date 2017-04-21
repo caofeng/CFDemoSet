@@ -30,6 +30,7 @@ PODS:
   - ReactiveCocoa/no-arc (2.5)
   - ReactiveCocoa/UI (2.5):
     - ReactiveCocoa/Core
+  - SAMKeychain (1.5.2)
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
@@ -45,6 +46,7 @@ DEPENDENCIES:
   - PINCache
   - pop (~> 1.0)
   - ReactiveCocoa
+  - SAMKeychain
   - SDWebImage
   - UMengAnalytics-NO-IDFA
 
@@ -58,9 +60,10 @@ SPEC CHECKSUMS:
   PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SAMKeychain: 1865333198217411f35327e8da61b43de79b635b
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   UMengAnalytics-NO-IDFA: 965a219b05475ff2a4c09a164139a27bbaa0e25b
 
-PODFILE CHECKSUM: 28d00d2411cdf466670ef7815aa8ed37a260b122
+PODFILE CHECKSUM: dbc0749437725c0089206c12ad3502b0af0a3fd2
 
 COCOAPODS: 1.1.1

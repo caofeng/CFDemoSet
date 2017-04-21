@@ -137,6 +137,13 @@
 		18CA44B91E5A7D73007E8630 /* UIView+NERFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA44971E5A7D73007E8630 /* UIView+NERFrame.m */; };
 		18CA44BE1E5A7ECF007E8630 /* NerdyUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA44BC1E5A7ECF007E8630 /* NerdyUIViewController.m */; };
 		18CA44BF1E5A7ECF007E8630 /* NerdyUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CA44BD1E5A7ECF007E8630 /* NerdyUIViewController.xib */; };
+		18D817301EA9B0A7001B55F8 /* CFTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8172F1EA9B0A7001B55F8 /* CFTool.m */; };
+		18D8173B1EA9DD7F001B55F8 /* NSArray+JSONCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D817341EA9DD7F001B55F8 /* NSArray+JSONCategories.m */; };
+		18D8173C1EA9DD7F001B55F8 /* NSDictionary+JSONCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D817371EA9DD7F001B55F8 /* NSDictionary+JSONCategories.m */; };
+		18D8173D1EA9DD7F001B55F8 /* NSString+JSONCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8173A1EA9DD7F001B55F8 /* NSString+JSONCategories.m */; };
+		18D817431EA9DD85001B55F8 /* UIControl+EnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D817401EA9DD85001B55F8 /* UIControl+EnlargeEdge.m */; };
+		18D817441EA9DD85001B55F8 /* UILabel+EnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D817421EA9DD85001B55F8 /* UILabel+EnlargeEdge.m */; };
+		18D817481EA9DE42001B55F8 /* ZYXLocationEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D817471EA9DE42001B55F8 /* ZYXLocationEngine.m */; };
 		18DFEF0C1E84A81A005AB381 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFEF0B1E84A81A005AB381 /* People.m */; };
 		F2ECEEB7E3F592AE478A1F17 /* libPods-DemoSet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA055C86A57A7229E81BF6A1 /* libPods-DemoSet.a */; };
 /* End PBXBuildFile section */
@@ -386,6 +393,21 @@
 		18CA44BB1E5A7ECF007E8630 /* NerdyUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NerdyUIViewController.h; sourceTree = "<group>"; };
 		18CA44BC1E5A7ECF007E8630 /* NerdyUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NerdyUIViewController.m; sourceTree = "<group>"; };
 		18CA44BD1E5A7ECF007E8630 /* NerdyUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NerdyUIViewController.xib; sourceTree = "<group>"; };
+		18D8172D1EA9995A001B55F8 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		18D8172E1EA9B0A7001B55F8 /* CFTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFTool.h; sourceTree = "<group>"; };
+		18D8172F1EA9B0A7001B55F8 /* CFTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFTool.m; sourceTree = "<group>"; };
+		18D817331EA9DD7F001B55F8 /* NSArray+JSONCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONCategories.h"; sourceTree = "<group>"; };
+		18D817341EA9DD7F001B55F8 /* NSArray+JSONCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSONCategories.m"; sourceTree = "<group>"; };
+		18D817361EA9DD7F001B55F8 /* NSDictionary+JSONCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSONCategories.h"; sourceTree = "<group>"; };
+		18D817371EA9DD7F001B55F8 /* NSDictionary+JSONCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSONCategories.m"; sourceTree = "<group>"; };
+		18D817391EA9DD7F001B55F8 /* NSString+JSONCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JSONCategories.h"; sourceTree = "<group>"; };
+		18D8173A1EA9DD7F001B55F8 /* NSString+JSONCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSONCategories.m"; sourceTree = "<group>"; };
+		18D8173F1EA9DD85001B55F8 /* UIControl+EnlargeEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+EnlargeEdge.h"; sourceTree = "<group>"; };
+		18D817401EA9DD85001B55F8 /* UIControl+EnlargeEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+EnlargeEdge.m"; sourceTree = "<group>"; };
+		18D817411EA9DD85001B55F8 /* UILabel+EnlargeEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+EnlargeEdge.h"; sourceTree = "<group>"; };
+		18D817421EA9DD85001B55F8 /* UILabel+EnlargeEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+EnlargeEdge.m"; sourceTree = "<group>"; };
+		18D817461EA9DE42001B55F8 /* ZYXLocationEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYXLocationEngine.h; sourceTree = "<group>"; };
+		18D817471EA9DE42001B55F8 /* ZYXLocationEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYXLocationEngine.m; sourceTree = "<group>"; };
 		18DFEF0A1E84A81A005AB381 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
 		18DFEF0B1E84A81A005AB381 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
 		55FEBEC6C393D31F96DFAC3E /* Pods-DemoSet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoSet.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoSet/Pods-DemoSet.release.xcconfig"; sourceTree = "<group>"; };
@@ -483,6 +505,8 @@
 		1827EDBC1DDD803900C3E09F /* DemoSet */ = {
 			isa = PBXGroup;
 			children = (
+				18D8172C1EA99931001B55F8 /* Tools */,
+				18D8172B1EA99920001B55F8 /* Macros */,
 				1827EDC01DDD803900C3E09F /* AppDelegate.h */,
 				1827EDC11DDD803900C3E09F /* AppDelegate.m */,
 				1827EDC31DDD803900C3E09F /* ViewController.h */,
@@ -921,6 +945,83 @@
 			path = NerdyUIVC;
 			sourceTree = "<group>";
 		};
+		18D8172B1EA99920001B55F8 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				18D8172D1EA9995A001B55F8 /* Macros.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		18D8172C1EA99931001B55F8 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				18D8172E1EA9B0A7001B55F8 /* CFTool.h */,
+				18D8172F1EA9B0A7001B55F8 /* CFTool.m */,
+				18D817451EA9DE42001B55F8 /* Location */,
+				18D8173E1EA9DD85001B55F8 /* UIControl+EnlargeEdge */,
+				18D817311EA9DD7F001B55F8 /* JSON */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		18D817311EA9DD7F001B55F8 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				18D817321EA9DD7F001B55F8 /* NSArray+JSONCategories */,
+				18D817351EA9DD7F001B55F8 /* NSDictionary+JSONCategories */,
+				18D817381EA9DD7F001B55F8 /* NSString+JSONCategories */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		18D817321EA9DD7F001B55F8 /* NSArray+JSONCategories */ = {
+			isa = PBXGroup;
+			children = (
+				18D817331EA9DD7F001B55F8 /* NSArray+JSONCategories.h */,
+				18D817341EA9DD7F001B55F8 /* NSArray+JSONCategories.m */,
+			);
+			path = "NSArray+JSONCategories";
+			sourceTree = "<group>";
+		};
+		18D817351EA9DD7F001B55F8 /* NSDictionary+JSONCategories */ = {
+			isa = PBXGroup;
+			children = (
+				18D817361EA9DD7F001B55F8 /* NSDictionary+JSONCategories.h */,
+				18D817371EA9DD7F001B55F8 /* NSDictionary+JSONCategories.m */,
+			);
+			path = "NSDictionary+JSONCategories";
+			sourceTree = "<group>";
+		};
+		18D817381EA9DD7F001B55F8 /* NSString+JSONCategories */ = {
+			isa = PBXGroup;
+			children = (
+				18D817391EA9DD7F001B55F8 /* NSString+JSONCategories.h */,
+				18D8173A1EA9DD7F001B55F8 /* NSString+JSONCategories.m */,
+			);
+			path = "NSString+JSONCategories";
+			sourceTree = "<group>";
+		};
+		18D8173E1EA9DD85001B55F8 /* UIControl+EnlargeEdge */ = {
+			isa = PBXGroup;
+			children = (
+				18D8173F1EA9DD85001B55F8 /* UIControl+EnlargeEdge.h */,
+				18D817401EA9DD85001B55F8 /* UIControl+EnlargeEdge.m */,
+				18D817411EA9DD85001B55F8 /* UILabel+EnlargeEdge.h */,
+				18D817421EA9DD85001B55F8 /* UILabel+EnlargeEdge.m */,
+			);
+			path = "UIControl+EnlargeEdge";
+			sourceTree = "<group>";
+		};
+		18D817451EA9DE42001B55F8 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				18D817461EA9DE42001B55F8 /* ZYXLocationEngine.h */,
+				18D817471EA9DE42001B55F8 /* ZYXLocationEngine.m */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
 		D5F864052918E964FB7C7AE7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1180,6 +1281,7 @@
 				181B499A1E77FA02008D8DA2 /* WYWebProgressLayer.m in Sources */,
 				1827EDFE1DDD842B00C3E09F /* CustomWindowRootViewController.m in Sources */,
 				18CA44991E5A7D73007E8630 /* NERConstraint+NERChainable.m in Sources */,
+				18D8173D1EA9DD7F001B55F8 /* NSString+JSONCategories.m in Sources */,
 				1880A78F1DDE9AB9002C41CB /* ThreadViewController.m in Sources */,
 				188F20761E83644900389068 /* FetchAllImageViewController.m in Sources */,
 				1827EDC51DDD803900C3E09F /* ViewController.m in Sources */,
@@ -1187,7 +1289,9 @@
 				185157171DFE730100FBD096 /* UITextField+InputAccessoryView.m in Sources */,
 				1880A7AE1DDEEE2D002C41CB /* CoreAnimationViewController.m in Sources */,
 				184C60251EA8B41900141647 /* CFProgressCircleView.m in Sources */,
+				18D817441EA9DD85001B55F8 /* UILabel+EnlargeEdge.m in Sources */,
 				181B49971E77FA02008D8DA2 /* NSTimer+addition.m in Sources */,
+				18D817301EA9B0A7001B55F8 /* CFTool.m in Sources */,
 				18DFEF0C1E84A81A005AB381 /* People.m in Sources */,
 				18CA449F1E5A7D73007E8630 /* NSString+NERChainable.m in Sources */,
 				18CA449C1E5A7D73007E8630 /* NERStyle+NERChainable.m in Sources */,
@@ -1199,6 +1303,8 @@
 				1850775C1E72A5AD0058232E /* AlertWindow.m in Sources */,
 				1880A7941DDEDCA4002C41CB /* SwizzlingViewController.m in Sources */,
 				18CA44A41E5A7D73007E8630 /* UIImageView+NERChainable.m in Sources */,
+				18D817481EA9DE42001B55F8 /* ZYXLocationEngine.m in Sources */,
+				18D8173B1EA9DD7F001B55F8 /* NSArray+JSONCategories.m in Sources */,
 				18CA14931E7682AC00A879BC /* InputCheckViewController.m in Sources */,
 				1827EDC21DDD803900C3E09F /* AppDelegate.m in Sources */,
 				18CA44B31E5A7D73007E8630 /* NERStaticTableView.m in Sources */,
@@ -1210,6 +1316,7 @@
 				1827EE741DDDBC5C00C3E09F /* XHCacheManager.m in Sources */,
 				1827EDBF1DDD803900C3E09F /* main.m in Sources */,
 				18CA449B1E5A7D73007E8630 /* NERStaticTableView+NERChainable.m in Sources */,
+				18D8173C1EA9DD7F001B55F8 /* NSDictionary+JSONCategories.m in Sources */,
 				18CA44A81E5A7D73007E8630 /* UISlider+NERChainable.m in Sources */,
 				18CA449E1E5A7D73007E8630 /* NSAttributedString+NERChainable.m in Sources */,
 				1824CEF81DE595E00018D296 /* PaintViewController.m in Sources */,
@@ -1233,6 +1340,7 @@
 				188F20801E83D1D900389068 /* CountdownTableViewCell.m in Sources */,
 				18CA44AC1E5A7D73007E8630 /* UITextView+NERChainable.m in Sources */,
 				188F207C1E83902300389068 /* CFProgressInfoViewController.m in Sources */,
+				18D817431EA9DD85001B55F8 /* UIControl+EnlargeEdge.m in Sources */,
 				18CA44A91E5A7D73007E8630 /* UIStepper+NERChainable.m in Sources */,
 				18CA44A21E5A7D73007E8630 /* UIFont+NERChainable.m in Sources */,
 				181B498C1E77E218008D8DA2 /* CFWebViewController.m in Sources */,

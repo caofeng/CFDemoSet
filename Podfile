@@ -11,5 +11,6 @@ pod 'UMengAnalytics-NO-IDFA'
 pod 'BaiduMobStat'
 pod 'JSPatch'
 pod 'SDWebImage'
+pod 'SAMKeychain'
 end
 
