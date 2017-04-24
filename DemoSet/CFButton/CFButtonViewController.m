@@ -29,15 +29,6 @@
     NSLog(@"===nativeBounds.size.width:%f", [UIScreen mainScreen].nativeBounds.size.width);
     NSLog(@"===bounds.size.width:%f", [UIScreen mainScreen].bounds.size.width);
     NSLog(@"===applicationFrame.size.width:%f", [UIScreen mainScreen].applicationFrame.size.width);
-
-    
-    
-    
-    
-    
-    
-    
-    
     
     self.open = YES;
     
