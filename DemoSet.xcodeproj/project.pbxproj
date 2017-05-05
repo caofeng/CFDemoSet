@@ -62,6 +62,13 @@
 		18329D281DE2F469005D4520 /* SpecializedLayerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18329D261DE2F469005D4520 /* SpecializedLayerVC.xib */; };
 		18329D2C1DE2FD19005D4520 /* VagueCoreAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18329D2A1DE2FD19005D4520 /* VagueCoreAnimationViewController.m */; };
 		18329D2D1DE2FD19005D4520 /* VagueCoreAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18329D2B1DE2FD19005D4520 /* VagueCoreAnimationViewController.xib */; };
+		1843AB431EBC0832009BAB5F /* CompoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843AB411EBC0832009BAB5F /* CompoundViewController.m */; };
+		1843AB441EBC0832009BAB5F /* CompoundViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1843AB421EBC0832009BAB5F /* CompoundViewController.xib */; };
+		1843AB4A1EBC09D3009BAB5F /* tableview_header_refresh_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1843AB461EBC09D3009BAB5F /* tableview_header_refresh_left@2x.png */; };
+		1843AB4B1EBC09D3009BAB5F /* tableview_header_refresh_left@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1843AB471EBC09D3009BAB5F /* tableview_header_refresh_left@3x.png */; };
+		1843AB4C1EBC09D3009BAB5F /* tableview_header_refresh_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1843AB481EBC09D3009BAB5F /* tableview_header_refresh_right@2x.png */; };
+		1843AB4D1EBC09D3009BAB5F /* tableview_header_refresh_right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1843AB491EBC09D3009BAB5F /* tableview_header_refresh_right@3x.png */; };
+		1843AB501EBC1735009BAB5F /* UIImage+CFExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843AB4F1EBC1735009BAB5F /* UIImage+CFExtensions.m */; };
 		184C601E1EA8B32400141647 /* CFButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C601C1EA8B32400141647 /* CFButtonViewController.m */; };
 		184C601F1EA8B32400141647 /* CFButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184C601D1EA8B32400141647 /* CFButtonViewController.xib */; };
 		184C60221EA8B3F100141647 /* CFButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C60211EA8B3F100141647 /* CFButton.m */; };
@@ -261,6 +268,15 @@
 		18329D291DE2FD19005D4520 /* VagueCoreAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VagueCoreAnimationViewController.h; sourceTree = "<group>"; };
 		18329D2A1DE2FD19005D4520 /* VagueCoreAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VagueCoreAnimationViewController.m; sourceTree = "<group>"; };
 		18329D2B1DE2FD19005D4520 /* VagueCoreAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VagueCoreAnimationViewController.xib; sourceTree = "<group>"; };
+		1843AB401EBC0832009BAB5F /* CompoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompoundViewController.h; sourceTree = "<group>"; };
+		1843AB411EBC0832009BAB5F /* CompoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompoundViewController.m; sourceTree = "<group>"; };
+		1843AB421EBC0832009BAB5F /* CompoundViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CompoundViewController.xib; sourceTree = "<group>"; };
+		1843AB461EBC09D3009BAB5F /* tableview_header_refresh_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tableview_header_refresh_left@2x.png"; sourceTree = "<group>"; };
+		1843AB471EBC09D3009BAB5F /* tableview_header_refresh_left@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tableview_header_refresh_left@3x.png"; sourceTree = "<group>"; };
+		1843AB481EBC09D3009BAB5F /* tableview_header_refresh_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tableview_header_refresh_right@2x.png"; sourceTree = "<group>"; };
+		1843AB491EBC09D3009BAB5F /* tableview_header_refresh_right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tableview_header_refresh_right@3x.png"; sourceTree = "<group>"; };
+		1843AB4E1EBC1735009BAB5F /* UIImage+CFExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CFExtensions.h"; sourceTree = "<group>"; };
+		1843AB4F1EBC1735009BAB5F /* UIImage+CFExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CFExtensions.m"; sourceTree = "<group>"; };
 		184C601B1EA8B32400141647 /* CFButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFButtonViewController.h; sourceTree = "<group>"; };
 		184C601C1EA8B32400141647 /* CFButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFButtonViewController.m; sourceTree = "<group>"; };
 		184C601D1EA8B32400141647 /* CFButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFButtonViewController.xib; sourceTree = "<group>"; };
@@ -528,6 +544,7 @@
 				188F20721E83642400389068 /* FetchAllImage */,
 				188F20781E838E8B00389068 /* NSProssgressInfo */,
 				184C601A1EA8B30200141647 /* CFButton */,
+				18C63D661EB2EAF200CFC729 /* 重置边缘返回方法 */,
 				1827EDC61DDD803A00C3E09F /* Main.storyboard */,
 				1827EDC91DDD803A00C3E09F /* Assets.xcassets */,
 				1827EDCB1DDD803A00C3E09F /* LaunchScreen.storyboard */,
@@ -755,6 +772,17 @@
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
+		1843AB451EBC09D3009BAB5F /* 刷新icon */ = {
+			isa = PBXGroup;
+			children = (
+				1843AB461EBC09D3009BAB5F /* tableview_header_refresh_left@2x.png */,
+				1843AB471EBC09D3009BAB5F /* tableview_header_refresh_left@3x.png */,
+				1843AB481EBC09D3009BAB5F /* tableview_header_refresh_right@2x.png */,
+				1843AB491EBC09D3009BAB5F /* tableview_header_refresh_right@3x.png */,
+			);
+			path = "刷新icon";
+			sourceTree = "<group>";
+		};
 		184C601A1EA8B30200141647 /* CFButton */ = {
 			isa = PBXGroup;
 			children = (
@@ -814,6 +842,19 @@
 				189477831E1B63DE0083F6F1 /* JSPatchViewController.xib */,
 			);
 			path = JSPatch;
+			sourceTree = "<group>";
+		};
+		18C63D661EB2EAF200CFC729 /* 重置边缘返回方法 */ = {
+			isa = PBXGroup;
+			children = (
+				1843AB451EBC09D3009BAB5F /* 刷新icon */,
+				1843AB401EBC0832009BAB5F /* CompoundViewController.h */,
+				1843AB411EBC0832009BAB5F /* CompoundViewController.m */,
+				1843AB421EBC0832009BAB5F /* CompoundViewController.xib */,
+				1843AB4E1EBC1735009BAB5F /* UIImage+CFExtensions.h */,
+				1843AB4F1EBC1735009BAB5F /* UIImage+CFExtensions.m */,
+			);
+			path = "重置边缘返回方法";
 			sourceTree = "<group>";
 		};
 		18CA148F1E76828B00A879BC /* InputCheck */ = {
@@ -1161,9 +1202,11 @@
 				1880A7AF1DDEEE2D002C41CB /* CoreAnimationViewController.xib in Resources */,
 				18721C321E6424D6002A8060 /* broken_img@2x.png in Resources */,
 				1880A7A21DDEE98C002C41CB /* 123.png in Resources */,
+				1843AB4A1EBC09D3009BAB5F /* tableview_header_refresh_left@2x.png in Resources */,
 				1880A78A1DDE8B40002C41CB /* 4.jpg in Resources */,
 				1880A7901DDE9AB9002C41CB /* ThreadViewController.xib in Resources */,
 				1880A7891DDE8B40002C41CB /* 3.jpg in Resources */,
+				1843AB4D1EBC09D3009BAB5F /* tableview_header_refresh_right@3x.png in Resources */,
 				181B498D1E77E218008D8DA2 /* CFWebViewController.xib in Resources */,
 				1816676F1DE6D8D800AECB6E /* JSInterOCViewController.xib in Resources */,
 				1880A7A01DDEE891002C41CB /* CustomViewController.xib in Resources */,
@@ -1172,6 +1215,7 @@
 				18204B271E246D9400B9BD13 /* main.js in Resources */,
 				18329D231DE2DD4F005D4520 /* Transform_ViewController.xib in Resources */,
 				1827EDFF1DDD842B00C3E09F /* CustomWindowRootViewController.xib in Resources */,
+				1843AB4C1EBC09D3009BAB5F /* tableview_header_refresh_right@2x.png in Resources */,
 				1880A7881DDE8B40002C41CB /* 2.jpg in Resources */,
 				18CA14941E7682AC00A879BC /* InputCheckViewController.xib in Resources */,
 				1827EE091DDD9CFD00C3E09F /* Table_RacViewController.xib in Resources */,
@@ -1182,7 +1226,9 @@
 				184C601F1EA8B32400141647 /* CFButtonViewController.xib in Resources */,
 				1827EDCA1DDD803A00C3E09F /* Assets.xcassets in Resources */,
 				1880A7AA1DDEEC14002C41CB /* DrawViewController.xib in Resources */,
+				1843AB4B1EBC09D3009BAB5F /* tableview_header_refresh_left@3x.png in Resources */,
 				1827EE7E1DDDBE2900C3E09F /* PictureViewController.xib in Resources */,
+				1843AB441EBC0832009BAB5F /* CompoundViewController.xib in Resources */,
 				1880A7951DDEDCA4002C41CB /* SwizzlingViewController.xib in Resources */,
 				18CA44BF1E5A7ECF007E8630 /* NerdyUIViewController.xib in Resources */,
 				1880A7871DDE8B40002C41CB /* 1.jpg in Resources */,
@@ -1289,6 +1335,7 @@
 				185157171DFE730100FBD096 /* UITextField+InputAccessoryView.m in Sources */,
 				1880A7AE1DDEEE2D002C41CB /* CoreAnimationViewController.m in Sources */,
 				184C60251EA8B41900141647 /* CFProgressCircleView.m in Sources */,
+				1843AB431EBC0832009BAB5F /* CompoundViewController.m in Sources */,
 				18D817441EA9DD85001B55F8 /* UILabel+EnlargeEdge.m in Sources */,
 				181B49971E77FA02008D8DA2 /* NSTimer+addition.m in Sources */,
 				18D817301EA9B0A7001B55F8 /* CFTool.m in Sources */,
@@ -1342,6 +1389,7 @@
 				188F207C1E83902300389068 /* CFProgressInfoViewController.m in Sources */,
 				18D817431EA9DD85001B55F8 /* UIControl+EnlargeEdge.m in Sources */,
 				18CA44A91E5A7D73007E8630 /* UIStepper+NERChainable.m in Sources */,
+				1843AB501EBC1735009BAB5F /* UIImage+CFExtensions.m in Sources */,
 				18CA44A21E5A7D73007E8630 /* UIFont+NERChainable.m in Sources */,
 				181B498C1E77E218008D8DA2 /* CFWebViewController.m in Sources */,
 				1880A79F1DDEE891002C41CB /* CustomViewController.m in Sources */,
