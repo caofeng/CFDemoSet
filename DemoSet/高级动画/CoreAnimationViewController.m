@@ -9,7 +9,7 @@
 #import "CoreAnimationViewController.h"
 #import <QuartzCore/QuartzCore.h>
 #import "Frame_CoreAnimationViewController.h"
-#import "UMMobClick/MobClick.h"
+//#import "UMMobClick/MobClick.h"
 
 @interface CoreAnimationViewController ()<CALayerDelegate>
 @property (nonatomic, strong) CALayer *layer;
@@ -20,12 +20,12 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [MobClick beginLogPageView:@"核心动画页"];
+    //[MobClick beginLogPageView:@"核心动画页"];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-    [MobClick endLogPageView:@"核心动画页"];
+    //[MobClick endLogPageView:@"核心动画页"];
 }
 
 - (void)viewDidLoad {

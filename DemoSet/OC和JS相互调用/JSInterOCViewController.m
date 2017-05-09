@@ -32,7 +32,6 @@
     self.progressView.progressTintColor = [UIColor redColor];
     self.progressView.trackTintColor = [UIColor whiteColor];
     
-    
     WKWebViewConfiguration *configuration = [[WKWebViewConfiguration alloc] init];
     
     
@@ -55,6 +54,8 @@
     //主要处理JS脚本，确认框，警告框等
     self.webView.UIDelegate = self;
     [self.view addSubview:self.webView];
+    
+    
     [self.webView addObserver:self forKeyPath:@"estimatedProgress" options:NSKeyValueObservingOptionNew context:NULL];
     [self.webView addObserver:self forKeyPath:@"title" options:NSKeyValueObservingOptionNew context:NULL];
     [self.webView addObserver:self forKeyPath:@"loading" options:NSKeyValueObservingOptionNew context:NULL];

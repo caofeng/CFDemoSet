@@ -8,8 +8,8 @@
 
 #import "AppDelegate.h"
 #import "CustomWindow.h"
-#import "UMMobClick/MobClick.h"
-#import "BaiduMobStat.h"
+//#import "UMMobClick/MobClick.h"
+//#import "BaiduMobStat.h"
 #import <AdSupport/AdSupport.h>
 #import "JPEngine.h"
 #import <AVFoundation/AVFoundation.h>
@@ -53,8 +53,8 @@
     
     [self downFileFromServer];
     
-    [self setUMStatistics];
-    [self setBaiduStatistics];
+//    [self setUMStatistics];
+//    [self setBaiduStatistics];
     
     [self setTimerForeverWork];
     
@@ -75,6 +75,7 @@
     
 }
 
+/*
 - (void)setUMStatistics {
     
     //Key
@@ -101,6 +102,8 @@
     [BaiduMobStat defaultStat].sessionResumeInterval = 10;
     
 }
+ 
+ */
 
 - (void)downFileFromServer{
     [JPEngine startEngine];

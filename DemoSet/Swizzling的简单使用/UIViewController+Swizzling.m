@@ -8,8 +8,8 @@
 
 #import "UIViewController+Swizzling.h"
 #import <objc/runtime.h>
-#import "UMMobClick/MobClick.h"
-#import "BaiduMobStat.h"
+//#import "UMMobClick/MobClick.h"
+//#import "BaiduMobStat.h"
 
 @implementation UIViewController (Swizzling)
 
@@ -51,16 +51,16 @@
 
 - (void)my_viewWillAppear:(BOOL)animated {
     
-     [MobClick beginLogPageView:NSStringFromClass([self class])];
-    [[BaiduMobStat defaultStat] pageviewStartWithName:NSStringFromClass([self class])];
+//     [MobClick beginLogPageView:NSStringFromClass([self class])];
+//    [[BaiduMobStat defaultStat] pageviewStartWithName:NSStringFromClass([self class])];
 }
 
 
 - (void)xxx_viewWillDisappear:(BOOL)animated {
     
     
-    [MobClick endLogPageView:NSStringFromClass([self class])];
-    [[BaiduMobStat defaultStat] pageviewEndWithName:NSStringFromClass([self class])];
+//    [MobClick endLogPageView:NSStringFromClass([self class])];
+//    [[BaiduMobStat defaultStat] pageviewEndWithName:NSStringFromClass([self class])];
 }
 
 @end

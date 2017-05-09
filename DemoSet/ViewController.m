@@ -43,6 +43,7 @@
    
 
     UITableView *tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 64, Width, Height-64) style:UITableViewStylePlain];
+    tableView.keyboardDismissMode = UIScrollViewKeyboardDismissModeOnDrag;
     tableView.tableFooterView = [UIView new];
     tableView.delegate = self;
     tableView.dataSource = self;
