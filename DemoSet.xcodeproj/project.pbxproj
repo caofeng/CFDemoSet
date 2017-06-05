@@ -106,6 +106,8 @@
 		188F20801E83D1D900389068 /* CountdownTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F207F1E83D1D900389068 /* CountdownTableViewCell.m */; };
 		189477841E1B63DE0083F6F1 /* JSPatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189477821E1B63DE0083F6F1 /* JSPatchViewController.m */; };
 		189477851E1B63DE0083F6F1 /* JSPatchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189477831E1B63DE0083F6F1 /* JSPatchViewController.xib */; };
+		18A20A9A1EE1630C0011F6E6 /* VagueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A20A981EE1630C0011F6E6 /* VagueViewController.m */; };
+		18A20A9B1EE1630C0011F6E6 /* VagueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A20A991EE1630C0011F6E6 /* VagueViewController.xib */; };
 		18CA14931E7682AC00A879BC /* InputCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA14911E7682AC00A879BC /* InputCheckViewController.m */; };
 		18CA14941E7682AC00A879BC /* InputCheckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CA14921E7682AC00A879BC /* InputCheckViewController.xib */; };
 		18CA44981E5A7D73007E8630 /* NERAlert+NERChainable.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA44501E5A7D73007E8630 /* NERAlert+NERChainable.m */; };
@@ -332,6 +334,9 @@
 		189477811E1B63DE0083F6F1 /* JSPatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPatchViewController.h; sourceTree = "<group>"; };
 		189477821E1B63DE0083F6F1 /* JSPatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPatchViewController.m; sourceTree = "<group>"; };
 		189477831E1B63DE0083F6F1 /* JSPatchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSPatchViewController.xib; sourceTree = "<group>"; };
+		18A20A971EE1630C0011F6E6 /* VagueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VagueViewController.h; sourceTree = "<group>"; };
+		18A20A981EE1630C0011F6E6 /* VagueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VagueViewController.m; sourceTree = "<group>"; };
+		18A20A991EE1630C0011F6E6 /* VagueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VagueViewController.xib; sourceTree = "<group>"; };
 		18CA14901E7682AC00A879BC /* InputCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCheckViewController.h; sourceTree = "<group>"; };
 		18CA14911E7682AC00A879BC /* InputCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCheckViewController.m; sourceTree = "<group>"; };
 		18CA14921E7682AC00A879BC /* InputCheckViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputCheckViewController.xib; sourceTree = "<group>"; };
@@ -545,6 +550,7 @@
 				188F20781E838E8B00389068 /* NSProssgressInfo */,
 				184C601A1EA8B30200141647 /* CFButton */,
 				18C63D661EB2EAF200CFC729 /* 重置边缘返回方法 */,
+				18A20A961EE162C40011F6E6 /* 滤镜效果 */,
 				1827EDC61DDD803A00C3E09F /* Main.storyboard */,
 				1827EDC91DDD803A00C3E09F /* Assets.xcassets */,
 				1827EDCB1DDD803A00C3E09F /* LaunchScreen.storyboard */,
@@ -842,6 +848,16 @@
 				189477831E1B63DE0083F6F1 /* JSPatchViewController.xib */,
 			);
 			path = JSPatch;
+			sourceTree = "<group>";
+		};
+		18A20A961EE162C40011F6E6 /* 滤镜效果 */ = {
+			isa = PBXGroup;
+			children = (
+				18A20A971EE1630C0011F6E6 /* VagueViewController.h */,
+				18A20A981EE1630C0011F6E6 /* VagueViewController.m */,
+				18A20A991EE1630C0011F6E6 /* VagueViewController.xib */,
+			);
+			path = "滤镜效果";
 			sourceTree = "<group>";
 		};
 		18C63D661EB2EAF200CFC729 /* 重置边缘返回方法 */ = {
@@ -1223,6 +1239,7 @@
 				181642801E78CEBA009E3B36 /* CoordConvertViewController.xib in Resources */,
 				182E879A1E4817FD000CCAD2 /* SDViewController.xib in Resources */,
 				1880A78B1DDE8B40002C41CB /* 5.jpg in Resources */,
+				18A20A9B1EE1630C0011F6E6 /* VagueViewController.xib in Resources */,
 				184C601F1EA8B32400141647 /* CFButtonViewController.xib in Resources */,
 				1827EDCA1DDD803A00C3E09F /* Assets.xcassets in Resources */,
 				1880A7AA1DDEEC14002C41CB /* DrawViewController.xib in Resources */,
@@ -1343,6 +1360,7 @@
 				18CA449F1E5A7D73007E8630 /* NSString+NERChainable.m in Sources */,
 				18CA449C1E5A7D73007E8630 /* NERStyle+NERChainable.m in Sources */,
 				18CA44B21E5A7D73007E8630 /* NERPrivates.m in Sources */,
+				18A20A9A1EE1630C0011F6E6 /* VagueViewController.m in Sources */,
 				1827EE751DDDBC5C00C3E09F /* XHFileAttribute.m in Sources */,
 				1827EE761DDDBC5C00C3E09F /* XHBottomToolBar.m in Sources */,
 				18CA44B91E5A7D73007E8630 /* UIView+NERFrame.m in Sources */,

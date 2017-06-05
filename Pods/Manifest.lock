@@ -15,6 +15,7 @@ PODS:
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
   - FDFullscreenPopGesture (1.1)
+  - GPUImage (0.1.7)
   - JSPatch (1.1.2):
     - JSPatch/Core (= 1.1.2)
   - JSPatch/Core (1.1.2)
@@ -36,6 +37,7 @@ PODS:
 DEPENDENCIES:
   - BlocksKit
   - FDFullscreenPopGesture
+  - GPUImage
   - JSPatch
   - Masonry
   - MJRefresh
@@ -47,6 +49,7 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
   JSPatch: 741205ebb2e2238c223a436e4c8cf75cf40a345f
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
@@ -55,6 +58,6 @@ SPEC CHECKSUMS:
   SAMKeychain: 1865333198217411f35327e8da61b43de79b635b
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
 
-PODFILE CHECKSUM: 57d6a5e16a79d9195ddf41472f3bd55f6eb4e396
+PODFILE CHECKSUM: bb2807d182a923b5692012c80d30a3a794e17446
 
 COCOAPODS: 1.1.1

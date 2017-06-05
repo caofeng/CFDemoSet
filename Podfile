@@ -9,5 +9,6 @@ pod 'MJRefresh'
 pod 'JSPatch'
 pod 'SDWebImage'
 pod 'SAMKeychain'
+pod 'GPUImage'
 end
 
