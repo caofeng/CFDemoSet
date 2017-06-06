@@ -25,6 +25,7 @@
 #import "CFButtonViewController.h"
 #import "CompoundViewController.h"
 #import "VagueViewController.h"
+#import "SocketViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -49,7 +50,7 @@
     tableView.delegate = self;
     tableView.dataSource = self;
     [self.view addSubview:tableView];
-    self.array = @[@"RAC的简单使用",@"TableView的布局",@"微信照片浏览器",@"多线程",@"Swizzling使用",@"高级绘制",@"高级动画",@"JS和OC相互调用",@"iOS热修复",@"SDWebImage使用",@"NerdyUI库使用",@"输入检查",@"坐标转换",@"获取图片",@"进程时间NSProgressInfo",@"自定义进度Button",@"合成图片",@"毛玻璃效果"];
+    self.array = @[@"RAC的简单使用",@"TableView的布局",@"微信照片浏览器",@"多线程",@"Swizzling使用",@"高级绘制",@"高级动画",@"JS和OC相互调用",@"iOS热修复",@"SDWebImage使用",@"NerdyUI库使用",@"输入检查",@"坐标转换",@"获取图片",@"进程时间NSProgressInfo",@"自定义进度Button",@"合成图片",@"毛玻璃效果",@"Socket编程"];
     
 
 }
@@ -175,6 +176,11 @@
             case 17:
         {
             vc = [[VagueViewController alloc]initWithNibName:@"VagueViewController" bundle:nil];
+        }
+            break;
+            case 18:
+        {
+            vc = [[SocketViewController alloc]initWithNibName:@"SocketViewController" bundle:nil];
         }
             
         default:

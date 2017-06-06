@@ -10,5 +10,6 @@ pod 'JSPatch'
 pod 'SDWebImage'
 pod 'SAMKeychain'
 pod 'GPUImage'
+pod 'CocoaAsyncSocket'
 end
 

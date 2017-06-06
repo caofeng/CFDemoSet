@@ -14,6 +14,7 @@ PODS:
   - BlocksKit/UIKit (2.2.5):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
+  - CocoaAsyncSocket (7.6.0)
   - FDFullscreenPopGesture (1.1)
   - GPUImage (0.1.7)
   - JSPatch (1.1.2):
@@ -36,6 +37,7 @@ PODS:
 
 DEPENDENCIES:
   - BlocksKit
+  - CocoaAsyncSocket
   - FDFullscreenPopGesture
   - GPUImage
   - JSPatch
@@ -48,6 +50,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  CocoaAsyncSocket: b9d5589f07baf9de8f34cc25abd4fcba28f13805
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
   JSPatch: 741205ebb2e2238c223a436e4c8cf75cf40a345f
@@ -58,6 +61,6 @@ SPEC CHECKSUMS:
   SAMKeychain: 1865333198217411f35327e8da61b43de79b635b
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
 
-PODFILE CHECKSUM: bb2807d182a923b5692012c80d30a3a794e17446
+PODFILE CHECKSUM: cd5405c1337488c2299d236cee59b00a523e73f3
 
 COCOAPODS: 1.1.1

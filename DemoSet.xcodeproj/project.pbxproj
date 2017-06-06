@@ -62,6 +62,8 @@
 		18329D281DE2F469005D4520 /* SpecializedLayerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18329D261DE2F469005D4520 /* SpecializedLayerVC.xib */; };
 		18329D2C1DE2FD19005D4520 /* VagueCoreAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18329D2A1DE2FD19005D4520 /* VagueCoreAnimationViewController.m */; };
 		18329D2D1DE2FD19005D4520 /* VagueCoreAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18329D2B1DE2FD19005D4520 /* VagueCoreAnimationViewController.xib */; };
+		183D7E4D1EE5420200CCBEDB /* SocketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183D7E4B1EE5420200CCBEDB /* SocketViewController.m */; };
+		183D7E4E1EE5420200CCBEDB /* SocketViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183D7E4C1EE5420200CCBEDB /* SocketViewController.xib */; };
 		1843AB431EBC0832009BAB5F /* CompoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843AB411EBC0832009BAB5F /* CompoundViewController.m */; };
 		1843AB441EBC0832009BAB5F /* CompoundViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1843AB421EBC0832009BAB5F /* CompoundViewController.xib */; };
 		1843AB4A1EBC09D3009BAB5F /* tableview_header_refresh_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1843AB461EBC09D3009BAB5F /* tableview_header_refresh_left@2x.png */; };
@@ -79,6 +81,7 @@
 		185651611E6550BB00BA6129 /* NewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1856515F1E6550BB00BA6129 /* NewsViewController.xib */; };
 		18721C321E6424D6002A8060 /* broken_img@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18721C301E6424D6002A8060 /* broken_img@2x.png */; };
 		18721C331E6424D6002A8060 /* broken_img@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18721C311E6424D6002A8060 /* broken_img@3x.png */; };
+		187C755B1EE6376F004ADCC9 /* CFSocketConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C755A1EE6376F004ADCC9 /* CFSocketConnection.m */; };
 		1880A7871DDE8B40002C41CB /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1880A7821DDE8B40002C41CB /* 1.jpg */; };
 		1880A7881DDE8B40002C41CB /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1880A7831DDE8B40002C41CB /* 2.jpg */; };
 		1880A7891DDE8B40002C41CB /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1880A7841DDE8B40002C41CB /* 3.jpg */; };
@@ -270,6 +273,9 @@
 		18329D291DE2FD19005D4520 /* VagueCoreAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VagueCoreAnimationViewController.h; sourceTree = "<group>"; };
 		18329D2A1DE2FD19005D4520 /* VagueCoreAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VagueCoreAnimationViewController.m; sourceTree = "<group>"; };
 		18329D2B1DE2FD19005D4520 /* VagueCoreAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VagueCoreAnimationViewController.xib; sourceTree = "<group>"; };
+		183D7E4A1EE5420200CCBEDB /* SocketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketViewController.h; sourceTree = "<group>"; };
+		183D7E4B1EE5420200CCBEDB /* SocketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketViewController.m; sourceTree = "<group>"; };
+		183D7E4C1EE5420200CCBEDB /* SocketViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SocketViewController.xib; sourceTree = "<group>"; };
 		1843AB401EBC0832009BAB5F /* CompoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompoundViewController.h; sourceTree = "<group>"; };
 		1843AB411EBC0832009BAB5F /* CompoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompoundViewController.m; sourceTree = "<group>"; };
 		1843AB421EBC0832009BAB5F /* CompoundViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CompoundViewController.xib; sourceTree = "<group>"; };
@@ -295,6 +301,8 @@
 		1856515F1E6550BB00BA6129 /* NewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsViewController.xib; sourceTree = "<group>"; };
 		18721C301E6424D6002A8060 /* broken_img@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "broken_img@2x.png"; sourceTree = "<group>"; };
 		18721C311E6424D6002A8060 /* broken_img@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "broken_img@3x.png"; sourceTree = "<group>"; };
+		187C75591EE6376F004ADCC9 /* CFSocketConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFSocketConnection.h; sourceTree = "<group>"; };
+		187C755A1EE6376F004ADCC9 /* CFSocketConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFSocketConnection.m; sourceTree = "<group>"; };
 		1880A7821DDE8B40002C41CB /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		1880A7831DDE8B40002C41CB /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		1880A7841DDE8B40002C41CB /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
@@ -551,6 +559,7 @@
 				184C601A1EA8B30200141647 /* CFButton */,
 				18C63D661EB2EAF200CFC729 /* 重置边缘返回方法 */,
 				18A20A961EE162C40011F6E6 /* 滤镜效果 */,
+				183D7E491EE541EE00CCBEDB /* Socket编程 */,
 				1827EDC61DDD803A00C3E09F /* Main.storyboard */,
 				1827EDC91DDD803A00C3E09F /* Assets.xcassets */,
 				1827EDCB1DDD803A00C3E09F /* LaunchScreen.storyboard */,
@@ -776,6 +785,18 @@
 				1850775B1E72A5AD0058232E /* AlertWindow.m */,
 			);
 			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		183D7E491EE541EE00CCBEDB /* Socket编程 */ = {
+			isa = PBXGroup;
+			children = (
+				183D7E4A1EE5420200CCBEDB /* SocketViewController.h */,
+				183D7E4B1EE5420200CCBEDB /* SocketViewController.m */,
+				183D7E4C1EE5420200CCBEDB /* SocketViewController.xib */,
+				187C75591EE6376F004ADCC9 /* CFSocketConnection.h */,
+				187C755A1EE6376F004ADCC9 /* CFSocketConnection.m */,
+			);
+			path = "Socket编程";
 			sourceTree = "<group>";
 		};
 		1843AB451EBC09D3009BAB5F /* 刷新icon */ = {
@@ -1252,6 +1273,7 @@
 				1824CEF91DE595E00018D296 /* PaintViewController.xib in Resources */,
 				1827EDC81DDD803A00C3E09F /* Main.storyboard in Resources */,
 				1827EE0E1DDDA56A00C3E09F /* TableViewController.xib in Resources */,
+				183D7E4E1EE5420200CCBEDB /* SocketViewController.xib in Resources */,
 				189477851E1B63DE0083F6F1 /* JSPatchViewController.xib in Resources */,
 				18329D2D1DE2FD19005D4520 /* VagueCoreAnimationViewController.xib in Resources */,
 			);
@@ -1376,6 +1398,7 @@
 				18CA44A31E5A7D73007E8630 /* UIImage+NERChainable.m in Sources */,
 				181642831E78D97E009E3B36 /* CoordTableViewCell.m in Sources */,
 				1880A79B1DDEE21E002C41CB /* NSArray+Swizzling.m in Sources */,
+				187C755B1EE6376F004ADCC9 /* CFSocketConnection.m in Sources */,
 				18CA44A71E5A7D73007E8630 /* UISegmentedControl+NERChainable.m in Sources */,
 				1827EE781DDDBC5C00C3E09F /* XHViewState.m in Sources */,
 				1827EE741DDDBC5C00C3E09F /* XHCacheManager.m in Sources */,
@@ -1391,6 +1414,7 @@
 				1827EE711DDDBC5C00C3E09F /* NSString+XHMD5.m in Sources */,
 				185651601E6550BB00BA6129 /* NewsViewController.m in Sources */,
 				1880A7A91DDEEC14002C41CB /* DrawViewController.m in Sources */,
+				183D7E4D1EE5420200CCBEDB /* SocketViewController.m in Sources */,
 				18CA44B71E5A7D73007E8630 /* NERStack.m in Sources */,
 				18CA44B11E5A7D73007E8630 /* NERConstraintMaker.m in Sources */,
 				18CA44B81E5A7D73007E8630 /* UILabel+NERLink.m in Sources */,
