@@ -29,6 +29,8 @@
     
     //http://www.jianshu.com/u/815d10a4bdce  这个简书不错
     
+    //面试题：http://www.cocoachina.com/programmer/20170609/19483.html
+    
     
 
     NSLog(@"---UUID:%@",[UIDevice currentDevice].identifierForVendor.UUIDString);

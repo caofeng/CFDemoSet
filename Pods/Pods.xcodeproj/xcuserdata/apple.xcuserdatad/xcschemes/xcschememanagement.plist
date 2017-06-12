@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>BlocksKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -82,7 +87,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>43066386E1494AB63FE5CFE5F951AEDB</key>
+		<key>3992C9B1CB4DEEAB81C1CF394D40EDA7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4019DE48D621DBF14ACEEAAAAF0CC964</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -92,27 +102,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>61926C9F97A920A8029745420A4674FD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>78C2DE91AC6E56BA6EF260131F3CA481</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7E9C515CAE4F3EE93C0BD79B6DF4FAB3</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>98A52FB519435188504D20C05FF820E6</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>9A0BFF0668A7296824B60FC26E82AD05</key>
+		<key>8188C6190D16A3E8F64E710D36AFD1FA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>9DC8D9E02903E93BD0B2FEC9D846EA20</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9E033EDB5EC0819481B0546434FA577B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

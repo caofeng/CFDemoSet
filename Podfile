@@ -11,5 +11,6 @@ pod 'SDWebImage'
 pod 'SAMKeychain'
 pod 'GPUImage'
 pod 'CocoaAsyncSocket'
+pod 'AFNetworking', '~> 3.0'
 end
 

@@ -21,6 +21,8 @@
     self = [super init];
     if (self) {
         
+        //仅展示Socket的简单使用
+        
         self.asyncSocket = [[GCDAsyncSocket alloc]initWithDelegate:self delegateQueue:dispatch_get_main_queue()];
     }
     
@@ -41,8 +43,6 @@
     [self.asyncSocket connectToHost:hostName onPort:port error:&error];
     
     if (error) {
-        
-        NSLog(@"[CFSocketConnection] connectWithHost error: %@", error.description);
         
         if (_delegate && [_delegate respondsToSelector:@selector(didDisconnectWithError:)]) {
             [_delegate didDisconnectWithError:error];
@@ -73,36 +73,32 @@
 
 - (void)socketDidDisconnect:(GCDAsyncSocket *)sock withError:(NSError *)err
 {
-    NSLog(@"[CFSocketConnection] didDisconnect...%@", err.description);
-    
     if (_delegate && [_delegate respondsToSelector:@selector(didDisconnectWithError:)]) {
         [_delegate didDisconnectWithError:err];
     }
 }
 
+
 - (void)socket:(GCDAsyncSocket *)sock didConnectToHost:(NSString *)host port:(uint16_t)port
 {
-    NSLog(@"[CFSocketConnection] didConnectToHost: %@, port: %d", host, port);
     if (_delegate && [_delegate respondsToSelector:@selector(didConnectToHost:port:)]) {
+        
         [_delegate didConnectToHost:host port:port];
     }
 }
 
 - (void)socket:(GCDAsyncSocket *)sock didReadData:(NSData *)data withTag:(long)tag
 {
-    NSLog(@"[CFSocketConnection] didReadData length: %lu, tag: %ld", (unsigned long)data.length, tag);
-    
     if (_delegate && [_delegate respondsToSelector:@selector(didReceiveData:tag:)]) {
         [_delegate didReceiveData:data tag:tag];
     }
-    [sock readDataWithTimeout:-1 tag:tag];
+    [sock readDataWithTimeout:-1 tag:tag];//设置参数 -1 可以保持长连接状态
 }
 
 - (void)socket:(GCDAsyncSocket *)sock didWriteDataWithTag:(long)tag
 {
-    NSLog(@"[CFSocketConnection] didWriteDataWithTag: %ld", tag);
+    
     [sock readDataWithTimeout:-1 tag:tag];
 }
-
 
 @end

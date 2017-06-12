@@ -10,10 +10,8 @@
 #import <sys/socket.h>
 #import <netinet/in.h>
 #import <arpa/inet.h>
-
+#import "AFNetworkReachabilityManager.h"
 #import "CFSocketConnection.h"
-
-
 
 @interface SocketViewController ()<CFSocketConnectionDelegate>
 
@@ -26,34 +24,41 @@
 @implementation SocketViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     
-    //http://www.jianshu.com/p/6b64d8ac62e3
-    //http://blog.csdn.net/kuangdacaikuang/article/details/53386782
-    //https://my.oschina.net/joanfen/blog/287238
     
-//    [self loadDataFromServer];
+    [[AFNetworkReachabilityManager sharedManager] setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+        
+        NSLog(@"===ststus:%ld",(long)status);
+        
+        NSString *networkTypeString = [[AFNetworkReachabilityManager sharedManager] localizedNetworkReachabilityStatusString];
+        
+        NSLog(@"networkTypeString:%@",networkTypeString);
+        
+        
+        
+        
+        
+    }];
     
+    [[AFNetworkReachabilityManager sharedManager] startMonitoring];
+    
+    
+    
+    
+    
+    
+    
+    //使用第三方 CocoaAsyncSocket 实现长连接
     self.serverHost = @"www.baidu.com";
     self.serverPort = 80;
+    //[self openConnection];
     
     
+    // 原生 C 语言形式的实现长连接方法
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-//    [self openConnection];
+  //  [self loadDataFromServer];
     
 }
 
@@ -65,6 +70,12 @@
     self.connection.delegate = self;
     
     [self.connection connectWithHost:self.serverHost port:self.serverPort];
+    [self.connection readDataWithTimeout:-1 tag:1];
+   
+    [self.connection writeData:[@"GET / HTTP/1.1\r\n"
+                                "Host: www.baidu.com\r\n"
+                                "User-Agent: iphone\r\n"
+                                "Connection: close\r\n\r\n" dataUsingEncoding:NSUTF8StringEncoding] timeout:-1 tag:1];
 }
 
 - (void)closeConnection
@@ -78,29 +89,28 @@
 
 - (void)didDisconnectWithError:(NSError *)error
 {
-    NSLog(@"didDisconnectWithError...");
+    NSLog(@"didDisconnectWithError...==%@",[error description]);
 }
 
 - (void)didConnectToHost:(NSString *)host port:(UInt16)port
 {
-    NSLog(@"didConnectToHost...");
+    NSLog(@"didConnectToHost:%@ port:%d",host,port);
 }
 
 - (void)didReceiveData:(NSData *)data tag:(long)tag
 {
-    NSLog(@"didReceiveData...%@",data);
+    NSLog(@"didReceiveData:%@",data);
+    
+   NSString *receiveString = [[NSString alloc]initWithData:data encoding:NSUTF8StringEncoding];
+    
+    NSLog(@"===receiveString:%@",receiveString);
+    
 }
 
 
-//---------------------------
-
-//以下是原生Socket请求，了解
+//以下是原生Socket请求，了解--5步
 
 - (void)loadDataFromServer {
-    
-//    NSString *host = [url host];
-//
-//    NSString *port = [url port];
     
     // 1.创建客户端Socket
     /**
