@@ -23,9 +23,19 @@
 
 @implementation SocketViewController
 
+
+- (IBAction)buttonClick:(UIButton *)sender {
+    
+    
+    [self shakeAnimationForView:sender];
+    
+    
+}
+
 - (void)viewDidLoad {
     
     [super viewDidLoad];
+    
     
     
     [[AFNetworkReachabilityManager sharedManager] setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
@@ -36,17 +46,9 @@
         
         NSLog(@"networkTypeString:%@",networkTypeString);
         
-        
-        
-        
-        
     }];
     
     [[AFNetworkReachabilityManager sharedManager] startMonitoring];
-    
-    
-    
-    
     
     
     
@@ -206,6 +208,24 @@
     close(clientSocket);
 }
 
-
+/**
+ *  抖动效果
+ *
+ *  @param view 要抖动的view
+ */
+- (void)shakeAnimationForView:(UIView *) view {
+    CALayer *viewLayer = view.layer;
+    CGPoint position = viewLayer.position;
+    CGPoint x = CGPointMake(position.x + 5, position.y);
+    CGPoint y = CGPointMake(position.x - 5, position.y);
+    CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"position"];
+    [animation setTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionDefault]];
+    [animation setFromValue:[NSValue valueWithCGPoint:x]];
+    [animation setToValue:[NSValue valueWithCGPoint:y]];
+    [animation setAutoreverses:YES];
+    [animation setDuration:.06];
+    [animation setRepeatCount:3];
+    [viewLayer addAnimation:animation forKey:nil];
+}
 
 @end

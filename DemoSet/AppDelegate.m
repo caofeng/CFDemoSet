@@ -31,6 +31,7 @@
     
     //面试题：http://www.cocoachina.com/programmer/20170609/19483.html
     
+    //iOS 技术点 http://www.jianshu.com/p/a5c81bf4144a
     
 
     NSLog(@"---UUID:%@",[UIDevice currentDevice].identifierForVendor.UUIDString);

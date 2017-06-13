@@ -102,6 +102,16 @@
 		1880A7AE1DDEEE2D002C41CB /* CoreAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880A7AC1DDEEE2D002C41CB /* CoreAnimationViewController.m */; };
 		1880A7AF1DDEEE2D002C41CB /* CoreAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1880A7AD1DDEEE2D002C41CB /* CoreAnimationViewController.xib */; };
 		1880A7B11DDEFEB6002C41CB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1880A7B01DDEFEB6002C41CB /* QuartzCore.framework */; };
+		188660B91EEFABC400F6D5ED /* PCCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 188660AC1EEFABC400F6D5ED /* PCCircle.m */; };
+		188660BA1EEFABC400F6D5ED /* PCCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 188660AE1EEFABC400F6D5ED /* PCCircleView.m */; };
+		188660BB1EEFABC400F6D5ED /* PCCircleViewConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 188660B01EEFABC400F6D5ED /* PCCircleViewConst.m */; };
+		188660BC1EEFABC400F6D5ED /* CALayer+Anim.m in Sources */ = {isa = PBXBuildFile; fileRef = 188660B31EEFABC400F6D5ED /* CALayer+Anim.m */; };
+		188660BD1EEFABC400F6D5ED /* PCCircleInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 188660B61EEFABC400F6D5ED /* PCCircleInfoView.m */; };
+		188660BE1EEFABC400F6D5ED /* PCLockLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 188660B81EEFABC400F6D5ED /* PCLockLabel.m */; };
+		188660C31EEFABD900F6D5ED /* GestureVerifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188660C01EEFABD900F6D5ED /* GestureVerifyViewController.m */; };
+		188660C41EEFABD900F6D5ED /* GestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188660C21EEFABD900F6D5ED /* GestureViewController.m */; };
+		188660C81EEFAC2000F6D5ED /* CFGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188660C61EEFAC2000F6D5ED /* CFGestureViewController.m */; };
+		188660C91EEFAC2000F6D5ED /* CFGestureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188660C71EEFAC2000F6D5ED /* CFGestureViewController.xib */; };
 		188F20761E83644900389068 /* FetchAllImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F20741E83644900389068 /* FetchAllImageViewController.m */; };
 		188F20771E83644900389068 /* FetchAllImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188F20751E83644900389068 /* FetchAllImageViewController.xib */; };
 		188F207C1E83902300389068 /* CFProgressInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F207A1E83902300389068 /* CFProgressInfoViewController.m */; };
@@ -111,6 +121,8 @@
 		189477851E1B63DE0083F6F1 /* JSPatchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189477831E1B63DE0083F6F1 /* JSPatchViewController.xib */; };
 		18A20A9A1EE1630C0011F6E6 /* VagueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A20A981EE1630C0011F6E6 /* VagueViewController.m */; };
 		18A20A9B1EE1630C0011F6E6 /* VagueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A20A991EE1630C0011F6E6 /* VagueViewController.xib */; };
+		18B2C3051EEE747600006CE0 /* KVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B2C3031EEE747600006CE0 /* KVOViewController.m */; };
+		18B2C3061EEE747600006CE0 /* KVOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B2C3041EEE747600006CE0 /* KVOViewController.xib */; };
 		18CA14931E7682AC00A879BC /* InputCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA14911E7682AC00A879BC /* InputCheckViewController.m */; };
 		18CA14941E7682AC00A879BC /* InputCheckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CA14921E7682AC00A879BC /* InputCheckViewController.xib */; };
 		18CA44981E5A7D73007E8630 /* NERAlert+NERChainable.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA44501E5A7D73007E8630 /* NERAlert+NERChainable.m */; };
@@ -331,6 +343,26 @@
 		1880A7AC1DDEEE2D002C41CB /* CoreAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationViewController.m; sourceTree = "<group>"; };
 		1880A7AD1DDEEE2D002C41CB /* CoreAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoreAnimationViewController.xib; sourceTree = "<group>"; };
 		1880A7B01DDEFEB6002C41CB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		188660AB1EEFABC400F6D5ED /* PCCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCircle.h; sourceTree = "<group>"; };
+		188660AC1EEFABC400F6D5ED /* PCCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCircle.m; sourceTree = "<group>"; };
+		188660AD1EEFABC400F6D5ED /* PCCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCircleView.h; sourceTree = "<group>"; };
+		188660AE1EEFABC400F6D5ED /* PCCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCircleView.m; sourceTree = "<group>"; };
+		188660AF1EEFABC400F6D5ED /* PCCircleViewConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCircleViewConst.h; sourceTree = "<group>"; };
+		188660B01EEFABC400F6D5ED /* PCCircleViewConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCircleViewConst.m; sourceTree = "<group>"; };
+		188660B21EEFABC400F6D5ED /* CALayer+Anim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Anim.h"; sourceTree = "<group>"; };
+		188660B31EEFABC400F6D5ED /* CALayer+Anim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Anim.m"; sourceTree = "<group>"; };
+		188660B51EEFABC400F6D5ED /* PCCircleInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCCircleInfoView.h; sourceTree = "<group>"; };
+		188660B61EEFABC400F6D5ED /* PCCircleInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCCircleInfoView.m; sourceTree = "<group>"; };
+		188660B71EEFABC400F6D5ED /* PCLockLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCLockLabel.h; sourceTree = "<group>"; };
+		188660B81EEFABC400F6D5ED /* PCLockLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCLockLabel.m; sourceTree = "<group>"; };
+		188660BF1EEFABD900F6D5ED /* GestureVerifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureVerifyViewController.h; sourceTree = "<group>"; };
+		188660C01EEFABD900F6D5ED /* GestureVerifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureVerifyViewController.m; sourceTree = "<group>"; };
+		188660C11EEFABD900F6D5ED /* GestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureViewController.h; sourceTree = "<group>"; };
+		188660C21EEFABD900F6D5ED /* GestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureViewController.m; sourceTree = "<group>"; };
+		188660C51EEFAC2000F6D5ED /* CFGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFGestureViewController.h; sourceTree = "<group>"; };
+		188660C61EEFAC2000F6D5ED /* CFGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFGestureViewController.m; sourceTree = "<group>"; };
+		188660C71EEFAC2000F6D5ED /* CFGestureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFGestureViewController.xib; sourceTree = "<group>"; };
+		188660CA1EEFB10C00F6D5ED /* GestureTextConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureTextConst.h; sourceTree = "<group>"; };
 		188F20731E83644900389068 /* FetchAllImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchAllImageViewController.h; sourceTree = "<group>"; };
 		188F20741E83644900389068 /* FetchAllImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchAllImageViewController.m; sourceTree = "<group>"; };
 		188F20751E83644900389068 /* FetchAllImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FetchAllImageViewController.xib; sourceTree = "<group>"; };
@@ -345,6 +377,9 @@
 		18A20A971EE1630C0011F6E6 /* VagueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VagueViewController.h; sourceTree = "<group>"; };
 		18A20A981EE1630C0011F6E6 /* VagueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VagueViewController.m; sourceTree = "<group>"; };
 		18A20A991EE1630C0011F6E6 /* VagueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VagueViewController.xib; sourceTree = "<group>"; };
+		18B2C3021EEE747600006CE0 /* KVOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOViewController.h; sourceTree = "<group>"; };
+		18B2C3031EEE747600006CE0 /* KVOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOViewController.m; sourceTree = "<group>"; };
+		18B2C3041EEE747600006CE0 /* KVOViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVOViewController.xib; sourceTree = "<group>"; };
 		18CA14901E7682AC00A879BC /* InputCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCheckViewController.h; sourceTree = "<group>"; };
 		18CA14911E7682AC00A879BC /* InputCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCheckViewController.m; sourceTree = "<group>"; };
 		18CA14921E7682AC00A879BC /* InputCheckViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputCheckViewController.xib; sourceTree = "<group>"; };
@@ -560,6 +595,8 @@
 				18C63D661EB2EAF200CFC729 /* 重置边缘返回方法 */,
 				18A20A961EE162C40011F6E6 /* 滤镜效果 */,
 				183D7E491EE541EE00CCBEDB /* Socket编程 */,
+				18B2C3011EEE746200006CE0 /* KVO */,
+				188660661EEF6DC600F6D5ED /* 手势密码 */,
 				1827EDC61DDD803A00C3E09F /* Main.storyboard */,
 				1827EDC91DDD803A00C3E09F /* Assets.xcassets */,
 				1827EDCB1DDD803A00C3E09F /* LaunchScreen.storyboard */,
@@ -836,6 +873,57 @@
 			path = image;
 			sourceTree = "<group>";
 		};
+		188660661EEF6DC600F6D5ED /* 手势密码 */ = {
+			isa = PBXGroup;
+			children = (
+				188660C51EEFAC2000F6D5ED /* CFGestureViewController.h */,
+				188660C61EEFAC2000F6D5ED /* CFGestureViewController.m */,
+				188660C71EEFAC2000F6D5ED /* CFGestureViewController.xib */,
+				188660BF1EEFABD900F6D5ED /* GestureVerifyViewController.h */,
+				188660C01EEFABD900F6D5ED /* GestureVerifyViewController.m */,
+				188660C11EEFABD900F6D5ED /* GestureViewController.h */,
+				188660C21EEFABD900F6D5ED /* GestureViewController.m */,
+				188660CA1EEFB10C00F6D5ED /* GestureTextConst.h */,
+				188660AA1EEFABC400F6D5ED /* FrameWork */,
+				188660B11EEFABC400F6D5ED /* Gategory */,
+				188660B41EEFABC400F6D5ED /* View */,
+			);
+			path = "手势密码";
+			sourceTree = "<group>";
+		};
+		188660AA1EEFABC400F6D5ED /* FrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				188660AB1EEFABC400F6D5ED /* PCCircle.h */,
+				188660AC1EEFABC400F6D5ED /* PCCircle.m */,
+				188660AD1EEFABC400F6D5ED /* PCCircleView.h */,
+				188660AE1EEFABC400F6D5ED /* PCCircleView.m */,
+				188660AF1EEFABC400F6D5ED /* PCCircleViewConst.h */,
+				188660B01EEFABC400F6D5ED /* PCCircleViewConst.m */,
+			);
+			path = FrameWork;
+			sourceTree = "<group>";
+		};
+		188660B11EEFABC400F6D5ED /* Gategory */ = {
+			isa = PBXGroup;
+			children = (
+				188660B21EEFABC400F6D5ED /* CALayer+Anim.h */,
+				188660B31EEFABC400F6D5ED /* CALayer+Anim.m */,
+			);
+			path = Gategory;
+			sourceTree = "<group>";
+		};
+		188660B41EEFABC400F6D5ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				188660B51EEFABC400F6D5ED /* PCCircleInfoView.h */,
+				188660B61EEFABC400F6D5ED /* PCCircleInfoView.m */,
+				188660B71EEFABC400F6D5ED /* PCLockLabel.h */,
+				188660B81EEFABC400F6D5ED /* PCLockLabel.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		188F20721E83642400389068 /* FetchAllImage */ = {
 			isa = PBXGroup;
 			children = (
@@ -879,6 +967,16 @@
 				18A20A991EE1630C0011F6E6 /* VagueViewController.xib */,
 			);
 			path = "滤镜效果";
+			sourceTree = "<group>";
+		};
+		18B2C3011EEE746200006CE0 /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				18B2C3021EEE747600006CE0 /* KVOViewController.h */,
+				18B2C3031EEE747600006CE0 /* KVOViewController.m */,
+				18B2C3041EEE747600006CE0 /* KVOViewController.xib */,
+			);
+			path = KVO;
 			sourceTree = "<group>";
 		};
 		18C63D661EB2EAF200CFC729 /* 重置边缘返回方法 */ = {
@@ -1249,6 +1347,7 @@
 				1880A7A01DDEE891002C41CB /* CustomViewController.xib in Resources */,
 				1827EDCD1DDD803A00C3E09F /* LaunchScreen.storyboard in Resources */,
 				18721C331E6424D6002A8060 /* broken_img@3x.png in Resources */,
+				188660C91EEFAC2000F6D5ED /* CFGestureViewController.xib in Resources */,
 				18204B271E246D9400B9BD13 /* main.js in Resources */,
 				18329D231DE2DD4F005D4520 /* Transform_ViewController.xib in Resources */,
 				1827EDFF1DDD842B00C3E09F /* CustomWindowRootViewController.xib in Resources */,
@@ -1265,6 +1364,7 @@
 				1827EDCA1DDD803A00C3E09F /* Assets.xcassets in Resources */,
 				1880A7AA1DDEEC14002C41CB /* DrawViewController.xib in Resources */,
 				1843AB4B1EBC09D3009BAB5F /* tableview_header_refresh_left@3x.png in Resources */,
+				18B2C3061EEE747600006CE0 /* KVOViewController.xib in Resources */,
 				1827EE7E1DDDBE2900C3E09F /* PictureViewController.xib in Resources */,
 				1843AB441EBC0832009BAB5F /* CompoundViewController.xib in Resources */,
 				1880A7951DDEDCA4002C41CB /* SwizzlingViewController.xib in Resources */,
@@ -1353,14 +1453,17 @@
 				18CA44B41E5A7D73007E8630 /* NERStyle.m in Sources */,
 				1827EE791DDDBC5C00C3E09F /* XHZoomingImageView.m in Sources */,
 				1824CEFC1DE5984D0018D296 /* PaintView.m in Sources */,
+				188660BD1EEFABC400F6D5ED /* PCCircleInfoView.m in Sources */,
 				184C601E1EA8B32400141647 /* CFButtonViewController.m in Sources */,
 				1827EE111DDDA6F200C3E09F /* TableCell.m in Sources */,
+				188660BE1EEFABC400F6D5ED /* PCLockLabel.m in Sources */,
 				1827EDFA1DDD83F700C3E09F /* CustomWindow.m in Sources */,
 				18CA44A11E5A7D73007E8630 /* UIColor+NERChainable.m in Sources */,
 				18CA449A1E5A7D73007E8630 /* NERStack+NERChainable.m in Sources */,
 				189477841E1B63DE0083F6F1 /* JSPatchViewController.m in Sources */,
 				18CA44981E5A7D73007E8630 /* NERAlert+NERChainable.m in Sources */,
 				18CA44AB1E5A7D73007E8630 /* UITextField+NERChainable.m in Sources */,
+				188660C31EEFABD900F6D5ED /* GestureVerifyViewController.m in Sources */,
 				1827EE7D1DDDBE2900C3E09F /* PictureViewController.m in Sources */,
 				18CA44AE1E5A7D73007E8630 /* UIVisualEffectView+NERChainable.m in Sources */,
 				181B499A1E77FA02008D8DA2 /* WYWebProgressLayer.m in Sources */,
@@ -1379,11 +1482,13 @@
 				181B49971E77FA02008D8DA2 /* NSTimer+addition.m in Sources */,
 				18D817301EA9B0A7001B55F8 /* CFTool.m in Sources */,
 				18DFEF0C1E84A81A005AB381 /* People.m in Sources */,
+				188660C41EEFABD900F6D5ED /* GestureViewController.m in Sources */,
 				18CA449F1E5A7D73007E8630 /* NSString+NERChainable.m in Sources */,
 				18CA449C1E5A7D73007E8630 /* NERStyle+NERChainable.m in Sources */,
 				18CA44B21E5A7D73007E8630 /* NERPrivates.m in Sources */,
 				18A20A9A1EE1630C0011F6E6 /* VagueViewController.m in Sources */,
 				1827EE751DDDBC5C00C3E09F /* XHFileAttribute.m in Sources */,
+				188660C81EEFAC2000F6D5ED /* CFGestureViewController.m in Sources */,
 				1827EE761DDDBC5C00C3E09F /* XHBottomToolBar.m in Sources */,
 				18CA44B91E5A7D73007E8630 /* UIView+NERFrame.m in Sources */,
 				1816676E1DE6D8D800AECB6E /* JSInterOCViewController.m in Sources */,
@@ -1416,6 +1521,7 @@
 				1880A7A91DDEEC14002C41CB /* DrawViewController.m in Sources */,
 				183D7E4D1EE5420200CCBEDB /* SocketViewController.m in Sources */,
 				18CA44B71E5A7D73007E8630 /* NERStack.m in Sources */,
+				188660BB1EEFABC400F6D5ED /* PCCircleViewConst.m in Sources */,
 				18CA44B11E5A7D73007E8630 /* NERConstraintMaker.m in Sources */,
 				18CA44B81E5A7D73007E8630 /* UILabel+NERLink.m in Sources */,
 				1827EE031DDD8CB200C3E09F /* RacViewController.m in Sources */,
@@ -1423,6 +1529,7 @@
 				18CA44B61E5A7D73007E8630 /* NERUtils.m in Sources */,
 				18CA44AF1E5A7D73007E8630 /* NERAlertMaker.m in Sources */,
 				1827EE731DDDBC5C00C3E09F /* UIImageView+XHURLDownload.m in Sources */,
+				188660B91EEFABC400F6D5ED /* PCCircle.m in Sources */,
 				18CA44A01E5A7D73007E8630 /* UIButton+NERChainable.m in Sources */,
 				18CA44B01E5A7D73007E8630 /* NERBlockInfo.m in Sources */,
 				1827EE081DDD9CFD00C3E09F /* Table_RacViewController.m in Sources */,
@@ -1436,6 +1543,7 @@
 				181B498C1E77E218008D8DA2 /* CFWebViewController.m in Sources */,
 				1880A79F1DDEE891002C41CB /* CustomViewController.m in Sources */,
 				184C60221EA8B3F100141647 /* CFButton.m in Sources */,
+				188660BA1EEFABC400F6D5ED /* PCCircleView.m in Sources */,
 				180B69E61DE42A1700316A43 /* ObviousViewController.m in Sources */,
 				18CA44A61E5A7D73007E8630 /* UIPageControl+NERChainable.m in Sources */,
 				1880A7981DDEDE26002C41CB /* UIViewController+Swizzling.m in Sources */,
@@ -1443,7 +1551,9 @@
 				1827EE721DDDBC5C00C3E09F /* UIImage+Utility.m in Sources */,
 				181B49981E77FA02008D8DA2 /* UIView+Frame.m in Sources */,
 				18CA44A51E5A7D73007E8630 /* UILabel+NERChainable.m in Sources */,
+				18B2C3051EEE747600006CE0 /* KVOViewController.m in Sources */,
 				18329D271DE2F469005D4520 /* SpecializedLayerVC.m in Sources */,
+				188660BC1EEFABC400F6D5ED /* CALayer+Anim.m in Sources */,
 				18329D2C1DE2FD19005D4520 /* VagueCoreAnimationViewController.m in Sources */,
 				18CA44B51E5A7D73007E8630 /* NERTypeConverter.m in Sources */,
 				1827EE0D1DDDA56A00C3E09F /* TableViewController.m in Sources */,
@@ -1596,6 +1706,7 @@
 			baseConfigurationReference = D1F46A71987F306289ED5D49 /* Pods-DemoSet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = YY7JHW7SG3;
 				INFOPLIST_FILE = DemoSet/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1610,6 +1721,7 @@
 			baseConfigurationReference = 55FEBEC6C393D31F96DFAC3E /* Pods-DemoSet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = YY7JHW7SG3;
 				INFOPLIST_FILE = DemoSet/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
