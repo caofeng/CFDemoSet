@@ -1,9 +1,11 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^GestureVerifySuccess)(BOOL success);
+
 @interface GestureVerifyViewController : UIViewController
 
-@property (nonatomic, assign) BOOL isToSetNewGesture;
+- (instancetype)initWithGestureVerifySuccess:(GestureVerifySuccess)success;
 
 - (void)dissGestureVerifyViewController:(BOOL)animated;
 

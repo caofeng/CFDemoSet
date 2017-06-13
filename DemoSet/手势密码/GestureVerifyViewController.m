@@ -11,6 +11,8 @@
 
 @interface GestureVerifyViewController ()<CircleViewDelegate>
 
+@property (nonatomic, assign) BOOL isToSetNewGesture;
+
 /**
  *  文字提示Label
  */
@@ -22,6 +24,8 @@
 
 @property (nonatomic, strong) PCCircleInfoView  *infoView;
 
+@property (nonatomic, copy) GestureVerifySuccess success;
+
 @end
 
 @implementation GestureVerifyViewController
@@ -31,6 +35,14 @@
     [super viewWillAppear:animated];
     
     [self.navigationController setNavigationBarHidden:NO animated:animated];
+}
+
+- (instancetype)initWithGestureVerifySuccess:(GestureVerifySuccess)success {
+    
+    self.isToSetNewGesture = YES;
+    self.success = success;
+    
+    return [self init];
 }
 
 - (instancetype)init
@@ -80,9 +92,16 @@
             
             if (self.isToSetNewGesture) {
                 
-                GestureViewController *gestureVc = [[GestureViewController alloc] init];
+                __block GestureVerifyViewController *weakSelf = self;
                 
-                [gestureVc setType:GestureViewControllerTypeSetting];
+                GestureViewController *gestureVc = [[GestureViewController alloc] initWithGestureType:GestureViewControllerTypeSetting gestureSuccess:^(BOOL success) {
+                    if (success) {
+                        
+                        if (weakSelf.success) {
+                            weakSelf.success(YES);
+                        }
+                    }
+                } accountLoginHeadlerEvent:nil];
                 
                 [self.navigationController pushViewController:gestureVc animated:NO];
                 
@@ -106,6 +125,9 @@
                 [self.msgLabel showWarnMsgAndShake:@"错误次数太多"];
                 [self dissGestureVerifyViewController:YES];
                 //迫使用户退出登录
+                if (self.success) {
+                    self.success(NO);
+                }
                 
             } else {
                 

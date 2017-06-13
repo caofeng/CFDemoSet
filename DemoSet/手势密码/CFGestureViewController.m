@@ -28,17 +28,18 @@
     
     if (sender.tag == 10) {
         
+        //设置手势密码一定是成功的
+        
         GestureViewController *vc = [[GestureViewController alloc]initWithGestureType:GestureViewControllerTypeSetting gestureSuccess:^(BOOL success) {
             
             if (success) {
                 
                 NSLog(@"设置手势密码成功");
-                
             }
             
         } accountLoginHeadlerEvent:nil];
         
-        [self presentViewController:vc animated:YES completion:nil];
+        [self.navigationController pushViewController:vc animated:YES];
 
     } else if (sender.tag == 20) {
         
@@ -47,11 +48,17 @@
         
     } else if (sender.tag == 30) {
         
-        
         //修改密码失败要退出登录
         
-        GestureVerifyViewController *vc = [[GestureVerifyViewController alloc]init];
-        vc.isToSetNewGesture = YES;
+        GestureVerifyViewController *vc = [[GestureVerifyViewController alloc]initWithGestureVerifySuccess:^(BOOL success) {
+            
+            if (success) {
+                NSLog(@"修改手势密码成功");
+            } else {
+                NSLog(@"修改手势密码失败");
+            }
+        }];
+       
         [self.navigationController pushViewController:vc animated:YES];
         
     } else if (sender.tag == 40) {
