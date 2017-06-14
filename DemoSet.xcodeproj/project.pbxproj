@@ -1705,6 +1705,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D1F46A71987F306289ED5D49 /* Pods-DemoSet.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = YY7JHW7SG3;
@@ -1720,6 +1721,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 55FEBEC6C393D31F96DFAC3E /* Pods-DemoSet.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = YY7JHW7SG3;
