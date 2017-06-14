@@ -37,9 +37,13 @@
     [self.navigationController setNavigationBarHidden:NO animated:animated];
 }
 
-- (instancetype)initWithGestureVerifySuccess:(GestureVerifySuccess)success {
+- (instancetype)initWithGestureVerifyType:(GestureVerifyType)type GestureSuccess:(GestureVerifySuccess)success {
     
-    self.isToSetNewGesture = YES;
+    if (type == GestureVerifyTypeReset) {
+        self.isToSetNewGesture = YES;
+    } else if (type == GestureVerifyTypeCheck) {
+        self.isToSetNewGesture = NO;
+    }
     self.success = success;
     
     return [self init];
@@ -59,7 +63,7 @@
     // Do any additional setup after loading the view.
     self.fd_interactivePopDisabled = YES;
     
-    self.title = @"验证手势解锁";
+    self.title = kSetGesturePasswordVerifyNavbarTitle;
     
     PCCircleView *lockView = [[PCCircleView alloc] init];
     lockView.delegate = self;
@@ -88,7 +92,9 @@
         
         if (equal) {
             
-            NSLog(@"验证成功");
+            //NSLog(@"验证成功");
+            
+            [self.msgLabel showWarnMsg:@"验证成功"];
             
             if (self.isToSetNewGesture) {
                 
@@ -110,6 +116,10 @@
             } else {
                 
                 [self dissGestureVerifyViewController:YES];
+                
+                if (self.success) {
+                    self.success(YES);
+                }
             }
             
         } else {
@@ -122,7 +132,8 @@
             
             if (self.verifyNum >= gestureTextGestureVerifyMaxErrorNum) {
                 //超过错误次数
-                [self.msgLabel showWarnMsgAndShake:@"错误次数太多"];
+                //[self.msgLabel showWarnMsgAndShake:@"错误次数太多"];
+                
                 [self dissGestureVerifyViewController:YES];
                 //迫使用户退出登录
                 if (self.success) {

@@ -246,7 +246,7 @@
         [self.resetBtn setHidden:NO];
         [self.msgLabel showWarnMsgAndShake:gestureTextDrawAgainError];
     } else {
-        NSLog(@"密码长度不合法%@", gesture);
+        //NSLog(@"密码长度不合法%@", gesture);
         [self.msgLabel showWarnMsgAndShake:gestureTextConnectLess];
     }
 }
@@ -255,7 +255,7 @@
 
 - (void)circleView:(PCCircleView *)view type:(CircleViewType)type didCompleteSetFirstGesture:(NSString *)gesture
 {
-    NSLog(@"获得第一个手势密码%@", gesture);
+    //NSLog(@"获得第一个手势密码%@", gesture);
     [self.msgLabel showWarnMsg:gestureTextDrawAgain];
     
     // infoView展示对应选中的圆
@@ -266,11 +266,11 @@
 
 - (void)circleView:(PCCircleView *)view type:(CircleViewType)type didCompleteSetSecondGesture:(NSString *)gesture result:(BOOL)equal
 {
-    NSLog(@"获得第二个手势密码%@",gesture);
+    //NSLog(@"获得第二个手势密码%@",gesture);
     
     if (equal) {
         
-        NSLog(@"两次手势匹配！可以进行本地化保存了");
+        //NSLog(@"两次手势匹配！可以进行本地化保存了");
         
         [self.msgLabel showWarnMsg:gestureTextSetSuccess];
         [PCCircleViewConst saveGesture:gesture Key:gestureFinalSaveKey];
@@ -286,7 +286,7 @@
         
     } else {
         
-        NSLog(@"两次手势不匹配！");
+        //NSLog(@"两次手势不匹配！");
         [self.msgLabel showWarnMsgAndShake:gestureTextDrawAgainError];
         [self.resetBtn setHidden:NO];
     }
@@ -311,7 +311,7 @@
             
             if (self.verifyNum >= gestureTextGestureVerifyMaxErrorNum) {
                 //迫使退出登录
-                [self.msgLabel showWarnMsgAndShake:@"错误次数过多"];
+                //[self.msgLabel showWarnMsgAndShake:@"错误次数过多"];
                 [self dissGestureViewController:YES];
                 if (self.success) {
                     self.success(NO);
@@ -322,18 +322,18 @@
                 [self.msgLabel showWarnMsgAndShake:gestureTextGestureVerifyRestNum(self.verifyNum)];
             }
             //
-            NSLog(@"密码错误！");
+            //NSLog(@"密码错误！");
             
         }
     } else if (type == CircleViewTypeVerify) {
         
         if (equal) {
             
-            NSLog(@"验证成功，跳转到设置手势界面");
+            //NSLog(@"验证成功，跳转到设置手势界面");
             
         } else {
             
-            NSLog(@"原手势密码输入错误！");
+            //NSLog(@"原手势密码输入错误！");
             
         }
     }

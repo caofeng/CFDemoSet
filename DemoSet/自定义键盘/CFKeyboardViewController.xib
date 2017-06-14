@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CFKeyboardViewController">
+            <connections>
+                <outlet property="textFieldAlpha" destination="tBY-ER-Tkp" id="OGC-ke-uZL"/>
+                <outlet property="textFieldIDCard" destination="JHu-UA-oeU" id="ys9-Rt-FhY"/>
+                <outlet property="textFieldMoney" destination="Xhn-yG-U7m" id="y7n-gA-Wy6"/>
+                <outlet property="textFieldNormal" destination="AHQ-O6-JCJ" id="5Lr-8a-Jcs"/>
+                <outlet property="textFieldNum" destination="BgE-95-K74" id="2xB-pc-l4U"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="输入数字" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BgE-95-K74">
+                    <rect key="frame" x="48" y="129" width="279" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="身份证号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JHu-UA-oeU">
+                    <rect key="frame" x="48" y="195" width="279" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="输入金额" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xhn-yG-U7m">
+                    <rect key="frame" x="48" y="262" width="279" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="普通输入" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AHQ-O6-JCJ">
+                    <rect key="frame" x="48" y="386" width="279" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="输入英文" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tBY-ER-Tkp">
+                    <rect key="frame" x="48" y="326" width="279" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="JHu-UA-oeU" firstAttribute="trailing" secondItem="BgE-95-K74" secondAttribute="trailing" id="0st-Fr-9cx"/>
+                <constraint firstItem="JHu-UA-oeU" firstAttribute="trailing" secondItem="tBY-ER-Tkp" secondAttribute="trailing" id="2Ti-sv-heY"/>
+                <constraint firstItem="JHu-UA-oeU" firstAttribute="leading" secondItem="AHQ-O6-JCJ" secondAttribute="leading" id="2k9-TU-wxW"/>
+                <constraint firstItem="JHu-UA-oeU" firstAttribute="trailing" secondItem="AHQ-O6-JCJ" secondAttribute="trailing" id="Bh9-Fd-mK2"/>
+                <constraint firstAttribute="trailing" secondItem="BgE-95-K74" secondAttribute="trailing" constant="48" id="ENq-79-VYk"/>
+                <constraint firstItem="JHu-UA-oeU" firstAttribute="top" secondItem="BgE-95-K74" secondAttribute="bottom" constant="36" id="EYF-Ih-Kat"/>
+                <constraint firstItem="tBY-ER-Tkp" firstAttribute="top" secondItem="Xhn-yG-U7m" secondAttribute="bottom" constant="34" id="FWC-Wq-fTE"/>
+                <constraint firstItem="JHu-UA-oeU" firstAttribute="leading" secondItem="BgE-95-K74" secondAttribute="leading" id="Hcc-Yg-hgo"/>
+                <constraint firstItem="JHu-UA-oeU" firstAttribute="leading" secondItem="Xhn-yG-U7m" secondAttribute="leading" id="MN5-Fg-YS0"/>
+                <constraint firstItem="BgE-95-K74" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="129" id="PgO-ZU-Y6p"/>
+                <constraint firstItem="JHu-UA-oeU" firstAttribute="leading" secondItem="tBY-ER-Tkp" secondAttribute="leading" id="bMP-Ix-USI"/>
+                <constraint firstItem="Xhn-yG-U7m" firstAttribute="top" secondItem="JHu-UA-oeU" secondAttribute="bottom" constant="37" id="cZm-id-4qL"/>
+                <constraint firstAttribute="bottom" secondItem="AHQ-O6-JCJ" secondAttribute="bottom" constant="251" id="foQ-0n-3DI"/>
+                <constraint firstItem="BgE-95-K74" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="48" id="o5d-dD-DnN"/>
+                <constraint firstItem="JHu-UA-oeU" firstAttribute="trailing" secondItem="Xhn-yG-U7m" secondAttribute="trailing" id="p3Y-fR-RWB"/>
+                <constraint firstItem="AHQ-O6-JCJ" firstAttribute="top" secondItem="tBY-ER-Tkp" secondAttribute="bottom" constant="30" id="zcZ-5U-yxn"/>
+            </constraints>
+            <point key="canvasLocation" x="-77.5" y="63.5"/>
+        </view>
+    </objects>
+</document>

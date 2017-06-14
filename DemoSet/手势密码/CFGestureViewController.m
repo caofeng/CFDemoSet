@@ -43,15 +43,23 @@
 
     } else if (sender.tag == 20) {
         
-        GestureVerifyViewController *vc = [[GestureVerifyViewController alloc]init];
+        GestureVerifyViewController *vc = [[GestureVerifyViewController alloc]initWithGestureVerifyType:GestureVerifyTypeCheck GestureSuccess:^(BOOL success) {
+            if (success) {
+                
+                NSLog(@"验证成功了");
+                
+            } else {
+                
+                NSLog(@"验证失败了");
+                
+            }
+        }];
+        
         [self.navigationController pushViewController:vc animated:YES];
         
     } else if (sender.tag == 30) {
-        
         //修改密码失败要退出登录
-        
-        GestureVerifyViewController *vc = [[GestureVerifyViewController alloc]initWithGestureVerifySuccess:^(BOOL success) {
-            
+        GestureVerifyViewController *vc = [[GestureVerifyViewController alloc]initWithGestureVerifyType:GestureVerifyTypeReset GestureSuccess:^(BOOL success) {
             if (success) {
                 NSLog(@"修改手势密码成功");
             } else {
@@ -81,9 +89,7 @@
         }];
         
         [self presentViewController:vc animated:YES completion:nil];
-
     }
-    
 }
 
 @end

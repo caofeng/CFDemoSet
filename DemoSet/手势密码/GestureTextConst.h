@@ -18,4 +18,7 @@
 #define kSetGestureAccountloginButtonTitle @"使用账号密码登录"
 
 
+#define kSetGesturePasswordVerifyNavbarTitle @"验证手势解锁"
+
+
 #endif /* GestureTextConst_h */
