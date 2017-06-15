@@ -71,6 +71,9 @@
 		1843AB4C1EBC09D3009BAB5F /* tableview_header_refresh_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1843AB481EBC09D3009BAB5F /* tableview_header_refresh_right@2x.png */; };
 		1843AB4D1EBC09D3009BAB5F /* tableview_header_refresh_right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1843AB491EBC09D3009BAB5F /* tableview_header_refresh_right@3x.png */; };
 		1843AB501EBC1735009BAB5F /* UIImage+CFExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843AB4F1EBC1735009BAB5F /* UIImage+CFExtensions.m */; };
+		18482CC71EF2165E00C94EA8 /* CFKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 18482CC61EF2165E00C94EA8 /* CFKeyboard.m */; };
+		18482CCC1EF2167B00C94EA8 /* 58.png in Resources */ = {isa = PBXBuildFile; fileRef = 18482CCA1EF2167B00C94EA8 /* 58.png */; };
+		18482CCD1EF2167B00C94EA8 /* security_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18482CCB1EF2167B00C94EA8 /* security_logo.jpg */; };
 		184C601E1EA8B32400141647 /* CFButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C601C1EA8B32400141647 /* CFButtonViewController.m */; };
 		184C601F1EA8B32400141647 /* CFButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184C601D1EA8B32400141647 /* CFButtonViewController.xib */; };
 		184C60221EA8B3F100141647 /* CFButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C60211EA8B3F100141647 /* CFButton.m */; };
@@ -321,6 +324,10 @@
 		1843AB491EBC09D3009BAB5F /* tableview_header_refresh_right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tableview_header_refresh_right@3x.png"; sourceTree = "<group>"; };
 		1843AB4E1EBC1735009BAB5F /* UIImage+CFExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CFExtensions.h"; sourceTree = "<group>"; };
 		1843AB4F1EBC1735009BAB5F /* UIImage+CFExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CFExtensions.m"; sourceTree = "<group>"; };
+		18482CC51EF2165E00C94EA8 /* CFKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFKeyboard.h; sourceTree = "<group>"; };
+		18482CC61EF2165E00C94EA8 /* CFKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFKeyboard.m; sourceTree = "<group>"; };
+		18482CCA1EF2167B00C94EA8 /* 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58.png; sourceTree = "<group>"; };
+		18482CCB1EF2167B00C94EA8 /* security_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = security_logo.jpg; sourceTree = "<group>"; };
 		184C601B1EA8B32400141647 /* CFButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFButtonViewController.h; sourceTree = "<group>"; };
 		184C601C1EA8B32400141647 /* CFButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFButtonViewController.m; sourceTree = "<group>"; };
 		184C601D1EA8B32400141647 /* CFButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFButtonViewController.xib; sourceTree = "<group>"; };
@@ -905,6 +912,34 @@
 			path = "刷新icon";
 			sourceTree = "<group>";
 		};
+		18482CC41EF2165E00C94EA8 /* CFKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				18482CC81EF2167A00C94EA8 /* Resources */,
+				18482CC51EF2165E00C94EA8 /* CFKeyboard.h */,
+				18482CC61EF2165E00C94EA8 /* CFKeyboard.m */,
+			);
+			name = CFKeyBoard;
+			path = KeyBoard;
+			sourceTree = "<group>";
+		};
+		18482CC81EF2167A00C94EA8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18482CC91EF2167B00C94EA8 /* images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		18482CC91EF2167B00C94EA8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				18482CCA1EF2167B00C94EA8 /* 58.png */,
+				18482CCB1EF2167B00C94EA8 /* security_logo.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		184C601A1EA8B30200141647 /* CFButton */ = {
 			isa = PBXGroup;
 			children = (
@@ -922,6 +957,7 @@
 		185E1B0D1EF11235005ED6A5 /* 自定义键盘 */ = {
 			isa = PBXGroup;
 			children = (
+				18482CC41EF2165E00C94EA8 /* CFKeyBoard */,
 				185E1B0E1EF11235005ED6A5 /* ZYXCustomKeyboard */,
 				185E1B441EF1125E005ED6A5 /* CFKeyboardViewController.h */,
 				185E1B451EF1125E005ED6A5 /* CFKeyboardViewController.m */,
@@ -1480,6 +1516,7 @@
 				181642801E78CEBA009E3B36 /* CoordConvertViewController.xib in Resources */,
 				182E879A1E4817FD000CCAD2 /* SDViewController.xib in Resources */,
 				1880A78B1DDE8B40002C41CB /* 5.jpg in Resources */,
+				18482CCC1EF2167B00C94EA8 /* 58.png in Resources */,
 				18A20A9B1EE1630C0011F6E6 /* VagueViewController.xib in Resources */,
 				185E1B341EF11235005ED6A5 /* keyboard_icon@2x.png in Resources */,
 				184C601F1EA8B32400141647 /* CFButtonViewController.xib in Resources */,
@@ -1488,6 +1525,7 @@
 				1843AB4B1EBC09D3009BAB5F /* tableview_header_refresh_left@3x.png in Resources */,
 				18B2C3061EEE747600006CE0 /* KVOViewController.xib in Resources */,
 				1827EE7E1DDDBE2900C3E09F /* PictureViewController.xib in Resources */,
+				18482CCD1EF2167B00C94EA8 /* security_logo.jpg in Resources */,
 				185E1B311EF11235005ED6A5 /* keyboard_button_s@2x.png in Resources */,
 				1843AB441EBC0832009BAB5F /* CompoundViewController.xib in Resources */,
 				185E1B2E1EF11235005ED6A5 /* keyboard_alt@2x.png in Resources */,
@@ -1685,6 +1723,7 @@
 				18CA44A61E5A7D73007E8630 /* UIPageControl+NERChainable.m in Sources */,
 				1880A7981DDEDE26002C41CB /* UIViewController+Swizzling.m in Sources */,
 				18CA44AD1E5A7D73007E8630 /* UIView+NERChainable.m in Sources */,
+				18482CC71EF2165E00C94EA8 /* CFKeyboard.m in Sources */,
 				1827EE721DDDBC5C00C3E09F /* UIImage+Utility.m in Sources */,
 				181B49981E77FA02008D8DA2 /* UIView+Frame.m in Sources */,
 				18CA44A51E5A7D73007E8630 /* UILabel+NERChainable.m in Sources */,

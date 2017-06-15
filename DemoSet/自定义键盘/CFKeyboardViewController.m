@@ -9,6 +9,8 @@
 #import "CFKeyboardViewController.h"
 #import "UITextField+ZYXKeyboard.h"
 
+#import "CFKeyboard.h"
+
 @interface CFKeyboardViewController ()<UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *textFieldNum;
@@ -28,7 +30,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.textFieldNum.delegate = self;
+
     
+    /*----中业兴融键盘
+     
     [self.textFieldNum setSafeKeyBoardType:ZYXKeyboardTypeNumberOnlyPad safeKeyBoardReturnType:ZYXKeyboardReturnTypeFinish];
     self.textFieldNum.delegate = self;
 
@@ -43,17 +49,22 @@
 
     [self.textFieldNormal setSafeKeyBoardType:ZYXKeyboardTypeDefault safeKeyBoardReturnType:ZYXKeyboardReturnTypeFinish];
     self.textFieldNormal.delegate = self;
+    */
     
     
+    //---CF键盘
     
+    CFKeyboard *kb = [CFKeyboard keyboardWithType:CFKBTypeIDNumberPad];
+    kb.inputSource = self.textFieldNum;
+    self.textFieldNum.inputView = kb;
 
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
     
-    if (textField == self.textFieldIDCard) {
+    if (textField == self.textFieldNum) {
         
-        [self.textFieldIDCard resignFirstResponder];
+        NSLog(@"=====");
     }
     
     return YES;
