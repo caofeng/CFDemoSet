@@ -13,5 +13,6 @@ pod 'GPUImage'
 pod 'CocoaAsyncSocket'
 pod 'AFNetworking', '~> 3.0'
 pod 'PINRemoteImage', '~> 3.0.0-beta.9'
+pod 'iCarousel', '~> 1.8.3'
 end
 

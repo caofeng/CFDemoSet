@@ -33,6 +33,7 @@ PODS:
   - FDFullscreenPopGesture (1.1)
   - FLAnimatedImage (1.0.12)
   - GPUImage (0.1.7)
+  - iCarousel (1.8.3)
   - JSPatch (1.1.2):
     - JSPatch/Core (= 1.1.2)
   - JSPatch/Core (1.1.2)
@@ -75,6 +76,7 @@ DEPENDENCIES:
   - CocoaAsyncSocket
   - FDFullscreenPopGesture
   - GPUImage
+  - iCarousel (~> 1.8.3)
   - JSPatch
   - Masonry
   - MJRefresh
@@ -91,6 +93,7 @@ SPEC CHECKSUMS:
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
   JSPatch: 741205ebb2e2238c223a436e4c8cf75cf40a345f
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
@@ -101,6 +104,6 @@ SPEC CHECKSUMS:
   SAMKeychain: 1865333198217411f35327e8da61b43de79b635b
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
 
-PODFILE CHECKSUM: 998e3e37bda93517ca1d43372ed2d5379ca3a2e6
+PODFILE CHECKSUM: 28f680ff4f63b5e587c872fc281f54e1e64d3c12
 
 COCOAPODS: 1.1.1
