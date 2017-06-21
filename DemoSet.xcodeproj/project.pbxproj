@@ -196,6 +196,9 @@
 		18D817441EA9DD85001B55F8 /* UILabel+EnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D817421EA9DD85001B55F8 /* UILabel+EnlargeEdge.m */; };
 		18D817481EA9DE42001B55F8 /* ZYXLocationEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D817471EA9DE42001B55F8 /* ZYXLocationEngine.m */; };
 		18DFEF0C1E84A81A005AB381 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFEF0B1E84A81A005AB381 /* People.m */; };
+		18EA9A291EF9FD4800AD4FEA /* CFLunboViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EA9A271EF9FD4800AD4FEA /* CFLunboViewController.m */; };
+		18EA9A2A1EF9FD4800AD4FEA /* CFLunboViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EA9A281EF9FD4800AD4FEA /* CFLunboViewController.xib */; };
+		18EA9A2D1EF9FDCE00AD4FEA /* CFCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EA9A2C1EF9FDCE00AD4FEA /* CFCycleView.m */; };
 		F2ECEEB7E3F592AE478A1F17 /* libPods-DemoSet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA055C86A57A7229E81BF6A1 /* libPods-DemoSet.a */; };
 /* End PBXBuildFile section */
 
@@ -538,6 +541,11 @@
 		18D817471EA9DE42001B55F8 /* ZYXLocationEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYXLocationEngine.m; sourceTree = "<group>"; };
 		18DFEF0A1E84A81A005AB381 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
 		18DFEF0B1E84A81A005AB381 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		18EA9A261EF9FD4800AD4FEA /* CFLunboViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFLunboViewController.h; sourceTree = "<group>"; };
+		18EA9A271EF9FD4800AD4FEA /* CFLunboViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFLunboViewController.m; sourceTree = "<group>"; };
+		18EA9A281EF9FD4800AD4FEA /* CFLunboViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFLunboViewController.xib; sourceTree = "<group>"; };
+		18EA9A2B1EF9FDCE00AD4FEA /* CFCycleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFCycleView.h; sourceTree = "<group>"; };
+		18EA9A2C1EF9FDCE00AD4FEA /* CFCycleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFCycleView.m; sourceTree = "<group>"; };
 		55FEBEC6C393D31F96DFAC3E /* Pods-DemoSet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoSet.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoSet/Pods-DemoSet.release.xcconfig"; sourceTree = "<group>"; };
 		BA055C86A57A7229E81BF6A1 /* libPods-DemoSet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoSet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F46A71987F306289ED5D49 /* Pods-DemoSet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoSet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoSet/Pods-DemoSet.debug.xcconfig"; sourceTree = "<group>"; };
@@ -662,6 +670,7 @@
 				18B2C3011EEE746200006CE0 /* KVO */,
 				188660661EEF6DC600F6D5ED /* 手势密码 */,
 				185E1B0D1EF11235005ED6A5 /* 自定义键盘 */,
+				18EA9A251EF9FD0100AD4FEA /* 轮播 */,
 				1827EDC61DDD803A00C3E09F /* Main.storyboard */,
 				1827EDC91DDD803A00C3E09F /* Assets.xcassets */,
 				1827EDCB1DDD803A00C3E09F /* LaunchScreen.storyboard */,
@@ -1348,6 +1357,18 @@
 			path = Location;
 			sourceTree = "<group>";
 		};
+		18EA9A251EF9FD0100AD4FEA /* 轮播 */ = {
+			isa = PBXGroup;
+			children = (
+				18EA9A261EF9FD4800AD4FEA /* CFLunboViewController.h */,
+				18EA9A271EF9FD4800AD4FEA /* CFLunboViewController.m */,
+				18EA9A281EF9FD4800AD4FEA /* CFLunboViewController.xib */,
+				18EA9A2B1EF9FDCE00AD4FEA /* CFCycleView.h */,
+				18EA9A2C1EF9FDCE00AD4FEA /* CFCycleView.m */,
+			);
+			name = "轮播";
+			sourceTree = "<group>";
+		};
 		D5F864052918E964FB7C7AE7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1498,6 +1519,7 @@
 				1880A7891DDE8B40002C41CB /* 3.jpg in Resources */,
 				1843AB4D1EBC09D3009BAB5F /* tableview_header_refresh_right@3x.png in Resources */,
 				181B498D1E77E218008D8DA2 /* CFWebViewController.xib in Resources */,
+				18EA9A2A1EF9FD4800AD4FEA /* CFLunboViewController.xib in Resources */,
 				1816676F1DE6D8D800AECB6E /* JSInterOCViewController.xib in Resources */,
 				1880A7A01DDEE891002C41CB /* CustomViewController.xib in Resources */,
 				1827EDCD1DDD803A00C3E09F /* LaunchScreen.storyboard in Resources */,
@@ -1623,6 +1645,7 @@
 				1827EE791DDDBC5C00C3E09F /* XHZoomingImageView.m in Sources */,
 				185E1B471EF1125E005ED6A5 /* CFKeyboardViewController.m in Sources */,
 				1824CEFC1DE5984D0018D296 /* PaintView.m in Sources */,
+				18EA9A2D1EF9FDCE00AD4FEA /* CFCycleView.m in Sources */,
 				188660BD1EEFABC400F6D5ED /* PCCircleInfoView.m in Sources */,
 				184C601E1EA8B32400141647 /* CFButtonViewController.m in Sources */,
 				1827EE111DDDA6F200C3E09F /* TableCell.m in Sources */,
@@ -1661,6 +1684,7 @@
 				18A20A9A1EE1630C0011F6E6 /* VagueViewController.m in Sources */,
 				1827EE751DDDBC5C00C3E09F /* XHFileAttribute.m in Sources */,
 				188660C81EEFAC2000F6D5ED /* CFGestureViewController.m in Sources */,
+				18EA9A291EF9FD4800AD4FEA /* CFLunboViewController.m in Sources */,
 				1827EE761DDDBC5C00C3E09F /* XHBottomToolBar.m in Sources */,
 				185E1B431EF11235005ED6A5 /* ZYXSymbolsKeyboardView.m in Sources */,
 				18CA44B91E5A7D73007E8630 /* UIView+NERFrame.m in Sources */,
