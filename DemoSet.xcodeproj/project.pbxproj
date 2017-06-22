@@ -195,6 +195,8 @@
 		18D817431EA9DD85001B55F8 /* UIControl+EnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D817401EA9DD85001B55F8 /* UIControl+EnlargeEdge.m */; };
 		18D817441EA9DD85001B55F8 /* UILabel+EnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D817421EA9DD85001B55F8 /* UILabel+EnlargeEdge.m */; };
 		18D817481EA9DE42001B55F8 /* ZYXLocationEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D817471EA9DE42001B55F8 /* ZYXLocationEngine.m */; };
+		18D95AB71EFB7ED70059D7DB /* WSIndexBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D95AB41EFB7ED70059D7DB /* WSIndexBanner.m */; };
+		18D95AB81EFB7ED70059D7DB /* WSPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D95AB61EFB7ED70059D7DB /* WSPageView.m */; };
 		18DFEF0C1E84A81A005AB381 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFEF0B1E84A81A005AB381 /* People.m */; };
 		18EA9A291EF9FD4800AD4FEA /* CFLunboViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EA9A271EF9FD4800AD4FEA /* CFLunboViewController.m */; };
 		18EA9A2A1EF9FD4800AD4FEA /* CFLunboViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EA9A281EF9FD4800AD4FEA /* CFLunboViewController.xib */; };
@@ -539,6 +541,10 @@
 		18D817421EA9DD85001B55F8 /* UILabel+EnlargeEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+EnlargeEdge.m"; sourceTree = "<group>"; };
 		18D817461EA9DE42001B55F8 /* ZYXLocationEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYXLocationEngine.h; sourceTree = "<group>"; };
 		18D817471EA9DE42001B55F8 /* ZYXLocationEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYXLocationEngine.m; sourceTree = "<group>"; };
+		18D95AB31EFB7ED70059D7DB /* WSIndexBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSIndexBanner.h; sourceTree = "<group>"; };
+		18D95AB41EFB7ED70059D7DB /* WSIndexBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSIndexBanner.m; sourceTree = "<group>"; };
+		18D95AB51EFB7ED70059D7DB /* WSPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPageView.h; sourceTree = "<group>"; };
+		18D95AB61EFB7ED70059D7DB /* WSPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPageView.m; sourceTree = "<group>"; };
 		18DFEF0A1E84A81A005AB381 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
 		18DFEF0B1E84A81A005AB381 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
 		18EA9A261EF9FD4800AD4FEA /* CFLunboViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFLunboViewController.h; sourceTree = "<group>"; };
@@ -1357,9 +1363,21 @@
 			path = Location;
 			sourceTree = "<group>";
 		};
+		18D95AB21EFB7ED70059D7DB /* WSCycle */ = {
+			isa = PBXGroup;
+			children = (
+				18D95AB31EFB7ED70059D7DB /* WSIndexBanner.h */,
+				18D95AB41EFB7ED70059D7DB /* WSIndexBanner.m */,
+				18D95AB51EFB7ED70059D7DB /* WSPageView.h */,
+				18D95AB61EFB7ED70059D7DB /* WSPageView.m */,
+			);
+			path = WSCycle;
+			sourceTree = "<group>";
+		};
 		18EA9A251EF9FD0100AD4FEA /* 轮播 */ = {
 			isa = PBXGroup;
 			children = (
+				18D95AB21EFB7ED70059D7DB /* WSCycle */,
 				18EA9A261EF9FD4800AD4FEA /* CFLunboViewController.h */,
 				18EA9A271EF9FD4800AD4FEA /* CFLunboViewController.m */,
 				18EA9A281EF9FD4800AD4FEA /* CFLunboViewController.xib */,
@@ -1663,6 +1681,7 @@
 				181B499A1E77FA02008D8DA2 /* WYWebProgressLayer.m in Sources */,
 				1827EDFE1DDD842B00C3E09F /* CustomWindowRootViewController.m in Sources */,
 				18CA44991E5A7D73007E8630 /* NERConstraint+NERChainable.m in Sources */,
+				18D95AB71EFB7ED70059D7DB /* WSIndexBanner.m in Sources */,
 				18D8173D1EA9DD7F001B55F8 /* NSString+JSONCategories.m in Sources */,
 				1880A78F1DDE9AB9002C41CB /* ThreadViewController.m in Sources */,
 				188F20761E83644900389068 /* FetchAllImageViewController.m in Sources */,
@@ -1751,6 +1770,7 @@
 				1827EE721DDDBC5C00C3E09F /* UIImage+Utility.m in Sources */,
 				181B49981E77FA02008D8DA2 /* UIView+Frame.m in Sources */,
 				18CA44A51E5A7D73007E8630 /* UILabel+NERChainable.m in Sources */,
+				18D95AB81EFB7ED70059D7DB /* WSPageView.m in Sources */,
 				18B2C3051EEE747600006CE0 /* KVOViewController.m in Sources */,
 				18329D271DE2F469005D4520 /* SpecializedLayerVC.m in Sources */,
 				188660BC1EEFABC400F6D5ED /* CALayer+Anim.m in Sources */,
