@@ -30,6 +30,12 @@ PODS:
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
   - CocoaAsyncSocket (7.6.0)
+  - CocoaLumberjack (3.2.0):
+    - CocoaLumberjack/Default (= 3.2.0)
+    - CocoaLumberjack/Extensions (= 3.2.0)
+  - CocoaLumberjack/Default (3.2.0)
+  - CocoaLumberjack/Extensions (3.2.0):
+    - CocoaLumberjack/Default
   - FDFullscreenPopGesture (1.1)
   - FLAnimatedImage (1.0.12)
   - GPUImage (0.1.7)
@@ -37,6 +43,7 @@ PODS:
   - JSPatch (1.1.2):
     - JSPatch/Core (= 1.1.2)
   - JSPatch/Core (1.1.2)
+  - KissXML (5.2.0)
   - Masonry (1.0.1)
   - MJRefresh (3.1.12)
   - PINCache (3.0.1-beta.4):
@@ -69,6 +76,10 @@ PODS:
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
+  - XMPPFramework (3.7.0):
+    - CocoaAsyncSocket (~> 7.6.0)
+    - CocoaLumberjack
+    - KissXML (~> 5.2.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
@@ -85,16 +96,19 @@ DEPENDENCIES:
   - ReactiveCocoa
   - SAMKeychain
   - SDWebImage
+  - XMPPFramework (~> 3.7.0)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
   CocoaAsyncSocket: b9d5589f07baf9de8f34cc25abd4fcba28f13805
+  CocoaLumberjack: 9b4aed7073d242f29cc2f62068d995faf67f703a
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
   iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
   JSPatch: 741205ebb2e2238c223a436e4c8cf75cf40a345f
+  KissXML: 1c1eeeb6b94e4522cd2f2373e5d0d03c9227738f
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   PINCache: a89c8f609232afac77128557bd12c861844423d7
@@ -103,7 +117,8 @@ SPEC CHECKSUMS:
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   SAMKeychain: 1865333198217411f35327e8da61b43de79b635b
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  XMPPFramework: 6f99ad1afcdb0cdbec7192a8e4c542c3fc3de6f8
 
-PODFILE CHECKSUM: 28f680ff4f63b5e587c872fc281f54e1e64d3c12
+PODFILE CHECKSUM: a2bfcdac4c2e12386ccf14e014d9c28ebfe5fc60
 
 COCOAPODS: 1.1.1

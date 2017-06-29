@@ -150,6 +150,10 @@
 		18A20A9B1EE1630C0011F6E6 /* VagueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A20A991EE1630C0011F6E6 /* VagueViewController.xib */; };
 		18B2C3051EEE747600006CE0 /* KVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B2C3031EEE747600006CE0 /* KVOViewController.m */; };
 		18B2C3061EEE747600006CE0 /* KVOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B2C3041EEE747600006CE0 /* KVOViewController.xib */; };
+		18C660211EFCF47600A2F0C2 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C6601F1EFCF47600A2F0C2 /* GCDViewController.m */; };
+		18C660221EFCF47600A2F0C2 /* GCDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C660201EFCF47600A2F0C2 /* GCDViewController.xib */; };
+		18C660271EFCFD8900A2F0C2 /* LPXRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C660251EFCFD8900A2F0C2 /* LPXRViewController.m */; };
+		18C660281EFCFD8900A2F0C2 /* LPXRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C660261EFCFD8900A2F0C2 /* LPXRViewController.xib */; };
 		18CA14931E7682AC00A879BC /* InputCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA14911E7682AC00A879BC /* InputCheckViewController.m */; };
 		18CA14941E7682AC00A879BC /* InputCheckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CA14921E7682AC00A879BC /* InputCheckViewController.xib */; };
 		18CA44981E5A7D73007E8630 /* NERAlert+NERChainable.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA44501E5A7D73007E8630 /* NERAlert+NERChainable.m */; };
@@ -201,7 +205,7 @@
 		18EA9A291EF9FD4800AD4FEA /* CFLunboViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EA9A271EF9FD4800AD4FEA /* CFLunboViewController.m */; };
 		18EA9A2A1EF9FD4800AD4FEA /* CFLunboViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EA9A281EF9FD4800AD4FEA /* CFLunboViewController.xib */; };
 		18EA9A2D1EF9FDCE00AD4FEA /* CFCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EA9A2C1EF9FDCE00AD4FEA /* CFCycleView.m */; };
-		F2ECEEB7E3F592AE478A1F17 /* libPods-DemoSet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA055C86A57A7229E81BF6A1 /* libPods-DemoSet.a */; };
+		C7E71A3B0F53F51576D0CE4D /* Pods_DemoSet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87F8D16E7DF7060781C383F /* Pods_DemoSet.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -449,6 +453,12 @@
 		18B2C3021EEE747600006CE0 /* KVOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOViewController.h; sourceTree = "<group>"; };
 		18B2C3031EEE747600006CE0 /* KVOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOViewController.m; sourceTree = "<group>"; };
 		18B2C3041EEE747600006CE0 /* KVOViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVOViewController.xib; sourceTree = "<group>"; };
+		18C6601E1EFCF47600A2F0C2 /* GCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
+		18C6601F1EFCF47600A2F0C2 /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
+		18C660201EFCF47600A2F0C2 /* GCDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GCDViewController.xib; sourceTree = "<group>"; };
+		18C660241EFCFD8900A2F0C2 /* LPXRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPXRViewController.h; sourceTree = "<group>"; };
+		18C660251EFCFD8900A2F0C2 /* LPXRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPXRViewController.m; sourceTree = "<group>"; };
+		18C660261EFCFD8900A2F0C2 /* LPXRViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPXRViewController.xib; sourceTree = "<group>"; };
 		18CA14901E7682AC00A879BC /* InputCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCheckViewController.h; sourceTree = "<group>"; };
 		18CA14911E7682AC00A879BC /* InputCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCheckViewController.m; sourceTree = "<group>"; };
 		18CA14921E7682AC00A879BC /* InputCheckViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputCheckViewController.xib; sourceTree = "<group>"; };
@@ -553,8 +563,8 @@
 		18EA9A2B1EF9FDCE00AD4FEA /* CFCycleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFCycleView.h; sourceTree = "<group>"; };
 		18EA9A2C1EF9FDCE00AD4FEA /* CFCycleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFCycleView.m; sourceTree = "<group>"; };
 		55FEBEC6C393D31F96DFAC3E /* Pods-DemoSet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoSet.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoSet/Pods-DemoSet.release.xcconfig"; sourceTree = "<group>"; };
-		BA055C86A57A7229E81BF6A1 /* libPods-DemoSet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoSet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F46A71987F306289ED5D49 /* Pods-DemoSet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoSet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoSet/Pods-DemoSet.debug.xcconfig"; sourceTree = "<group>"; };
+		F87F8D16E7DF7060781C383F /* Pods_DemoSet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoSet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -563,7 +573,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1880A7B11DDEFEB6002C41CB /* QuartzCore.framework in Frameworks */,
-				F2ECEEB7E3F592AE478A1F17 /* libPods-DemoSet.a in Frameworks */,
+				C7E71A3B0F53F51576D0CE4D /* Pods_DemoSet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,6 +687,8 @@
 				188660661EEF6DC600F6D5ED /* 手势密码 */,
 				185E1B0D1EF11235005ED6A5 /* 自定义键盘 */,
 				18EA9A251EF9FD0100AD4FEA /* 轮播 */,
+				18C6601D1EFCF44900A2F0C2 /* GCD深入理解 */,
+				18C660231EFCFD5200A2F0C2 /* 离屏渲染 */,
 				1827EDC61DDD803A00C3E09F /* Main.storyboard */,
 				1827EDC91DDD803A00C3E09F /* Assets.xcassets */,
 				1827EDCB1DDD803A00C3E09F /* LaunchScreen.storyboard */,
@@ -1157,6 +1169,26 @@
 			path = "重置边缘返回方法";
 			sourceTree = "<group>";
 		};
+		18C6601D1EFCF44900A2F0C2 /* GCD深入理解 */ = {
+			isa = PBXGroup;
+			children = (
+				18C6601E1EFCF47600A2F0C2 /* GCDViewController.h */,
+				18C6601F1EFCF47600A2F0C2 /* GCDViewController.m */,
+				18C660201EFCF47600A2F0C2 /* GCDViewController.xib */,
+			);
+			name = "GCD深入理解";
+			sourceTree = "<group>";
+		};
+		18C660231EFCFD5200A2F0C2 /* 离屏渲染 */ = {
+			isa = PBXGroup;
+			children = (
+				18C660241EFCFD8900A2F0C2 /* LPXRViewController.h */,
+				18C660251EFCFD8900A2F0C2 /* LPXRViewController.m */,
+				18C660261EFCFD8900A2F0C2 /* LPXRViewController.xib */,
+			);
+			name = "离屏渲染";
+			sourceTree = "<group>";
+		};
 		18CA148F1E76828B00A879BC /* InputCheck */ = {
 			isa = PBXGroup;
 			children = (
@@ -1391,7 +1423,7 @@
 			isa = PBXGroup;
 			children = (
 				1880A7B01DDEFEB6002C41CB /* QuartzCore.framework */,
-				BA055C86A57A7229E81BF6A1 /* libPods-DemoSet.a */,
+				F87F8D16E7DF7060781C383F /* Pods_DemoSet.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1522,6 +1554,7 @@
 				188F20771E83644900389068 /* FetchAllImageViewController.xib in Resources */,
 				188F207D1E83902300389068 /* CFProgressInfoViewController.xib in Resources */,
 				18329D281DE2F469005D4520 /* SpecializedLayerVC.xib in Resources */,
+				18C660221EFCF47600A2F0C2 /* GCDViewController.xib in Resources */,
 				185E1B361EF11235005ED6A5 /* keyboard_middle@2x.png in Resources */,
 				185651611E6550BB00BA6129 /* NewsViewController.xib in Resources */,
 				18329D1E1DE299A6005D4520 /* Frame_CoreAnimationViewController.xib in Resources */,
@@ -1564,6 +1597,7 @@
 				1880A7AA1DDEEC14002C41CB /* DrawViewController.xib in Resources */,
 				1843AB4B1EBC09D3009BAB5F /* tableview_header_refresh_left@3x.png in Resources */,
 				18B2C3061EEE747600006CE0 /* KVOViewController.xib in Resources */,
+				18C660281EFCFD8900A2F0C2 /* LPXRViewController.xib in Resources */,
 				1827EE7E1DDDBE2900C3E09F /* PictureViewController.xib in Resources */,
 				18482CCD1EF2167B00C94EA8 /* security_logo.jpg in Resources */,
 				185E1B311EF11235005ED6A5 /* keyboard_button_s@2x.png in Resources */,
@@ -1655,6 +1689,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C660271EFCFD8900A2F0C2 /* LPXRViewController.m in Sources */,
 				1816427F1E78CEBA009E3B36 /* CoordConvertViewController.m in Sources */,
 				185E1B421EF11235005ED6A5 /* ZYXSizeScale.m in Sources */,
 				185E1B3E1EF11235005ED6A5 /* ZYXCharKeyboardView.m in Sources */,
@@ -1764,6 +1799,7 @@
 				188660BA1EEFABC400F6D5ED /* PCCircleView.m in Sources */,
 				180B69E61DE42A1700316A43 /* ObviousViewController.m in Sources */,
 				18CA44A61E5A7D73007E8630 /* UIPageControl+NERChainable.m in Sources */,
+				18C660211EFCF47600A2F0C2 /* GCDViewController.m in Sources */,
 				1880A7981DDEDE26002C41CB /* UIViewController+Swizzling.m in Sources */,
 				18CA44AD1E5A7D73007E8630 /* UIView+NERChainable.m in Sources */,
 				18482CC71EF2165E00C94EA8 /* CFKeyboard.m in Sources */,

@@ -30,6 +30,8 @@
 #import "CFGestureViewController.h"
 #import "CFKeyboardViewController.h"
 #import "CFLunboViewController.h"
+#import "GCDViewController.h"
+#import "LPXRViewController.h"
 
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
@@ -51,13 +53,13 @@
 
     UITableView *tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 64, Width, Height-64) style:UITableViewStylePlain];
     tableView.keyboardDismissMode = UIScrollViewKeyboardDismissModeOnDrag;
-    tableView.tableFooterView = [UIView new];
+    tableView.tableFooterView = [[UIView alloc] init];
     tableView.delegate = self;
     tableView.dataSource = self;
     [self.view addSubview:tableView];
-    self.array = @[@"RAC的简单使用",@"TableView的布局",@"微信照片浏览器",@"多线程",@"Swizzling使用",@"高级绘制",@"高级动画",@"JS和OC相互调用",@"iOS热修复",@"SDWebImage使用",@"NerdyUI库使用",@"输入检查",@"坐标转换",@"获取图片",@"进程时间NSProgressInfo",@"自定义进度Button",@"合成图片",@"毛玻璃效果",@"Socket编程",@"KVO编程",@"手势密码",@"自定义键盘",@"轮播"];
+    self.array = @[@"RAC的简单使用",@"TableView的布局",@"微信照片浏览器",@"多线程",@"Swizzling使用",@"高级绘制",@"高级动画",@"JS和OC相互调用",@"iOS热修复",@"SDWebImage使用",@"NerdyUI库使用",@"输入检查",@"坐标转换",@"获取图片",@"进程时间NSProgressInfo",@"自定义进度Button",@"合成图片",@"毛玻璃效果",@"Socket编程",@"KVO编程",@"手势密码",@"自定义键盘",@"轮播",@"深入理解GCD",@"离屏渲染浅析",@" "];
     
-
+    
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -207,6 +209,17 @@
         {
             vc = [[CFLunboViewController alloc]initWithNibName:@"CFLunboViewController" bundle:nil];
         }
+            break;
+            case 23:
+        {
+            vc = [[GCDViewController alloc]initWithNibName:@"GCDViewController" bundle:nil];
+        }
+            break;
+            case 24:
+        {
+            vc = [[LPXRViewController alloc]initWithNibName:@"LPXRViewController" bundle:nil];
+        }
+            
         default:
             break;
     }
