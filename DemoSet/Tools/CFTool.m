@@ -656,10 +656,13 @@
 
 + (NSString *)uuid {
     
-    NSString *uuid = [SAMKeychain passwordForService:kUUID account:kUUIDValue];
+    //NSString *uuid = [SAMKeychain passwordForService:kUUID account:kUUIDValue];
+    
+    NSString *uuid = nil;
+    
     if (uuid == nil || [uuid length] == 0) {
         uuid = [CFTool generateUUID];
-        [SAMKeychain setPassword:uuid forService:kUUID account:kUUIDValue];
+        //[SAMKeychain setPassword:uuid forService:kUUID account:kUUIDValue];
     }
     
     return uuid;

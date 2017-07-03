@@ -52,15 +52,19 @@
         
         NSLog(@"没有缓存");
         
-        [[SDWebImageManager sharedManager]downloadImageWithURL:[NSURL URLWithString:url] options:0 progress:^(NSInteger receivedSize, NSInteger expectedSize) {
+        [[SDWebImageManager sharedManager].imageDownloader downloadImageWithURL:[NSURL URLWithString:url] options:0 progress:^(NSInteger receivedSize, NSInteger expectedSize, NSURL * _Nullable targetURL) {
             
-        } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, BOOL finished, NSURL *imageURL) {
-            
+        } completed:^(UIImage * _Nullable image, NSData * _Nullable data, NSError * _Nullable error, BOOL finished) {
             NSLog(@"下载成功");
             
             if (image) {
-                [[SDImageCache sharedImageCache] storeImage:image forKey:url];
+                
+                [[SDImageCache sharedImageCache] storeImage:image forKey:url completion:^{
+                    
+                }];
+                
             }
+            
         }];
         
     } else {
@@ -69,11 +73,7 @@
         self.headerImageView = [[UIImageView alloc]initWithImage:cachedImage];
         self.headerImageView.frame = CGRectMake(0, 0, self.view.frame.size.width, 300);
         [self.tableView.tableHeaderView addSubview:self.headerImageView];
-        
     }
-    
-    
-    
     
 }
 

@@ -37,34 +37,13 @@ PODS:
   - CocoaLumberjack/Extensions (3.2.0):
     - CocoaLumberjack/Default
   - FDFullscreenPopGesture (1.1)
-  - FLAnimatedImage (1.0.12)
   - GPUImage (0.1.7)
-  - iCarousel (1.8.3)
-  - JSPatch (1.1.2):
-    - JSPatch/Core (= 1.1.2)
-  - JSPatch/Core (1.1.2)
+  - JSPatch (1.1.3):
+    - JSPatch/Core (= 1.1.3)
+  - JSPatch/Core (1.1.3)
   - KissXML (5.2.0)
-  - Masonry (1.0.1)
+  - Masonry (1.0.2)
   - MJRefresh (3.1.12)
-  - PINCache (3.0.1-beta.4):
-    - PINCache/Arc-exception-safe (= 3.0.1-beta.4)
-    - PINCache/Core (= 3.0.1-beta.4)
-  - PINCache/Arc-exception-safe (3.0.1-beta.4):
-    - PINCache/Core
-  - PINCache/Core (3.0.1-beta.4):
-    - PINOperation (= 1.0.3)
-  - PINOperation (1.0.3)
-  - PINRemoteImage (3.0.0-beta.9):
-    - PINRemoteImage/FLAnimatedImage (= 3.0.0-beta.9)
-    - PINRemoteImage/PINCache (= 3.0.0-beta.9)
-  - PINRemoteImage/Core (3.0.0-beta.9):
-    - PINOperation
-  - PINRemoteImage/FLAnimatedImage (3.0.0-beta.9):
-    - FLAnimatedImage (>= 1.0)
-    - PINRemoteImage/Core
-  - PINRemoteImage/PINCache (3.0.0-beta.9):
-    - PINCache (= 3.0.1-beta.4)
-    - PINRemoteImage/Core
   - ReactiveCocoa (2.5):
     - ReactiveCocoa/UI (= 2.5)
   - ReactiveCocoa/Core (2.5):
@@ -73,9 +52,9 @@ PODS:
   - ReactiveCocoa/UI (2.5):
     - ReactiveCocoa/Core
   - SAMKeychain (1.5.2)
-  - SDWebImage (3.8.2):
-    - SDWebImage/Core (= 3.8.2)
-  - SDWebImage/Core (3.8.2)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
   - XMPPFramework (3.7.0):
     - CocoaAsyncSocket (~> 7.6.0)
     - CocoaLumberjack
@@ -87,13 +66,10 @@ DEPENDENCIES:
   - CocoaAsyncSocket
   - FDFullscreenPopGesture
   - GPUImage
-  - iCarousel (~> 1.8.3)
   - JSPatch
   - Masonry
   - MJRefresh
-  - PINCache (~> 3.0.1-beta.4)
-  - PINRemoteImage (~> 3.0.0-beta.9)
-  - ReactiveCocoa
+  - ReactiveCocoa (~> 2.5)
   - SAMKeychain
   - SDWebImage
   - XMPPFramework (~> 3.7.0)
@@ -104,21 +80,16 @@ SPEC CHECKSUMS:
   CocoaAsyncSocket: b9d5589f07baf9de8f34cc25abd4fcba28f13805
   CocoaLumberjack: 9b4aed7073d242f29cc2f62068d995faf67f703a
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
-  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
-  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
-  JSPatch: 741205ebb2e2238c223a436e4c8cf75cf40a345f
+  JSPatch: 02cfed591cb907bbfe80a346666e5a35fc2d349d
   KissXML: 1c1eeeb6b94e4522cd2f2373e5d0d03c9227738f
-  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
-  PINCache: a89c8f609232afac77128557bd12c861844423d7
-  PINOperation: ac23db44796d4a564ecf9b5ea7163510f579b71d
-  PINRemoteImage: e4e02e15a6f96cedbcef2abf1c9c1228dc9897d7
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   SAMKeychain: 1865333198217411f35327e8da61b43de79b635b
-  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   XMPPFramework: 6f99ad1afcdb0cdbec7192a8e4c542c3fc3de6f8
 
-PODFILE CHECKSUM: a2bfcdac4c2e12386ccf14e014d9c28ebfe5fc60
+PODFILE CHECKSUM: 32c33ad3a8dd5f05c8884f2ea9b0d633103175c5
 
 COCOAPODS: 1.1.1
