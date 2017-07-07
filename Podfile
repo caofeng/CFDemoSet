@@ -11,7 +11,7 @@ pod 'SDWebImage'
 pod 'SAMKeychain'
 pod 'CocoaAsyncSocket'
 pod 'AFNetworking', '~> 3.0'
-pod 'XMPPFramework', '~> 3.7.0'
+pod 'PINCache'
 pod 'GPUImage'
 end
 

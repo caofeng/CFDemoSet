@@ -19,11 +19,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>CocoaLumberjack.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>FDFullscreenPopGesture.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -39,17 +34,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>KissXML.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>MJRefresh.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Masonry.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PINCache.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -74,19 +69,9 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>XMPPFramework.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0DCBC86DC25C7A2042351A316CE02B7A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>0F71FC248875B67F53494C44B17B40EB</key>
 		<dict>
 			<key>primary</key>
@@ -97,17 +82,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>571BF37FD9100B3842ECDD88E0DEFCD0</key>
+		<key>361CD36887548AB5670E8FFB1DE9FDEA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6560866625D525A996EFDAE0E7C719EA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>7A78D6E8752DD5667ED377CFF8634C99</key>
+		<key>6A4878A4A87B118BAF0877A103373708</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -132,27 +112,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>E0E45C8A2ADD5C848BCA2C4743CA0E1D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>E14A62900910444707A5504D25EC98DC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EA2A920A891C4D3535867E5C3EF3D793</key>
+		<key>EECC9CD80F32A0EE913146E5A44912AA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F4B8C70379FF442A4FEB6759B3B7F9B8</key>
+		<key>F661819D6B70B85E43BA19E771570A3D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>FAC4DBB4F79DBE0FA8D0658CF4970DD0</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FF1457AE63D2B0F6DD88647B494A2039</key>
 		<dict>
 			<key>primary</key>
 			<true/>

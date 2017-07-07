@@ -106,6 +106,8 @@
 		185E1B431EF11235005ED6A5 /* ZYXSymbolsKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185E1B2D1EF11235005ED6A5 /* ZYXSymbolsKeyboardView.m */; };
 		185E1B471EF1125E005ED6A5 /* CFKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185E1B451EF1125E005ED6A5 /* CFKeyboardViewController.m */; };
 		185E1B481EF1125E005ED6A5 /* CFKeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185E1B461EF1125E005ED6A5 /* CFKeyboardViewController.xib */; };
+		186660731F0F49B90026AEB6 /* AlgorithmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186660711F0F49B90026AEB6 /* AlgorithmViewController.m */; };
+		186660741F0F49B90026AEB6 /* AlgorithmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186660721F0F49B90026AEB6 /* AlgorithmViewController.xib */; };
 		18721C321E6424D6002A8060 /* broken_img@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18721C301E6424D6002A8060 /* broken_img@2x.png */; };
 		18721C331E6424D6002A8060 /* broken_img@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18721C311E6424D6002A8060 /* broken_img@3x.png */; };
 		187C755B1EE6376F004ADCC9 /* CFSocketConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C755A1EE6376F004ADCC9 /* CFSocketConnection.m */; };
@@ -384,6 +386,10 @@
 		185E1B441EF1125E005ED6A5 /* CFKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFKeyboardViewController.h; sourceTree = "<group>"; };
 		185E1B451EF1125E005ED6A5 /* CFKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFKeyboardViewController.m; sourceTree = "<group>"; };
 		185E1B461EF1125E005ED6A5 /* CFKeyboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFKeyboardViewController.xib; sourceTree = "<group>"; };
+		1866606B1F0F45DA0026AEB6 /* KissXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KissXML.framework; path = "../../Library/Developer/Xcode/DerivedData/DemoSet-dgzmunuhfpbknzbwhhfoumpipiou/Build/Products/Debug-iphonesimulator/KissXML/KissXML.framework"; sourceTree = "<group>"; };
+		186660701F0F49B90026AEB6 /* AlgorithmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlgorithmViewController.h; sourceTree = "<group>"; };
+		186660711F0F49B90026AEB6 /* AlgorithmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlgorithmViewController.m; sourceTree = "<group>"; };
+		186660721F0F49B90026AEB6 /* AlgorithmViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlgorithmViewController.xib; sourceTree = "<group>"; };
 		18721C301E6424D6002A8060 /* broken_img@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "broken_img@2x.png"; sourceTree = "<group>"; };
 		18721C311E6424D6002A8060 /* broken_img@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "broken_img@3x.png"; sourceTree = "<group>"; };
 		187C75591EE6376F004ADCC9 /* CFSocketConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFSocketConnection.h; sourceTree = "<group>"; };
@@ -689,6 +695,7 @@
 				18EA9A251EF9FD0100AD4FEA /* 轮播 */,
 				18C6601D1EFCF44900A2F0C2 /* GCD深入理解 */,
 				18C660231EFCFD5200A2F0C2 /* 离屏渲染 */,
+				1866606F1F0F49510026AEB6 /* 算法 */,
 				1827EDC61DDD803A00C3E09F /* Main.storyboard */,
 				1827EDC91DDD803A00C3E09F /* Assets.xcassets */,
 				1827EDCB1DDD803A00C3E09F /* LaunchScreen.storyboard */,
@@ -1036,6 +1043,16 @@
 				185E1B1D1EF11235005ED6A5 /* keyboard_uppercase_h@2x.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		1866606F1F0F49510026AEB6 /* 算法 */ = {
+			isa = PBXGroup;
+			children = (
+				186660701F0F49B90026AEB6 /* AlgorithmViewController.h */,
+				186660711F0F49B90026AEB6 /* AlgorithmViewController.m */,
+				186660721F0F49B90026AEB6 /* AlgorithmViewController.xib */,
+			);
+			name = "算法";
 			sourceTree = "<group>";
 		};
 		1880A7811DDE8B17002C41CB /* image */ = {
@@ -1422,6 +1439,7 @@
 		D5F864052918E964FB7C7AE7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1866606B1F0F45DA0026AEB6 /* KissXML.framework */,
 				1880A7B01DDEFEB6002C41CB /* QuartzCore.framework */,
 				F87F8D16E7DF7060781C383F /* Pods_DemoSet.framework */,
 			);
@@ -1613,6 +1631,7 @@
 				185E1B3A1EF11235005ED6A5 /* keyboard_uppercase@2x.png in Resources */,
 				185E1B331EF11235005ED6A5 /* keyboard_delete_h@2x.png in Resources */,
 				1827EE0E1DDDA56A00C3E09F /* TableViewController.xib in Resources */,
+				186660741F0F49B90026AEB6 /* AlgorithmViewController.xib in Resources */,
 				183D7E4E1EE5420200CCBEDB /* SocketViewController.xib in Resources */,
 				189477851E1B63DE0083F6F1 /* JSPatchViewController.xib in Resources */,
 				185E1B391EF11235005ED6A5 /* keyboard_space@2x.png in Resources */,
@@ -1715,6 +1734,7 @@
 				18CA44AE1E5A7D73007E8630 /* UIVisualEffectView+NERChainable.m in Sources */,
 				181B499A1E77FA02008D8DA2 /* WYWebProgressLayer.m in Sources */,
 				1827EDFE1DDD842B00C3E09F /* CustomWindowRootViewController.m in Sources */,
+				186660731F0F49B90026AEB6 /* AlgorithmViewController.m in Sources */,
 				18CA44991E5A7D73007E8630 /* NERConstraint+NERChainable.m in Sources */,
 				18D95AB71EFB7ED70059D7DB /* WSIndexBanner.m in Sources */,
 				18D8173D1EA9DD7F001B55F8 /* NSString+JSONCategories.m in Sources */,
