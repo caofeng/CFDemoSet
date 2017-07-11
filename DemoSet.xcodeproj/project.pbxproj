@@ -20,6 +20,10 @@
 		181B49981E77FA02008D8DA2 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B49921E77FA02008D8DA2 /* UIView+Frame.m */; };
 		181B499A1E77FA02008D8DA2 /* WYWebProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B49961E77FA02008D8DA2 /* WYWebProgressLayer.m */; };
 		18204B271E246D9400B9BD13 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 18204B261E246D9300B9BD13 /* main.js */; };
+		1821ACCD1F146D22002AE789 /* TextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1821ACCB1F146D22002AE789 /* TextFieldViewController.m */; };
+		1821ACCE1F146D22002AE789 /* TextFieldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1821ACCC1F146D22002AE789 /* TextFieldViewController.xib */; };
+		1821ACD11F146DA3002AE789 /* CFTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1821ACD01F146DA3002AE789 /* CFTextField.m */; };
+		1821ACD41F1478B9002AE789 /* UIImage+DrawImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1821ACD31F1478B9002AE789 /* UIImage+DrawImage.m */; };
 		1824CEF81DE595E00018D296 /* PaintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1824CEF61DE595E00018D296 /* PaintViewController.m */; };
 		1824CEF91DE595E00018D296 /* PaintViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1824CEF71DE595E00018D296 /* PaintViewController.xib */; };
 		1824CEFC1DE5984D0018D296 /* PaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1824CEFB1DE5984D0018D296 /* PaintView.m */; };
@@ -249,6 +253,13 @@
 		181B49951E77FA02008D8DA2 /* WYWebProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYWebProgressLayer.h; sourceTree = "<group>"; };
 		181B49961E77FA02008D8DA2 /* WYWebProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYWebProgressLayer.m; sourceTree = "<group>"; };
 		18204B261E246D9300B9BD13 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		1821ACCA1F146D22002AE789 /* TextFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldViewController.h; sourceTree = "<group>"; };
+		1821ACCB1F146D22002AE789 /* TextFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldViewController.m; sourceTree = "<group>"; };
+		1821ACCC1F146D22002AE789 /* TextFieldViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFieldViewController.xib; sourceTree = "<group>"; };
+		1821ACCF1F146DA3002AE789 /* CFTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFTextField.h; sourceTree = "<group>"; };
+		1821ACD01F146DA3002AE789 /* CFTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFTextField.m; sourceTree = "<group>"; };
+		1821ACD21F1478B9002AE789 /* UIImage+DrawImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DrawImage.h"; sourceTree = "<group>"; };
+		1821ACD31F1478B9002AE789 /* UIImage+DrawImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DrawImage.m"; sourceTree = "<group>"; };
 		1824CEF51DE595E00018D296 /* PaintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintViewController.h; sourceTree = "<group>"; };
 		1824CEF61DE595E00018D296 /* PaintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintViewController.m; sourceTree = "<group>"; };
 		1824CEF71DE595E00018D296 /* PaintViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaintViewController.xib; sourceTree = "<group>"; };
@@ -638,6 +649,18 @@
 			path = Web;
 			sourceTree = "<group>";
 		};
+		1821ACC91F146D02002AE789 /* 输入框 */ = {
+			isa = PBXGroup;
+			children = (
+				1821ACCA1F146D22002AE789 /* TextFieldViewController.h */,
+				1821ACCB1F146D22002AE789 /* TextFieldViewController.m */,
+				1821ACCC1F146D22002AE789 /* TextFieldViewController.xib */,
+				1821ACCF1F146DA3002AE789 /* CFTextField.h */,
+				1821ACD01F146DA3002AE789 /* CFTextField.m */,
+			);
+			path = "输入框";
+			sourceTree = "<group>";
+		};
 		1827EDB11DDD803900C3E09F = {
 			isa = PBXGroup;
 			children = (
@@ -696,6 +719,7 @@
 				18C6601D1EFCF44900A2F0C2 /* GCD深入理解 */,
 				18C660231EFCFD5200A2F0C2 /* 离屏渲染 */,
 				1866606F1F0F49510026AEB6 /* 算法 */,
+				1821ACC91F146D02002AE789 /* 输入框 */,
 				1827EDC61DDD803A00C3E09F /* Main.storyboard */,
 				1827EDC91DDD803A00C3E09F /* Assets.xcassets */,
 				1827EDCB1DDD803A00C3E09F /* LaunchScreen.storyboard */,
@@ -1202,6 +1226,8 @@
 				18C660241EFCFD8900A2F0C2 /* LPXRViewController.h */,
 				18C660251EFCFD8900A2F0C2 /* LPXRViewController.m */,
 				18C660261EFCFD8900A2F0C2 /* LPXRViewController.xib */,
+				1821ACD21F1478B9002AE789 /* UIImage+DrawImage.h */,
+				1821ACD31F1478B9002AE789 /* UIImage+DrawImage.m */,
 			);
 			name = "离屏渲染";
 			sourceTree = "<group>";
@@ -1601,6 +1627,7 @@
 				1843AB4C1EBC09D3009BAB5F /* tableview_header_refresh_right@2x.png in Resources */,
 				1880A7881DDE8B40002C41CB /* 2.jpg in Resources */,
 				185E1B481EF1125E005ED6A5 /* CFKeyboardViewController.xib in Resources */,
+				1821ACCE1F146D22002AE789 /* TextFieldViewController.xib in Resources */,
 				18CA14941E7682AC00A879BC /* InputCheckViewController.xib in Resources */,
 				1827EE091DDD9CFD00C3E09F /* Table_RacViewController.xib in Resources */,
 				1827EE041DDD8CB200C3E09F /* RacViewController.xib in Resources */,
@@ -1753,6 +1780,7 @@
 				188660C41EEFABD900F6D5ED /* GestureViewController.m in Sources */,
 				18CA449F1E5A7D73007E8630 /* NSString+NERChainable.m in Sources */,
 				185E1B411EF11235005ED6A5 /* ZYXNumberKeyboardView.m in Sources */,
+				1821ACCD1F146D22002AE789 /* TextFieldViewController.m in Sources */,
 				18CA449C1E5A7D73007E8630 /* NERStyle+NERChainable.m in Sources */,
 				18CA44B21E5A7D73007E8630 /* NERPrivates.m in Sources */,
 				18A20A9A1EE1630C0011F6E6 /* VagueViewController.m in Sources */,
@@ -1796,6 +1824,7 @@
 				18CA44B11E5A7D73007E8630 /* NERConstraintMaker.m in Sources */,
 				18CA44B81E5A7D73007E8630 /* UILabel+NERLink.m in Sources */,
 				1827EE031DDD8CB200C3E09F /* RacViewController.m in Sources */,
+				1821ACD41F1478B9002AE789 /* UIImage+DrawImage.m in Sources */,
 				18329D221DE2DD4F005D4520 /* Transform_ViewController.m in Sources */,
 				18CA44B61E5A7D73007E8630 /* NERUtils.m in Sources */,
 				18CA44AF1E5A7D73007E8630 /* NERAlertMaker.m in Sources */,
@@ -1809,6 +1838,7 @@
 				18CA44AC1E5A7D73007E8630 /* UITextView+NERChainable.m in Sources */,
 				188F207C1E83902300389068 /* CFProgressInfoViewController.m in Sources */,
 				18D817431EA9DD85001B55F8 /* UIControl+EnlargeEdge.m in Sources */,
+				1821ACD11F146DA3002AE789 /* CFTextField.m in Sources */,
 				18CA44A91E5A7D73007E8630 /* UIStepper+NERChainable.m in Sources */,
 				185E1B401EF11235005ED6A5 /* ZYXKeyButton.m in Sources */,
 				1843AB501EBC1735009BAB5F /* UIImage+CFExtensions.m in Sources */,
