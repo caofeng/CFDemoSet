@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+    
     /*
      
      排序的稳定性和复杂度
@@ -79,9 +81,8 @@
         
         for (int j=i+1; j<array.count; j++) {
             
-            NSInteger a = ((NSNumber *)(array[i])).integerValue;
-            
-            NSInteger b = ((NSNumber *)(array[j])).integerValue;
+            NSInteger a = [array[i] integerValue];;
+            NSInteger b = [array[j] integerValue];;
             
             if (a > b) {
                 
@@ -97,6 +98,8 @@
     NSLog(@"===%@===%ld",array,(long)count);
     
 }
+
+
 #pragma - mark 冒泡排序
 
 /** 冒泡排序
