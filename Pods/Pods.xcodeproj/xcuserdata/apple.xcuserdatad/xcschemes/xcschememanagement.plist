@@ -19,6 +19,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>FBRetainCycleDetector.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>FDFullscreenPopGesture.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -35,6 +40,11 @@
 			<false/>
 		</dict>
 		<key>MJRefresh.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MLeaksFinder.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -71,72 +81,6 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>0F71FC248875B67F53494C44B17B40EB</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>2597E77C6D3830202BFB48C276629F0A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>361CD36887548AB5670E8FFB1DE9FDEA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>6A4878A4A87B118BAF0877A103373708</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>7E9A8D17612863A2A20B2B4F050F561B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>AC0D2D2B4EE7C873431AB3502859CA60</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>CF671F7E57B92905F1CC91D036D6B4A7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D52144DE9D7255DE912490FF5A806573</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E0E45C8A2ADD5C848BCA2C4743CA0E1D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E14A62900910444707A5504D25EC98DC</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>EECC9CD80F32A0EE913146E5A44912AA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F661819D6B70B85E43BA19E771570A3D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FAC4DBB4F79DBE0FA8D0658CF4970DD0</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>

@@ -23,6 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    __block CFButtonViewController *weakSelf = self;
     
     [[UIScreen mainScreen] respondsToSelector:@selector(nativeBounds)];
     
@@ -34,7 +35,7 @@
     
     self.button = [CFButton initWithTitle:@"下一步" buttonHeadle:^{
     
-        [self buttonClick];
+        [weakSelf buttonClick];
         
     }];
     [self.view addSubview:self.button];

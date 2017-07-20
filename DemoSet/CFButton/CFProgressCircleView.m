@@ -53,6 +53,8 @@
 
 - (void)endAnimation {
     
+
+    
     if ([self.layer valueForKey:@"rotation"] != nil) {
         
         [self.layer removeAnimationForKey:@"rotation"];

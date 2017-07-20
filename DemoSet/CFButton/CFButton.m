@@ -73,8 +73,10 @@
 
 - (void)buttonClick {
     
+    __block CFButton *weakSelf = self;
+
     if (self.eventButton) {
-        self.eventButton();
+        weakSelf.eventButton();
     }
 }
 

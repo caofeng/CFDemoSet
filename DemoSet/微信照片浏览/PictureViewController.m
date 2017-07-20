@@ -41,24 +41,28 @@
 
 - (void)tapGesturerecognizer:(UITapGestureRecognizer *)tap {
     
+    __block PictureViewController *weakSelf = self;
+    
     self.imager = [[XHImageViewer alloc]initWithImageViewerWillDismissWithSelectedViewBlock:^(XHImageViewer *imageViewer, UIImageView *selectedView) {
         
     } didDismissWithSelectedViewBlock:^(XHImageViewer *imageViewer, UIImageView *selectedView) {
         
     } didChangeToImageViewBlock:^(XHImageViewer *imageViewer, UIImageView *selectedView) {
         
-        NSInteger index = [self.array indexOfObject:selectedView];
+        NSInteger index = [weakSelf.array indexOfObject:selectedView];
         
-        self.toolBar.label.text = [NSString stringWithFormat:@"%ld/%lu",(long)index+1,(unsigned long)self.array.count];
+        weakSelf.toolBar.label.text = [NSString stringWithFormat:@"%ld/%lu",(long)index+1,(unsigned long)weakSelf.array.count];
     }];
     
     self.imager.delegate = self;
     self.imager.disableTouchDismiss = NO;
     [self.imager showWithImageViews:self.array selectedView:(UIImageView *)tap.view];
     self.toolBar.label.text = [NSString stringWithFormat:@"%ld/%lu",tap.view.tag+1,(unsigned long)self.array.count];
+    
 }
 
 - (UIView *)customBottomToolBarOfImageViewer:(XHImageViewer *)imageViewer {
+    
     self.toolBar = [[XHBottomToolBar alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 40)];
     
     return self.toolBar;
