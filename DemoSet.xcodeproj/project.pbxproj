@@ -14,6 +14,7 @@
 		181642831E78D97E009E3B36 /* CoordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 181642821E78D97E009E3B36 /* CoordTableViewCell.m */; };
 		1816676E1DE6D8D800AECB6E /* JSInterOCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1816676C1DE6D8D800AECB6E /* JSInterOCViewController.m */; };
 		1816676F1DE6D8D800AECB6E /* JSInterOCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1816676D1DE6D8D800AECB6E /* JSInterOCViewController.xib */; };
+		181899511F219DF100E68503 /* CFKeyboard_.m in Sources */ = {isa = PBXBuildFile; fileRef = 181899501F219DF100E68503 /* CFKeyboard_.m */; };
 		181B498C1E77E218008D8DA2 /* CFWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B498A1E77E218008D8DA2 /* CFWebViewController.m */; };
 		181B498D1E77E218008D8DA2 /* CFWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181B498B1E77E218008D8DA2 /* CFWebViewController.xib */; };
 		181B49971E77FA02008D8DA2 /* NSTimer+addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B49901E77FA02008D8DA2 /* NSTimer+addition.m */; };
@@ -255,6 +256,8 @@
 		1816676B1DE6D8D800AECB6E /* JSInterOCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSInterOCViewController.h; sourceTree = "<group>"; };
 		1816676C1DE6D8D800AECB6E /* JSInterOCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSInterOCViewController.m; sourceTree = "<group>"; };
 		1816676D1DE6D8D800AECB6E /* JSInterOCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSInterOCViewController.xib; sourceTree = "<group>"; };
+		1818994F1F219DF100E68503 /* CFKeyboard_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFKeyboard_.h; sourceTree = "<group>"; };
+		181899501F219DF100E68503 /* CFKeyboard_.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFKeyboard_.m; sourceTree = "<group>"; };
 		181B49891E77E218008D8DA2 /* CFWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFWebViewController.h; sourceTree = "<group>"; };
 		181B498A1E77E218008D8DA2 /* CFWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFWebViewController.m; sourceTree = "<group>"; };
 		181B498B1E77E218008D8DA2 /* CFWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFWebViewController.xib; sourceTree = "<group>"; };
@@ -667,6 +670,15 @@
 			path = "OC和JS相互调用";
 			sourceTree = "<group>";
 		};
+		1818994E1F219DF100E68503 /* CFKeyboard_Decimal */ = {
+			isa = PBXGroup;
+			children = (
+				1818994F1F219DF100E68503 /* CFKeyboard_.h */,
+				181899501F219DF100E68503 /* CFKeyboard_.m */,
+			);
+			path = CFKeyboard_Decimal;
+			sourceTree = "<group>";
+		};
 		181B498E1E77FA02008D8DA2 /* Web */ = {
 			isa = PBXGroup;
 			children = (
@@ -1047,6 +1059,7 @@
 		185E1B0D1EF11235005ED6A5 /* 自定义键盘 */ = {
 			isa = PBXGroup;
 			children = (
+				1818994E1F219DF100E68503 /* CFKeyboard_Decimal */,
 				18482CC41EF2165E00C94EA8 /* CFKeyBoard */,
 				185E1B0E1EF11235005ED6A5 /* ZYXCustomKeyboard */,
 				185E1B441EF1125E005ED6A5 /* CFKeyboardViewController.h */,
@@ -1873,6 +1886,7 @@
 				18CA44B31E5A7D73007E8630 /* NERStaticTableView.m in Sources */,
 				18CA44A31E5A7D73007E8630 /* UIImage+NERChainable.m in Sources */,
 				181642831E78D97E009E3B36 /* CoordTableViewCell.m in Sources */,
+				181899511F219DF100E68503 /* CFKeyboard_.m in Sources */,
 				1880A79B1DDEE21E002C41CB /* NSArray+Swizzling.m in Sources */,
 				187C755B1EE6376F004ADCC9 /* CFSocketConnection.m in Sources */,
 				18CA44A71E5A7D73007E8630 /* UISegmentedControl+NERChainable.m in Sources */,
