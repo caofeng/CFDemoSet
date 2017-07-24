@@ -199,6 +199,9 @@
 		18CA44B91E5A7D73007E8630 /* UIView+NERFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA44971E5A7D73007E8630 /* UIView+NERFrame.m */; };
 		18CA44BE1E5A7ECF007E8630 /* NerdyUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA44BC1E5A7ECF007E8630 /* NerdyUIViewController.m */; };
 		18CA44BF1E5A7ECF007E8630 /* NerdyUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CA44BD1E5A7ECF007E8630 /* NerdyUIViewController.xib */; };
+		18D571561F2591A100858E5D /* NSCodingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D571541F2591A100858E5D /* NSCodingViewController.m */; };
+		18D571571F2591A100858E5D /* NSCodingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D571551F2591A100858E5D /* NSCodingViewController.xib */; };
+		18D5715A1F2591C700858E5D /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D571591F2591C700858E5D /* People.m */; };
 		18D817301EA9B0A7001B55F8 /* CFTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8172F1EA9B0A7001B55F8 /* CFTool.m */; };
 		18D8173B1EA9DD7F001B55F8 /* NSArray+JSONCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D817341EA9DD7F001B55F8 /* NSArray+JSONCategories.m */; };
 		18D8173C1EA9DD7F001B55F8 /* NSDictionary+JSONCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D817371EA9DD7F001B55F8 /* NSDictionary+JSONCategories.m */; };
@@ -568,6 +571,11 @@
 		18CA44BB1E5A7ECF007E8630 /* NerdyUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NerdyUIViewController.h; sourceTree = "<group>"; };
 		18CA44BC1E5A7ECF007E8630 /* NerdyUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NerdyUIViewController.m; sourceTree = "<group>"; };
 		18CA44BD1E5A7ECF007E8630 /* NerdyUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NerdyUIViewController.xib; sourceTree = "<group>"; };
+		18D571531F2591A100858E5D /* NSCodingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCodingViewController.h; sourceTree = "<group>"; };
+		18D571541F2591A100858E5D /* NSCodingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCodingViewController.m; sourceTree = "<group>"; };
+		18D571551F2591A100858E5D /* NSCodingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSCodingViewController.xib; sourceTree = "<group>"; };
+		18D571581F2591C700858E5D /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		18D571591F2591C700858E5D /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
 		18D8172D1EA9995A001B55F8 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
 		18D8172E1EA9B0A7001B55F8 /* CFTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFTool.h; sourceTree = "<group>"; };
 		18D8172F1EA9B0A7001B55F8 /* CFTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFTool.m; sourceTree = "<group>"; };
@@ -764,6 +772,7 @@
 				1866606F1F0F49510026AEB6 /* 算法 */,
 				1821ACC91F146D02002AE789 /* 输入框 */,
 				18E9ABC41F16FB8E003E5B42 /* RSA加密 */,
+				18D571521F25918100858E5D /* 归档解档 */,
 				1827EDC61DDD803A00C3E09F /* Main.storyboard */,
 				1827EDC91DDD803A00C3E09F /* Assets.xcassets */,
 				1827EDCB1DDD803A00C3E09F /* LaunchScreen.storyboard */,
@@ -1406,6 +1415,18 @@
 			path = NerdyUIVC;
 			sourceTree = "<group>";
 		};
+		18D571521F25918100858E5D /* 归档解档 */ = {
+			isa = PBXGroup;
+			children = (
+				18D571531F2591A100858E5D /* NSCodingViewController.h */,
+				18D571541F2591A100858E5D /* NSCodingViewController.m */,
+				18D571551F2591A100858E5D /* NSCodingViewController.xib */,
+				18D571581F2591C700858E5D /* People.h */,
+				18D571591F2591C700858E5D /* People.m */,
+			);
+			path = "归档解档";
+			sourceTree = "<group>";
+		};
 		18D8172B1EA99920001B55F8 /* Macros */ = {
 			isa = PBXGroup;
 			children = (
@@ -1699,6 +1720,7 @@
 				1816676F1DE6D8D800AECB6E /* JSInterOCViewController.xib in Resources */,
 				1880A7A01DDEE891002C41CB /* CustomViewController.xib in Resources */,
 				1827EDCD1DDD803A00C3E09F /* LaunchScreen.storyboard in Resources */,
+				18D571571F2591A100858E5D /* NSCodingViewController.xib in Resources */,
 				18721C331E6424D6002A8060 /* broken_img@3x.png in Resources */,
 				188660C91EEFAC2000F6D5ED /* CFGestureViewController.xib in Resources */,
 				185E1B2F1EF11235005ED6A5 /* keyboard_alt_h@2x.png in Resources */,
@@ -1854,6 +1876,7 @@
 				1827EDC51DDD803900C3E09F /* ViewController.m in Sources */,
 				18CA44BE1E5A7ECF007E8630 /* NerdyUIViewController.m in Sources */,
 				185157171DFE730100FBD096 /* UITextField+InputAccessoryView.m in Sources */,
+				18D571561F2591A100858E5D /* NSCodingViewController.m in Sources */,
 				1880A7AE1DDEEE2D002C41CB /* CoreAnimationViewController.m in Sources */,
 				184C60251EA8B41900141647 /* CFProgressCircleView.m in Sources */,
 				18E9ABDA1F173FD4003E5B42 /* CFSeckeyTools.m in Sources */,
@@ -1870,6 +1893,7 @@
 				18CA44B21E5A7D73007E8630 /* NERPrivates.m in Sources */,
 				18A20A9A1EE1630C0011F6E6 /* VagueViewController.m in Sources */,
 				1827EE751DDDBC5C00C3E09F /* XHFileAttribute.m in Sources */,
+				18D5715A1F2591C700858E5D /* People.m in Sources */,
 				188660C81EEFAC2000F6D5ED /* CFGestureViewController.m in Sources */,
 				18EA9A291EF9FD4800AD4FEA /* CFLunboViewController.m in Sources */,
 				1827EE761DDDBC5C00C3E09F /* XHBottomToolBar.m in Sources */,
