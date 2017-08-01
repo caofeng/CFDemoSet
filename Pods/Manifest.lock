@@ -30,7 +30,6 @@ PODS:
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
   - CocoaAsyncSocket (7.6.0)
-  - FBRetainCycleDetector (0.1.3)
   - FDFullscreenPopGesture (1.1)
   - GPUImage (0.1.7)
   - JSPatch (1.1.3):
@@ -38,8 +37,6 @@ PODS:
   - JSPatch/Core (1.1.3)
   - Masonry (1.0.2)
   - MJRefresh (3.1.12)
-  - MLeaksFinder (0.2.1):
-    - FBRetainCycleDetector
   - PINCache (2.3)
   - ReactiveCocoa (2.5):
     - ReactiveCocoa/UI (= 2.5)
@@ -62,7 +59,6 @@ DEPENDENCIES:
   - JSPatch
   - Masonry
   - MJRefresh
-  - MLeaksFinder
   - PINCache
   - ReactiveCocoa (~> 2.5)
   - SAMKeychain
@@ -72,18 +68,16 @@ SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
   CocoaAsyncSocket: b9d5589f07baf9de8f34cc25abd4fcba28f13805
-  FBRetainCycleDetector: f0c7b290bf48ae77f6ae060843ce34ae341781eb
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
   JSPatch: 02cfed591cb907bbfe80a346666e5a35fc2d349d
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
-  MLeaksFinder: 0850e2f2abc7227adc4d4e2d1992b431264eb4d5
   PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   SAMKeychain: 1865333198217411f35327e8da61b43de79b635b
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
 
-PODFILE CHECKSUM: d0fbc24e0c470a30dcfffab7f9ca0befa04ae8e8
+PODFILE CHECKSUM: 274ccddb0b8132a6332647602d3a2947224fa68f
 
 COCOAPODS: 1.1.1

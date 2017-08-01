@@ -13,6 +13,5 @@ pod 'CocoaAsyncSocket'
 pod 'AFNetworking', '~> 3.0'
 pod 'PINCache'
 pod 'GPUImage'
-pod 'MLeaksFinder'
 end
 
